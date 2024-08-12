@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  <title>roc</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">roc</code><br>
+<br>
+Calculates Receiver operating characteristic (ROC) curves for a given
+set of networks with respect to a reference complex set.<br>
+<br>
+Call the tool without any command line arguments to get detailed information about the parameters for this program.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_netevaluation.html">Network
+evaluation:&nbsp;Receiver operating characteristic (ROC) curves</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File
+formats<br>
+    </a><br>
+  </li>
+</ul>
+<h3>Example calls</h3>
+<ul>
+  <li>calculate ROC curve based on MIPS reference set (<code>-ref</code> and <code>-negref</code>)</li>
+  <li>use localization data by <a href="http://view.ncbi.nlm.nih.gov/pubmed/14562095" target="_blank">Huh et al., 2003</a></li>
+  <li>compare three different score networks (the last three parameters)</li>
+  <li>plot up to a false positive rate of 0.01 (<code>-fpmax</code>)</li>
+  <li>draw plot and save as png file (<code>-out</code> and <code>-png</code>)</li>
+  <li>we use a different set to determine true positives than for the false positive generation (see also: ROC curves)</li>
+  
+  
+  
+  <ul>
+    <li>the MIPS dataset contains two large complexes (&gt;50 proteins) which induce a lot of true positive edges (<span style="font-style: italic;">n*(n-1)/2</span>) for each complex</li>
+    <li>therefore there is a complex set where these two complexes are removed (<code>mips_s50.txt</code>) which is used for true positive determination</li>
+    <li>for the negative set we use the full complex set (<code>mips_complexes.txt</code>)<br>
+    </li>
+  
+  
+  
+  </ul>
+</ul>
+<code>./cmdline.sh roc -ref data/complexes/mips_s50.txt -fpmax 0.01&nbsp; -loc
+data/localization/huh_loc_070804.txt -negref
+data/complexes/mips_complexes.txt -out roc.png -png
+data/scores/bootstrap_combined.txt.gz data/scores/hart_scores.txt.gz
+data/scores/pe_combined.txt.gz<br>
+<br>
+</code>
+<ul>
+  <li>same procedure as above but this time we save the curve data into files having the prefix "rocdata_" (no <code>-png</code> switch)</li>
+</ul>
+<code>cmdline.sh roc -ref data/complexes/mips_s50.txt&nbsp;</code><code>-fpmax 0.01</code><code> -loc
+data/localization/huh_loc_070804.txt -negref
+data/complexes/mips_complexes.txt -out rocdata_
+data/scores/bootstrap_combined.txt.gz data/scores/hart_scores.txt.gz
+data/scores/pe_combined.txt.gz</code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Name mapping</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>
+Name mappings<br>
+</h2>
+There are often&nbsp;multiple identifiers for single proteins. For instance, in the <a href="http://www.yeastgenome.org/" target="_blank">Saccharomyces Genome Databases</a> (SGD), you will find <span style="font-style: italic;">standard names</span>, <span style="font-style: italic;">systematic names</span> and <span style="font-style: italic;">SGDIDs</span>.
+This causes problems when working with data from different sources and
+authors. In ProCope you can load so-called <span style="font-style: italic;">name mappings</span>
+which are
+lists of protein identifiers along with their synonyms. When reading
+data objects from the file systen, synonyms are automatically
+translated to
+their original identifiers and will thus be treated as the same
+proteins.<br>
+<br>
+Name mappings are loaded from files as directed network. A mapping file
+contains one mapping per line, each line contains the identiifer of the target identifier and its synoym.. Both identifiers
+are separated by a TAB character.<br>
+<br>
+All parts of ProCope support name mappings:<br>
+<ul>
+  <li>In the GUI, use <span style="font-style: italic;">Name mappings</span> from the <span style="font-style: italic;">Tools</span> menu</li>
+  <li>All&nbsp;command line tools which load data containing protein identifiers support the <code>-namemap</code> option</li>
+  <li>For the Java API, read the documentation of the <code>ProteinManager</code> class or check out <a target="_top" href="../javaapi/index_usecase1.html">Use Case 1</a>.<br>
+    <br>
+  </li>
+</ul>
+<h3>Example mappings<br>
+</h3>
+The ProCope package contains existing name mappings for yeast in the file <code>data/yeastmappings_YYMMDD.txt</code>. It maps different kinds of identifiers (Uniprot, SGDIDs, standard names) to <span style="font-style: italic;">systematic names</span>. The file was assembled from the Uniprot Yeast data and from&nbsp;Yeast Genome Database flat files.<br>
+<br>
+<br>
+Some example entries from the file:<br>
+<br>
+<code>S000002143&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL069W<br>
+S000028594&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL068W-A<br>
+S000002142&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL068C<br>
+S000028593&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL067W-A<br>
+S000000062&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL067C<br>
+S000000061&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL066W<br>
+S000001817&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; YAL065C</code><br>
+<br>
+When loading this name mapping, each occurences of <span style="font-style: italic;">S000002143</span> will be treated as&nbsp;<span style="font-style: italic;">YAL069W</span>, each occurence of&nbsp;<span style="font-style: italic;">S000028594</span> will be treated as<span style="font-style: italic;"> YAL068W-A</span> and so on.<br>
+<br>
+<h3>Identifier order in the file<br>
+</h3>
+You can tell ProCope whether you want the first identifier in each name
+mapping line to be the synonym and the second one the target or vice
+versa.<br>
+<ul>
+  <li>The GUI will ask you for this information automatically</li>
+  <li>The command line tools whihc support the -namemap option also support the -synfirst switch</li>
+  
+  
+  
+  <ul>
+    <li>Without the <code>-synfirst</code> switch, the first identifier will be the target and the second the synoym</li>
+    <li>Accordingly, when using the <code>-synfirst</code> switch, the first identifier will be the synonym</li>
+  
+  
+  
+  </ul>
+  <li>For the Java API, read the documentation of the <code>ProteinManager</code> class or check out <a target="_top" href="../javaapi/index_usecase1.html">Use Case 1</a>.</li>
+</ul>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

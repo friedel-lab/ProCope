@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>gosim</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+
+
+  
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+
+
+<body onload="ensureframes()">
+
+
+<code class="big">gosim</code><br>
+
+
+<br>
+
+
+Calculates networks of semantic similarity scores using the Gene
+Ontology as proposed in <a href="http://www.ncbi.nlm.nih.gov/pubmed/16776819" target="_blank">Schlicker et al., 2006</a>. <br>
+
+
+<br>
+
+
+Gene ontology score networks can get very large, consider using a
+cutoff value (parameter <code>-c</code>). The calculation
+of a network may take some time depending on the power of the computer
+you use.<br>
+
+
+<br>
+
+
+Call the tool without any command line arguments to get detailed information about the parameters for this program.<br>
+
+
+<br>
+
+
+See also: <br>
+
+
+<ul>
+
+
+  <li><a target="_top" href="../main/index_evaluation.html">Complex set evaluation: GO semantic similarity</a></li>
+
+
+  <li><a target="_top" href="../main/index_fileformats.html">File formats<br>
+
+
+    </a><br>
+
+
+  </li>
+
+
+</ul>
+
+
+<h3>Example calls<br>
+
+
+</h3>
+Note: The GO ontology and annotation files are only provided with this
+package for yeast. The corresponding files for other species or updated
+versions for yeast can be downloaded from the Gene Ontology <a href="http://www.geneontology.org/GO.downloads.shtml" target="_blank">website</a>.<br>
+
+
+<ul>
+
+
+  <li>load ontology and use Yeast gene annotations (<code>-gonet</code>,
+    <code>-anno</code>)</li>
+
+
+  <li>use the "biological process" namespace (<code>-name</code>)</li>
+
+
+  <li>follow both types of relations (is_a and part_of, default
+setting)</li>
+
+
+  <li>term similarity measure: relevance (default), functional
+similarity measure: total maximum (default)</li>
+
+
+</ul>
+
+
+<code>cmdline.sh gosim -gonet data/go/gene_ontology_edit.obo
+-name bp -anno
+data/go/gene_association.sgd</code><br>
+
+
+<br>
+
+
+<ul>
+
+
+  <li>use the "molecular function" namespace (<code>-name</code>)</li>
+
+
+  <li>only follow is_a relationships in the onotlogy (<code>-rel</code>)</li>
+
+
+  <li>term similarity measure: resnik (<code>-termsim</code>)</li>
+
+
+  <li>functional similarity measure: col/row average (<code>-funsim</code>)</li>
+
+
+  <li>only output scores &gt;= 3.0 (<code>-c</code>)</li>
+
+
+  <li>output a gzipped network to a file (<code>-o</code>,
+    <code>-oz</code>)</li>
+
+
+</ul>
+
+
+<code>cmdline.sh gosim -gonet data/go/gene_ontology_edit.obo
+-name mf -anno data/go/gene_association.sgd -rel isa -termsim resnik
+-funsim colrowavg -c 3.0 -o go.net -oz</code><code></code>
+<br>
+
+
+<br>
+
+
+<br>
+
+
+<span style="font-weight: bold;">Important note</span>: The protein
+identifier types used in the GO files might not be the same as in the
+other data files. You might have to use a name mapping file. ProCope
+provides such a name mapping file for yeast in <code>data/yeastmappings_YYMMDD.txt</code>. <br>
+
+Command line option: <code>-namemap<span style="font-family: monospace;"> </span></code><code>data/yeastmappings_YYMMDD.txt</code><br>
+
+
+<br>
+
+<br>
+
+
+<hr size="1">
+<div style="font-size: small;"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+
+
+<!-- footer end -->
+</body>
+</html>

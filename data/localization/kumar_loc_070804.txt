@@ -1,0 +1,2025 @@
+ORF name Localization
+YBR010W nucleus
+YDR293C cyto.
+YER088C nucleus
+YDL185W cyto., non-nuclear
+YMR152W cyto., non-nuclear
+YHR069C nucleus
+YOL021C nucleus
+YMR229C nucleus
+YHR196W nucleolus
+YLR300W nuclear rim / ER
+YBL051C cyto., non-nuclear
+YLR303W cyto., non-nuclear
+YGR162W cyto., non-nuclear
+YGR270W cyto.
+YJR139C cyto.
+YOL004W nucleus
+YML022W cyto.
+YDR457W nucleolus
+YNL064C cyto.
+YHR070W cyto.
+YNL209W cyto., non-nuclear
+YBR208C cyto., non-nuclear
+YAR044W cyto.
+YBL054W nucleus
+YMR186W cyto., non-nuclear
+YFL037W cyto. / nucleus
+YNL097C cyto. / nucleus
+YDL182W nucleus
+YGR086C cyto.
+YAR042W cyto.
+YJR002W nucleolus
+YER043C cyto., non-nuclear
+YDR517W cyto., non-nuclear
+YNL134C cyto., non-nuclear
+YDL185W cyto., non-nuclear
+YML073C cyto. / nucleus
+YGL206C cyto., non-nuclear
+YFR017C cyto.
+YBR196C cyto., non-nuclear
+YNL098C cell periphery
+YJL042W cyto.
+YAR014C cell periphery
+YKR091W cyto., non-nuclear
+YLR149C cyto.
+YOL006C nucleus
+YPL135W mitochondria
+YLR093C vacuole
+YMR297W nuclear rim / ER
+YBR077C vacuole
+YOR291W mitochondria
+YGL062W cyto.
+YER156C cyto.
+YPL135W mitochondria
+YHR114W nucleus
+YMR307W nucleus
+YDL131W nucleus
+YIL033C cyto. / nucleus
+YLR438W cyto.
+YER019W cyto., non-nuclear
+YJR147W cyto. / nucleus
+YOR033C cyto., non-nuclear
+YER033C cyto., non-nuclear
+YBL093C nucleus
+YLR399C nucleus
+YFL030W cyto.
+YIL123W nuclear rim / ER
+YPL137C cyto.
+YLR219W cyto.
+YLL019C cyto.
+YDR169C cyto.
+YOR138C cyto.
+YML100W cyto.
+YDL131W nucleus
+YKL182W cyto., non-nuclear
+YMR307W cell periphery
+YDR303C nucleus
+YBL100C nuclear rim / ER
+YOR171C cyto.
+YDR037W cyto., non-nuclear
+YER043C cyto., non-nuclear
+YPL131W buds
+YKR092C nucleus
+YBR078W cell periphery
+YJL076W nucleolus
+YGR240C cyto.
+YGR204W cyto.
+YER103W cyto., non-nuclear
+YER043C cyto., non-nuclear
+YGR270W cyto.
+YAR015W cyto.
+YAR015W cyto.
+YBL076C cyto.
+YOR133W cyto., non-nuclear
+YPL223C cyto.
+YER043C cyto., non-nuclear
+YFR010W nucleus
+YLL026W cyto., non-nuclear
+YEL034W cyto.
+YJL153C cyto.
+YOL123W nucleus
+YNL277W cyto.
+YDL195W cyto.
+YML098W nucleus
+YDR505C cyto.
+YLL029W vacuole
+YOR223W cyto., non-nuclear
+YJL021C cyto.
+YPL222W cyto.
+YBL099W mitochondria
+YGR285C cyto.
+YKL156W cyto.
+YLR355C mitochondria
+YPR173C cyto. / ER
+YOR196C mitochondria
+YOL123W nucleus
+YNL277W cyto.
+YDL195W cyto.
+YML098W nucleus
+YDR505C cyto.
+YLL029W vacuole
+YOR223W cyto., non-nuclear
+YJL021C cyto.
+YKR092C nucleus, nucleolar
+YML100W cyto.
+YHR070W cyto.
+YLL067C cyto.
+YIL123W nucleus
+YAR044W cyto.
+YLR466W cyto.
+YKR074W cyto.
+YJL042W cyto. / nucleus
+YJL078C cyto.
+YLL029W cyto.
+YJL141C cyto.
+YNL231C cyto.
+YKL024C cyto.
+YGL119W mitochondria
+YGR159C nucleus
+YEL034W cyto.
+YDR207C cyto. / nucleus
+YDR207C nucleus
+YEL035C cyto.
+YAL038W cyto.
+YJL078C cyto.
+YJL042W cyto. / nucleus
+YPR159W nucleus
+YNL014W cyto.
+YDR517W cyto.
+YLR100W cyto.
+YOR290C nucleus
+YKL139W cyto.
+YGL062W cyto.
+YPR159W cyto. (patches)
+YML099C cyto.
+YDL070W cyto.
+YFR032C-A cyto.
+YJL042W cyto. / nucleus
+YBR198C nucleus, cyto.
+YFL007W cyto., cell periphery
+YPR168W nucleus, cyto.
+YLR329W cyto. / nucleus
+YGR100W cyto.
+YIL075C nuclear rim / ER, cyto.
+YNL009W cyto. / ER
+YBR132C cyto.
+YBR222C cyto.
+YER002W nucleus
+YBR031W cyto.
+YJR073C cyto. / ER
+YJR015W cyto., cell periphery
+YIL109C cyto. / ER
+YGL035C cyto. / nucleus
+YFR034C cyto. / nucleus
+YIL109C cyto. (patches)
+YIL155C mitochondria
+YGR020C vacuole
+YNL240C nucleus, cyto.
+YDL046W cyto.
+YNL277W cyto.
+YHR043C cyto.
+YOR194C nucleus
+YGR119C nuclear rim / cyto.
+YJL026W cyto.
+YLR380W cyto. / ER
+YMR068W cyto.
+YPL135W mitochondria
+YDL129W cyto.
+YJL078C cyto.
+YJL042W cyto.
+YIL051C mitochondria
+YJR073C cyto. (patches) / ER
+YOR138C cyto.
+YGR021W mitochondria
+YCR012W cyto.
+YDL181W cyto. / mitochondria
+YAR064W cyto.
+YJR045C mitochondria
+YCR052W nucleus
+YLR106C nucleus
+YOL127W cyto.
+YJL042W cyto.
+YKL182W cyto.
+YGR175C cyto. / ER
+YLR055C nucleus, cyto.
+YCR046C mitochondria
+YDR158W cyto.
+YPR149W cyto. / ER
+YHR042W cyto. / ER
+YNL216W nucleus
+YPR160W cyto.
+YMR273C cyto., cell periphery
+YEL034W cyto.
+YKR038C cyto.
+YGR204W cyto.
+YDR207C nucleus
+YOR112W cyto.
+YNL161W cyto.
+YDR383C cyto.
+YHR042W cyto./ ER, cell periphery
+YJL078C cyto. (patches)
+YAL038W cyto.
+YDR207C nucleus
+YOR112W cyto.
+YML057W cyto. (patches)
+YMR304W cyto.
+YML065W cyto. / nucleus
+YHR027C cyto.
+YDR505C cyto. / nucleus
+YMR136W cyto. / nucleus
+YHL050C cyto.
+YAR044W cyto.
+YJL107C cyto.
+YMR272C cyto. / ER
+YLL067C cyto.
+YAL038W cyto. (patches)
+YFR030W cyto., non-nuclear
+YJL021C cyto.
+YLR402W cyto.
+YFR028C nucleus, cyto.
+YFL014W cyto.
+YLR256W nucleus
+YIL155C mitochondria
+YML100W cyto., non-nuclear
+YKR092C nucleolus
+YMR251W-A nuclear rim / ER
+YFR051C cyto. (patches)
+YNL243W cyto. (patches)
+YML114C nucleus
+YDL229W cyto. (patches)
+YGL062W cyto.
+YPL127C nucleus
+YOL086C cyto.
+YOL109W cyto.
+YBL093C nucleus
+YHR042W cyto., non-nuclear
+YJR076C cell neck
+YJR045C mitochondria
+YJL063C mitochondria
+YPR047W mitochondria
+YLR300W nuclear rim / ER
+YDL014W nucleolus
+YJL076W nucleolus
+YFR034C cyto. / nucleus
+YMR181C cyto.
+YLL018C-A mitochondria
+YOR330C mitochondria
+YNL160W cyto.
+YLR337C cyto.
+YJL078C cyto., non-nuclear
+YKR046C cyto.
+YLR111W cyto., non-nuclear
+YMR068W cyto., non-nuclear
+YAR044W cyto., non-nuclear
+YJR121W mitochondria
+YJL042W cyto.
+YIL123W nuclear rim / ER
+YNL103W nucleus
+YOR227W cyto.
+YDR485C cyto.
+YMR086W cyto., non-nuclear
+YFR019W cyto. (patches)
+YEL077C cyto.
+YEL077C cyto.
+YHR033W cyto.
+YHR033W cyto.
+YGR021W mitochondria
+YGR021W mitochondria
+YJL021C cyto.
+YJL021C cyto.
+YAR044W cyto.
+YAR044W cyto.
+YAL035W cyto., non-nuclear
+YAL035W cyto., non-nuclear
+YDL129W cyto.
+YDL129W cyto.
+YLL039C cyto.
+YML018C nucleus
+YKL053W nucleus
+YBR127C cyto. (patches)
+YPL240C cyto., non-nuclear
+YGR270W cyto. / ER
+YEL077C mitochondria
+YBL005W cyto. / nucleus
+YPL128C nucleus
+YJL079C cyto.
+YAR064W cyto.
+YDR208W mitochondria
+YDL223C cyto.
+YBR126C cyto.
+YFL030W cyto.
+YGR240C cyto.
+YLR399C nucleus
+YMR244C-A cyto.
+YGR239C cyto.
+YMR244C-A cyto.
+YLR257W cyto.
+YLR180W cyto.
+YOR181W mitochondria
+YHR117W mitochondria
+YHR183W cyto., non-nuclear
+YJL079C nuclear rim / cyto.
+YCL040W cyto., non-nuclear
+YNL243W cyto.
+YCL040W cyto.
+YBR067C cyto., cell periphery
+YAL055W cyto. (patches)
+YJL069C nucleolus
+YMR307W nuclear rim / ER
+YDR023W cyto.
+YJL077C cyto.
+YHR070W cyto.
+YLR095C cyto. / nucleus
+YHR089C nucleus, nucleolar
+YGL122C nucleus
+YOR173W cyto.
+YFL022C cyto., non-nuclear
+YGL122C nucleus / nuclear rim
+YBL072C cyto. / nucleus
+YOL081W cyto., cell periphery
+YOR153W cyto., cell periphery
+YML100W cyto.
+YLR354C cyto.
+YDL140C nucleus
+YGL008C nuclear rim / ER
+YAR042W cyto., nucleus
+YJR077C mitochondria
+YHR190W nuclear rim / ER
+YAL060W cyto.
+YJR121W cyto. / mitochondria
+YNL021W cyto.
+YMR104C cyto.
+YLL061W cyto.
+YCR061W cyto., cell periphery
+YMR173W cyto., non-nuclear
+YAR044W cyto.
+YER154W mitochondria
+YHR165C nucleus, cyto.
+YMR302C mitochondria
+YJL020C cyto.
+YPR172W cyto.
+YAR044W cyto.
+YOL155C cyto.
+YLR176C cyto. / nucleus
+YNL239W cyto.
+YAR064W cyto.
+YDR012W cyto.
+YJL078C cyto.
+YDL164C nucleus, cyto.
+YNL278W cyto.
+YJR148W cyto.
+YLR436C cyto.
+YGR019W cyto.
+YER146W cyto., nucleus
+YJL042W cyto. / nucleus
+YNR048W cyto. / nucleus
+YBR126C cyto.
+YEL034W cyto.
+YPL181W nucleus
+YDR024W cyto.
+YOL012C cyto. / nucleus
+YDL054C cyto.
+YLR179C cyto.
+YHR069C cyto. / nucleus
+YKR076W cyto.
+YPL136W cyto.
+YGL209W cyto. / nucleus
+YNL104C mitochondria
+YFR033C mitochondria
+YCR010C cyto. / ER
+YJR073C cyto. (patches) / ER
+YNL134C cyto.
+YLL039C cyto., non-nuclear
+YER154W mitochondria
+YJR072C cyto.
+YJL078C cyto.
+YGL071W cyto. / nucleus
+YHR183W cyto.
+YML065W cyto. / nucleus
+YLL043W cyto.
+YLR167W cyto.
+YLR399C nucleus
+YKR014C cyto.
+YJL026W cyto.
+YML100W cyto., non-nuclear
+YOL006C nucleus
+YGL122C nucleus
+YPL061W cyto., non-nuclear
+YIR006C cell periphery
+YLR373C nuclear rim / ER
+YJL069C nucleolus
+YDR051C cyto.
+YNL098C cell periphery
+YKR092C nucleus
+YHL049C nucleus
+YDL228C cyto., non-nuclear
+YKR092C nucleus
+YBR086C cell periphery
+YGR162W cyto., non-nuclear
+YBL051C cyto.
+YJL026W cyto.
+YMR012W cyto., non-nuclear
+YJR060W nucleus
+YLR399C nucleus
+YLR399C nucleus
+YNL077W cyto.
+YFR048W cyto.
+YDR213W cyto. / nucleus
+YGL203C cyto. / ER, nucleus
+YGR270W cyto.
+YER088C nucleus
+YKR100C cyto., non-nuclear
+YER088C nucleus
+YGL189C cyto.
+YJL076W nucleolus
+YOR133W cyto., non-nuclear
+YGR002C mitochondria
+YOR233W cyto., non-nuclear
+YDR157W cyto.
+YOL136C cyto.
+YGL122C nucleus
+YMR311C cyto.
+YPL116W cyto.
+YNL077W cyto.
+YDR304C cyto. / ER
+YNL014W cyto.
+YNL242W cyto.
+YDR359C nucleus
+YDR303C nucleus
+YOR036W vacuole
+YGR196C cyto.
+YDL185W cyto., non-nuclear
+YER049W nucleus
+YDR170C cyto. (patches)
+YFL037W spindle pole body
+YER089C cyto.
+YOR204W cyto., non-nuclear
+YHR030C cyto.
+YGL093W spindle pole body
+YAR015W cyto.
+YAR015W cyto.
+YDL115C cyto.
+YPL004C cyto., non-nuclear
+YJR002W nucleus
+YKR095W nuclear rim
+YGR285C cyto., non-nuclear
+YDR432W nucleus
+YMR309C cyto., non-nuclear
+YMR012W cyto., non-nuclear
+YOL023W mitochondria
+YDL140C nucleus
+YKL060C cyto., non-nuclear
+YMR173W cyto., non-nuclear
+YDR390C nucleus
+YER049W nucleus
+YPL075W nucleus
+YJR036C cyto., non-nuclear
+YKL005C nucleus
+YFR010W nucleus
+YER141W mitochondria
+YMR307W nuclear rim / ER
+YMR229C nucleus
+YFL037W spindle pole body
+YDR208W cyto.
+YPR163C cyto., non-nuclear
+YJL042W cyto.
+YEL043W cyto.
+YHR117W mitochondria
+YEL034W cyto., non-nuclear
+YNL098C cell periphery
+YJL020C cyto., non-nuclear
+YBR078W nuclear rim / ER
+YBR078W nuclear rim / ER
+YDL099W cyto., non-nuclear
+YGL121C cyto.
+YJR045C mitochondria
+YGL048C cyto. / ER
+YNL290W nucleus
+YDR295C nucleus
+YAR042W cyto.
+YDR207C nucleus
+YGR270W cyto. / ER
+YGR270W cyto. / ER
+YGR155W cyto., non-nuclear
+YHR069C nucleus
+YJR009C cyto., non-nuclear
+YJL026W cyto.
+YLR286C nuclear rim / ER
+YPL005W cyto.
+YAL054C cyto. / mitochondria
+YIL114C mitochondria
+YIL154C cyto. / nucleus
+YPL105C cyto.
+YIR016W cyto.
+YGL055W cyto. (patches) / ER
+YNL103W cyto. / nucleus
+YNL186W nucleus
+YNL277W cyto., non-nuclear
+YOR291W cyto.
+YFR034C cyto. / nucleus
+YBL091C cyto., non-nuclear
+YDR515W cyto., non-nuclear
+YLR176C cyto. / nucleus
+YDR274C nuclear rim / ER
+YBR214W cyto.
+YJL020C cyto., non-nuclear
+YGL062W cyto., non-nuclear
+YOR173W cyto.
+YBR214W cyto.
+YDR145W nucleus
+YGR175C nuclear rim / ER
+YLR109W cyto.
+YEL077C cyto., non-nuclear
+YLR055C nucleus
+YLR219W cyto., non-nuclear
+YLL028W cyto.
+YFL028C cyto.
+YHR033W cyto., non-nuclear
+YDL014W nucleolus
+YOL111C cyto., non-nuclear
+YOL111C cyto., non-nuclear
+YNL104C mitochondria, cyto.
+YOR348C cyto.
+YOR348C cyto.
+YHR042W cyto.
+YHR042W cyto.
+YLL019C cyto.
+YLL019C cyto.
+YIL154C cyto.
+YIL154C cyto.
+YGR248W cyto.
+YDR518W cyto. / ER
+YPL101W cyto.
+YPL101W cyto.
+YBL091C cyto.
+YBL091C cyto.
+YHL030W cyto., non-nuclear
+YHL030W cyto., non-nuclear
+YAL038W cyto.
+YAL038W cyto.
+YOR136W mitochondria
+YOR136W mitochondria
+YPL137C cyto.
+YPL137C cyto.
+YOR223W cyto.
+YOR223W cyto.
+YLR109W cyto.
+YPR139C cyto.
+YPR139C cyto.
+YIL121W cyto., cell periphery
+YFL030W cyto.
+YNL278W cyto.
+YBR078W nuclear rim / cyto.
+YOR043W cyto.
+YHR205W cyto.
+YJL078C cyto.
+YGL067W cyto.
+YDR208W cyto.
+YAR044W cyto.
+YGR204W cyto.
+YNL098C cyto., cell periphery
+YNL098C cyto., cell periphery
+YJL065C nucleus
+YLR055C nucleus
+YGR097W cyto. / nucleus
+YGL197W cyto. / nucleus
+YMR273C cyto., cell periph., bud tip
+YLR380W cyto./ ER, cell periphery
+YPR191W mitochondria
+YLR438W cyto.
+YAL055W cyto.
+YLR337C cyto. (patches)
+YOR173W cyto.
+YER165W cyto.
+YLL039C cyto.
+YKR090W cyto./ ER, cell periphery
+YPR145W cyto.
+YGL062W cyto.
+YJL076W nucleolus
+YPR035W cyto.
+YCL040W cyto.
+YHR042W cyto.
+YDR024W cyto.
+YLR337C cyto.
+YFR027W cyto. / nucleus
+YBR231C cyto.
+YML022W cyto.
+YBR208C cyto., non-nuclear
+YGR178C cyto. / nucleus
+YLR236C cyto.
+YJL042W cyto.
+YIL112W cyto.
+YHR026W cyto. / ER
+YAR042W cyto.
+YAL038W cyto.
+YIL154C cyto. / nucleus
+YAL054C cyto. / mitochondria
+YBL054W cyto.
+YEL034W cyto., non-nuclear
+YGL008C nuclear rim / ER
+YDR296W cyto.
+YJL042W cyto.
+YDL223C cyto.
+YHR200W cyto.
+YPL281C cyto.
+YKL038W nucleus
+YKR075C cyto.
+YHR089C nucleus, cyto.
+YEL058W cyto.
+YOR348C cyto.
+YDR232W mitochondria
+YHR042W cyto.
+YLR374C cyto. / nucleus
+YPL231W cyto.
+YNR016C cyto.
+YKL038W nucleus
+YIL109C cyto. / ER
+YER109C nucleus, cyto.
+YHL032C cyto.
+YFR034C nucleus, cyto.
+YKL035W cyto., cell periph., bud tip
+YJR078W cyto.
+YDR230W cyto.
+YCR033W cyto.
+YJR076C cell neck
+YJR076C cell neck
+YJL138C cyto.
+YFR032C-A cyto.
+YLR095C nucleus
+YLR095C nucleus
+YGR097W cyto. / nucleus
+YER141W mitochondria
+YPL105C cyto. / nucleus
+YLL028W cyto. (patches)
+YIR012W cyto.
+YNR003C cyto. / nucleus
+YNL103W cyto. / nucleus
+YLR378C cyto. / ER
+YLR438W cyto.
+YAL004W cyto.
+YDR213W cyto. / nucleus
+YMR272C ER
+YNL104C cyto. / mitochondria
+YEL034W cyto.
+YDL185W cyto., non-nuclear
+YGR094W mitochondria
+YML058C-A cyto.
+YGR086C cyto.
+YOR232W mitochondria
+YDR295C nucleus
+YGR094W cyto., non-nuclear
+YLR045C nucleus / spindle pole body
+YER088C nucleus
+YGL122C nucleus
+YPL198W cyto.
+YML100W cyto.
+YLR300W nuclear rim / ER
+YJR139C cyto.
+YPL137C cyto.
+YJL069C nucleus
+YHR042W cyto. / ER
+YOR224C nucleus
+YMR012W cyto., non-nuclear
+YGR162W cyto., non-nuclear
+YDL182W nucleus
+YGL049C cyto., non-nuclear
+YMR170C cyto.
+YGR162W cyto., non-nuclear
+YGL173C cyto., non-nuclear
+YDR148C mitochondria
+YML057W cyto.
+YHR113W cyto., non-nuclear
+YDR361C nucleus
+YDR145W nucleus
+YLR187W nucleus
+YKR092C nucleus
+YML036W cyto.
+YNL233W bar-shaped pattern
+YOL126C cyto., non-nuclear
+YCL035C cyto.
+YDR498C nuclear rim / ER
+YER088C nucleus
+YDL084W nucleus
+YLR329W cyto.
+YML058W cyto.
+YLR095C nucleus
+YBL099W mitochondria
+YJL138C cyto.
+YGR282C nuclear rim / ER
+YLR391W cell periphery
+YBR078W nuclear rim / ER
+YMR205C cyto., non-nuclear
+YOR275C nucleus
+YAL049C cyto.
+YGR030C cyto.
+YMR128W nucleus
+YIL109C cyto., non-nuclear
+YDL215C cyto., non-nuclear
+YAR015W cyto.
+YDR050C cyto., non-nuclear
+YOR341W nucleolus
+YLR225C cyto.
+YIR006C cell periphery
+YNL216W nucleus
+YPR159W mitochondria
+YLR432W cyto., non-nuclear
+YKL126W cyto., non-nuclear
+YER049W cyto.
+YBR078W nuclear rim / ER
+YKL182W cyto., non-nuclear
+YML100W cyto., non-nuclear
+YMR307W nuclear rim / ER
+YKR045C cyto., non-nuclear
+YBR214W cyto.
+YIL126W nucleus
+YDR207C cyto. / nucleus
+YKL060C cyto., non-nuclear
+YDL185W cyto. (patches)
+YER149C cell periphery
+YER149C cell periphery
+YKL120W mitochondria
+YMR203W mitochondria
+YGL206C cyto., non-nuclear
+YKL193C nucleus, cyto.
+YER123W nuclear rim / ER
+YJR007W cyto., non-nuclear
+YGR270W cyto. / ER
+YFL037W nucleus / spindle pole body
+YJL069C nucleolus
+YJL053W cyto.
+YNL117W cyto.
+YGR270W cyto. / ER
+YPR132W cyto., non-nuclear
+YPR173C cyto. / ER
+YDL195W cyto., non-nuclear
+YPR029C cyto. (patches)
+YER154W mitochondria
+YJL021C cyto.
+YIL108W cyto.
+YGL208W cyto. / nucleus
+YOR173W cyto., non-nuclear
+YEL034W cyto., non-nuclear
+YJL042W cyto.
+YPR145W cyto., non-nuclear
+YLR438W cyto., non-nuclear
+YAR042W cyto.
+YLR337C cyto.
+YHR205W cyto., non-nuclear
+YDL182W cyto. / nucleus
+YGR119C cyto.
+YML100W cyto., non-nuclear
+YDR037W cyto., non-nuclear
+YBR215W nucleus
+YCL030C cyto., non-nuclear
+YEL034W cyto., non-nuclear
+YHR042W cyto., non-nuclear
+YIL124W cyto., non-nuclear
+YOR161C mitochondria
+YJL080C cyto. / ER
+YER091C cyto.
+YEL034W cyto.
+YPL037C cyto.
+YLR393W mitochondria
+YLL029W cyto.
+YBR029C mitochondria
+YMR273C cyto.
+YER153C mitochondria
+YNL103W cyto. / nucleus
+YNL134C cyto.
+YLR390W nuclear rim / ER
+YJL081C nucleus
+YOR181W cell periphery, buds
+YAL034C cyto., non-nuclear
+YOR270C vacuole
+YJR046W cyto., non-nuclear
+YDR207C cyto. / nucleus
+YDR207C nucleus
+YPL136W cyto.
+YPR079W cyto. (patches)
+YAL043C nuclear rim / ER
+YGR204W cyto.
+YBL006C cyto.
+YBR070C cyto. / ER
+YBR105C cyto. (patches)
+YER190W cyto.
+YER190W cyto.
+YDL189W cyto.
+YDL189W cyto.
+YLL019C cyto.
+YLL019C cyto.
+YGL209W cyto. / nucleus
+YGL209W cyto. / nucleus
+YML048W cyto.
+YML048W cyto.
+YJL042W cyto.
+YJL042W cyto.
+YGR204W cyto., non-nuclear
+YGR204W cyto., non-nuclear
+YJL117W cyto.
+YJL117W cyto.
+YBR071W cyto.
+YMR135C cyto.
+YNR061C cyto.
+YLR219W cyto.
+YAL051W cyto. / nucleus
+YNL097C cyto. / nucleus
+YIL155C mitochondria
+YGR266W cyto.
+YMR008C cyto., cell periphery
+YOR347C cyto.
+YJL078C cyto.
+YMR182C cyto. / nucleus
+YHR160C cyto.
+YJL043W cyto.
+YEL061C cyto.
+YBL076C cyto.
+YOR025W nucleus, cyto.
+YIL101C cyto.
+YGR192C cyto.
+YKL038W nucleus
+YKL038W nucleus
+YLR167W cyto.
+YLR167W cyto.
+YJL079C cyto., nuclear rim / ER
+YPL221W cyto.
+YJL122W nucleus
+YLR258W cyto.
+YGR204W cyto.
+YOL020W cyto., cell periphery
+YOR378W cyto.
+YJL078C cyto. (patches)
+YPL136W cyto.
+YGL073W cyto. / nucleus
+YFL022C cyto. (patches)
+YOL109W cyto.
+YDL142C mitochondria
+YLR176C nucleus
+YLR176C nucleus
+YPR159W cyto. (patches)
+YDR171W cyto. (patches)
+YLR447C vacuole
+YIR012W cyto.
+YOL084W cyto.
+YER137C-A cyto.
+YKL038W cyto. / nucleus
+YOR108W cyto.
+YNL241C cyto.
+YKR076W cyto.
+YMR165C mitochondria
+YEL077C cyto.
+YOR322C cyto.
+YKR066C mitochondria
+YDR515W cyto.
+YLR399C nucleus
+YDR516C cyto.
+YAL061W cyto.
+YJL021C cyto.
+YJL117W cyto.
+YKR092C nucleus
+YJR145C cyto.
+YIL084C nucleus
+YAL054C cyto. / mitochondria
+YPL184C cyto.
+YFR033C mitochondria
+YBL099W mitochondria
+YNL161W cyto. / nucleus
+YLR337C cyto.
+YFR035C cyto.
+YLL029W cyto.
+YNL104C mitochondria, cyto.
+YEL058W cyto.
+YOR181W cyto. (patches)
+YBR084W mitochondria
+YNL104C cyto. / mitochondria
+YNL031C nucleus
+YLR432W cyto.
+YJL078C cyto.
+YHR069C cyto. / nucleus
+YHR069C cyto. / nucleus
+YJR147W cyto. / nucleus
+YAR042W cyto. / nucleus
+YAR044W cyto.
+YLR437C cyto.
+YGR204W cyto. (patches)
+YGL123W cyto.
+YJL078C cyto. (patches)
+YOL027C cyto.
+YBR127C cyto. (patches)
+YGL123W cyto.
+YGL234W cyto.
+YML017W cyto.
+YHL030W cyto., cell periphery
+YBL023C nucleus
+YEL034W cyto.
+YLR300W ER, cyto.
+YLR300W ER, cyto.
+YLR055C nucleus, cyto.
+YDL019C cyto.
+YGR067C cyto. / nucleus
+YGL062W cyto.
+YHR206W cyto. / nucleus
+YJR074W nucleus
+YER024W mitochondria, cyto.
+YNR050C cyto.
+YHR026W cyto. (patches)
+YNL278W cyto.
+YPR115W cyto.
+YDL086W cyto.
+YLR219W cyto.
+YLL043W cyto., cell periphery
+YJL066C cyto.
+YMR111C cyto.
+YJR147W cyto. / nucleus
+YIL154C cyto. / nucleus
+YGL236C mitochondria
+YMR261C cyto. (patches)
+YER152C cyto.
+YBR222C cyto. (patches)
+YOL045W cyto., non-nuclear
+YGL049C cyto., non-nuclear
+YOR153W cyto., cell periphery
+YAR020C cyto.
+YML059C cyto.
+YDL195W cyto., non-nuclear
+YPR159W cyto.
+YER043C cyto., non-nuclear
+YGR090W nucleus
+YDL185W cyto. (patches)
+YMR097C nucleus
+YIL033C cyto. / nucleus
+YGR162W cyto.
+YMR092C cyto. (patches)
+YDR074W cyto., non-nuclear
+YFL037W cyto. / nucleus
+YDR074W cyto., non-nuclear
+YAR015W cyto.
+YJR137C cyto.
+YPR108W nuclear rim / ER, cyto.
+YGR094W mitochondria
+YDL181W mitochondria
+YLR094C cyto.
+YJR017C cyto.
+YBL075C cyto.
+YLR374C cyto.
+YER088C nucleus, cyto.
+YJR121W mitochondria
+YLR113W cyto.
+YER088C nucleus
+YBR143C cyto.
+YGR136W cyto.
+YGR159C nucleus
+YDR222W cyto.
+YGL122C nucleus
+YOR014W cyto.
+YOR343C cyto.
+YBR038W cell periphery
+YDR207C cyto. / nucleus
+YFR044C cyto.
+YGR086C cyto.
+YPL210C cyto., non-nuclear
+YIL094C cell periphery
+YOR120W cyto., non-nuclear
+YAR015W cyto.
+YJL080C cyto.
+YER043C cyto.
+YIR006C cell periphery
+YMR047C nuclear rim / cyto.
+YMR012W cyto., non-nuclear
+YLL026W cyto., non-nuclear
+YOR171C cyto., non-nuclear
+YLR295C mitochondria
+YLR301W cyto.
+YHR074W cyto., non-nuclear
+YDR174W nucleus
+YHR030C cyto.
+YBL037W cyto., non-nuclear
+YIR002C cell periphery
+YGR178C cyto.
+YNL243W cyto. (patches)
+YLR155C nuclear rim / ER
+YLL018C cyto., non-nuclear
+YHR023W cell neck
+YJL041W nuclear rim / ER
+YBR127C vacuole
+YDR145W nucleus
+YCL030C cyto., non-nuclear
+YER043C cyto.
+YJL021C cyto.
+YAR015W cyto.
+YBR078W cell periphery
+YPR042C cyto.
+YGR085C nucleus
+YIL023C cyto., cell periphery
+YNL076W cell periphery, buds
+YCR047C nucleolus
+YDL185W cyto., non-nuclear
+YHL003C cyto., non-nuclear
+YOR241W cyto.
+YER141W mitochondria
+YHR047C cyto.
+YJL042W cyto.
+YMR080C cyto., non-nuclear
+YLR373C cyto., nucleus
+YKL182W cyto., non-nuclear
+YOR173W cyto., non-nuclear
+YKL038W nucleus
+YGR159C nucleus
+YJR043C nucleus
+YCR052W cyto. / nucleus
+YKL022C cyto., non-nuclear
+YBL007C cyto./ bud tip
+YER152C cyto., non-nuclear
+YBR031W nucleus
+YHR137W cyto., non-nuclear
+YNL243W cyto., non-nuclear
+YDR207C nucleus
+YBR208C cyto., non-nuclear
+YOR230W nucleus
+YOL027C cyto.
+YER103W cyto., non-nuclear
+YNL278W cyto.
+YAL054C cyto. / mitochondria
+YKL182W cyto., non-nuclear
+YLR337C cyto.
+YNL239W cyto.
+YLR432W cyto.
+YNL139C nucleus
+YJL079C nuclear rim / ER
+YGR085C cyto.
+YJL005W cyto., cell periphery
+YEL058W cyto.
+YJL021C cyto.
+YLR234W cyto.
+YGR204W cyto.
+YEL077C cyto.
+YGR204W cyto., non-nuclear
+YLR167W cyto.
+YPL118W mitochondria
+YFL030W cyto., non-nuclear
+YLL029W cyto.
+YJR096W cyto.
+YIL066C cyto.
+YDR207C nucleus
+YLR373C cyto., nucleus
+YOL006C nucleus
+YHR025W cyto.
+YAR042W cyto.
+YLR337C cyto.
+YFR017C cyto.
+YAL054C cyto. / mitochondria
+YLR380W cyto.
+YLR380W cyto.
+YGR019W cyto., non-nuclear
+YGR019W cyto., non-nuclear
+YGR204W cyto., non-nuclear
+YGR204W cyto., non-nuclear
+YAL054C cyto. / mitochondria
+YAL054C cyto. / mitochondria
+YER152C cyto.
+YER152C cyto.
+YBL054W nucleus
+YBL054W nucleus
+YJL078C cyto.
+YJL078C cyto.
+YBL054W nucleus
+YBL054W nucleus
+YBR214W cyto.
+YBR214W cyto.
+YHR135C cyto. / ER
+YDR207C nucleus
+YDR207C nucleus
+YGR196C cyto.
+YMR086W mitochondria
+YOR229W nucleus
+YGL035C cyto. / nucleus
+YML058W cyto.
+YLR399C nucleus
+YOR112W cyto.
+YIL154C cyto. / nucleus
+YPL136W cyto.
+YIL143C cyto. / nucleus
+YHR070W cyto.
+YBR225W cyto.
+YLR337C cyto. (patches)
+YJL078C cyto.
+YKR066C mitochondria
+YJR121W mitochondria, cyto.
+YNL186W nucleus
+YKL180W cyto., non-nuclear
+YAR044W cyto.
+YGR260W cyto., cell periphery
+YJL078C cyto., cell periphery
+YPL119C nucleus, cyto.
+YDR303C nucleus
+YHR047C cyto., non-nuclear
+YBR126C cyto.
+YOR348C cyto. / ER
+YFR016C cyto.
+YOR138C cyto.
+YNL243W cyto., cell periphery
+YIL133C cyto.
+YFR017C cyto.
+YDL171C cyto. (patches)
+YFR037C nucleus
+YDR077W cyto., cell periphery
+YNL134C cyto., non-nuclear
+YNL096C cyto.
+YIR012W cyto.
+YHR206W nucleus
+YNL277W cyto.
+YMR166C cyto.
+YNL277W cyto.
+YDR148C mitochondria
+YNL243W cyto.
+YGL064C cyto.
+YNR014W cyto.
+YOL027C cyto.
+YFL018C mitochondria
+YOR153W cyto., cell periphery
+YAL038W cyto.
+YJL021C cyto.
+YJR074W cyto. / nucleus
+YHR069C nucleus
+YER145C cell periphery
+YMR086W cyto. / mitochondria
+YER063W cyto.
+YGR109C cyto.
+YNL278W cyto.
+YHR107C cyto.
+YNL224C cyto.
+YER146W cyto.
+YHR196W cyto.
+YDR207C cyto. / nucleus
+YAR035W mitochondria
+YDR213W nucleus, cyto.
+YLL028W cyto.
+YAL035W cyto.
+YPR055W cyto. (patches)
+YEL034W cyto.
+YPR160W cyto.
+YDR207C cyto. / nucleus
+YOR322C cyto.
+YEL071W cyto.
+YNL104C cyto. / mitochondria
+YJR148W cyto.
+YBR172C cyto., cell periphery
+YLR399C nucleus
+YIL133C cyto.
+YLR380W cyto., ER
+YHR093W cyto.
+YDR207C nucleus
+YDR207C nucleus
+YJL042W cyto. / nucleus
+YPR174C cyto.
+YKL122C cyto. / nucleus
+YML115C cyto. (patches)
+YDR153C cyto.
+YMR261C cyto.
+YLR354C cyto.
+YLR354C cyto.
+YNL103W cyto. / nucleus
+YMR304W cyto.
+YHR070W cyto.
+YBR118W cyto.
+YNL097C nucleus
+YGR285C cyto.
+YBR223C cyto. / nucleus
+YGL062W cyto.
+YBR214W cyto. / nucleus
+YBL099W mitochondria
+YAR042W cyto.
+YDR233C cyto., cell periphery
+YFR032C-A cyto.
+YFL014W cyto.
+YFL014W cyto.
+YBR127C cyto. (patches)
+YGL195W cyto.
+YMR272C cyto. / ER
+YER088C nucleus
+YJL116C cyto.
+YHR165C cyto. / nucleus
+YCR052W nucleus
+YPR161C nucleus
+YFL038C cyto. (patches)
+YJR045C mitochondria
+YHR183W cyto.
+YER043C cyto.
+YJR078W cyto. (patches)
+YNL031C nucleus
+YCR004C cell periphery
+YPL131W nucleus
+YGL122C nucleus
+YML124C cyto. / nucleus
+YBL051C cyto., non-nuclear
+YMR303C cyto., non-nuclear
+YER043C cyto., non-nuclear
+YML057W cyto.
+YML100W cyto., non-nuclear
+YHR069C nucleus
+YKR039W cell periphery
+YIL034C cyto., cell periphery
+YDR372C buds
+YBR196C cyto., non-nuclear
+YPL218W cyto. / ER
+YGL062W cyto., non-nuclear
+YDR430C cyto., non-nuclear
+YMR153W nuclear rim / ER
+YER088C cyto. / nucleus
+YFL037W cyto. / nucleus
+YGR162W cyto., non-nuclear
+YJL041W nuclear rim / ER
+YGR162W cyto.
+YLR249W cyto.
+YMR250W cyto.
+YML022W cyto.
+YGR270W cyto. / ER
+YAL026C cyto. (patches)
+YLR375W nuclear rim / ER
+YOR224C nucleolus
+YGR243W cyto.
+YIR026C cyto.
+YDR303C nucleus
+YDL072C nuclear rim / ER
+YPR159W cyto.
+YOR181W cyto.
+YGL243W nucleus
+YBR208C cyto., non-nuclear
+YOR151C nucleus, cyto.
+YLR300W nuclear rim / ER
+YBR130C cyto. (patches)
+YBR169C cyto., non-nuclear
+YMR124W buds
+YAR015W cyto.
+YLR304C mitochondria
+YLR295C cell periphery
+YLR432W cyto.
+YGR178C cyto.
+YMR307W nuclear rim / ER
+YLR300W nuclear rim / ER
+YFR040W cyto., non-nuclear
+YGL234W cyto., non-nuclear
+YLL021W cell periphery
+YDL058W cyto., non-nuclear
+YJR007W cyto., non-nuclear
+YML121W cyto.
+YDR295C cyto.
+YAL019W cyto.
+YML057W cyto.
+YML073C cyto. / nucleus
+YLR286C nuclear rim / ER
+YPR162C nucleus
+YGL195W cyto., non-nuclear
+YMR203W mitochondria
+YKL160W nucleus
+YGR159C nucleus
+YDR293C cyto., non-nuclear
+YJR002W nucleolus
+YML057W cyto.
+YOR204W cyto., non-nuclear
+YGR178C cyto.
+YLR256W nucleus
+YAR044W cyto., cell periphery
+YLR374C nucleus
+YJL020C cyto., non-nuclear
+YGL093W spindle pole body
+YOR173W cyto.
+YOL144W nucleolus
+YLR337C cell periphery
+YIL033C cyto. / nucleus
+YLR438W cyto., non-nuclear
+YMR070W nucleus
+YNL243W cell periphery
+YNL239W cyto.
+YGL122C nucleus
+YAL019W cyto. / nucleus
+YMR307W nuclear rim / ER
+YMR120C cyto.
+YLR399C nucleus
+YNL104C mitochondria
+YPL135W mitochondria
+YLR378C cyto. / ER
+YNL036W cyto.
+YLR167W cyto.
+YDL195W cyto., non-nuclear
+YMR042W cell neck
+YER064C cell periphery
+YIL154C cyto. / nucleus
+YEL032W cyto.
+YNL209W cyto.
+YER154W mitochondria
+YGR020C vacuole
+YGR177C cyto.
+YML120C mitochondria
+YOR227W cyto.
+YER154W mitochondria
+YKL182W cyto., non-nuclear
+YML106W cyto.
+YML106W cyto.
+YER178W mitochondria
+YER178W mitochondria
+YGL172W nuclear rim
+YGR178C cyto. / nucleus
+YGR270W cyto. / ER
+YGR270W cyto. / ER
+YJL078C cyto.
+YJL078C cyto.
+YDR515W cyto.
+YDR515W cyto.
+YHR007C cyto., ER
+YCR011C cyto., cell periphery
+YMR181C cyto.
+YMR181C cyto.
+YPL036W cyto., cell periphery
+YER154W mitochondria
+YOR025W cyto.
+YGL093W nucleus
+YDR517W cyto.
+YBR104W cyto. / mitochondria
+YKR076W cyto.
+YBR208C cyto. / mitochondria
+YAL054C cyto. / mitochondria
+YGR175C cyto. / ER
+YAR042W cyto. / nucleus
+YNR003C cyto. / nucleus
+YAR044W cyto.
+YAR044W cyto.
+YLL024C cyto.
+YAL054C cyto. / mitochondria
+YHR165C cyto. / nucleus
+YHR069C cyto. / nucleus
+YGR096W cyto.
+YEL031W cyto. / ER
+YNL103W cyto. / nucleus
+YLR438W cyto.
+YPL183C cyto.
+YJL020C cyto.
+YGL056C cyto. / nucleus
+YLR399C nucleus
+YLR095C cyto. / nucleus
+YJL158C cyto./ ER, cell periphery
+YBR263W mitochondria
+YLR373C cyto. (patches)
+YGL062W cyto.
+YGL008C cell periphery
+YHR069C cyto. / nucleus
+YMR199W cyto. (patches)
+YOR378W cyto.
+YDL182W nucleus
+YHR030C cyto.
+YOR181W cyto., cell periphery
+YJL141C cyto.
+YPL137C cyto.
+YNL020C cyto.
+YAL035W cyto., non-nuclear
+YPL105C cyto.
+YFL066C cyto.
+YNL278W cyto.
+YJL020C cyto.
+YIL154C cyto. / nucleus
+YIR006C cell periphery
+YFL030W cyto.
+YJL078C cyto., cell periphery
+YJL021C cyto.
+YLR120C cyto.
+YLR186W cyto.
+YML017W cyto.
+YKR091W cyto.
+YIR034C cyto.
+YFL031W nucleus, cyto.
+YHL032C cyto.
+YJR077C mitochondria
+YGL062W cyto.
+YPL137C cyto.
+YMR086W cyto.
+YGL056C cyto. / nucleus
+YER082C nuclear / nucleolar
+YGL123W cyto.
+YOR202W cyto.
+YEL058W cyto.
+YJR148W cyto.
+YKL098W cyto. / nucleus
+YJR045C mitochondria
+YIL108W cyto.
+YDR515W cyto.
+YJR077C mitochondria
+YNL276C cyto.
+YOR299W cyto.
+YGL062W cyto.
+YJL101C cyto.
+YPL223C cyto.
+YHR136C cyto.
+YLR301W cyto.
+YLR438W cyto.
+YJL064W cyto. / nucleus
+YMR272C cyto. (patches) / ER
+YMR323W cyto.
+YAL035W cyto.
+YFR028C nucleus
+YLR219W cyto.
+YLR337C cyto. (patches)
+YGL171W nucleus, cyto.
+YBR132C cyto.
+YMR291W cyto.
+YMR104C cyto.
+YNL194C cyto. / ER
+YCR052W nucleus
+YCR052W nucleus
+YJL042W nucleus, cyto.
+YNR017W cyto. / mitochondria
+YDR517W cyto.
+YNL268W cyto.
+YKR067W cyto. (patches) / ER
+YGR160W nucleus
+YNL134C cyto., non-nuclear
+YMR227C nucleus
+YHR137W cyto., non-nuclear
+YKL212W cyto./ ER, cell periphery
+YJL042W cyto. / nucleus
+YJL021C cyto.
+YPR049C cyto.
+YOR323C cyto.
+YGL237C nucleus
+YBR249C cyto., non-nuclear
+YBL013W mitochondria
+YDR359C cyto.
+YPL004C cyto., non-nuclear
+YDL229W cyto., non-nuclear
+YOL021C nucleus, cyto.
+YFL034C-A cyto.
+YDL185W cyto., non-nuclear
+YLR028C cyto., non-nuclear
+YBL075C cyto.
+YBR078W cyto.
+YPR108W nucleus
+YGR162W cyto., non-nuclear
+YML100W cyto.
+YJL158C nuclear rim / ER
+YFL038C nuclear rim / ER
+YOR120W buds
+YGR159C nucleus
+YNL209W cyto.
+YGR162W cyto., non-nuclear
+YDL082W cyto.
+YJR002W nucleolus
+YDR213W cyto. / nucleus
+YNR074C cyto.
+YER024W cyto. / mitochondria
+YKL160W nucleus
+YDR284C cyto.
+YBL076C nucleus, cyto.
+YER088C nucleus, cyto.
+YER088C cyto. / nucleus
+YPL126W nucleolus
+YDR207C nucleus
+YMR189C mitochondria
+YLR373C cyto., nuclear rim / ER
+YGR270W cyto.
+YGR136W cyto.
+YBL075C cyto.
+YLR373C cyto., nuclear rim / ER
+YDL154W cyto. / nucleus
+YBR038W cyto., cell periphery
+YDL185W cyto.
+YBL064C mitochondria
+YOR014W mitochondria
+YAL054C cyto. / mitochondria
+YOR195W spindle pole body
+YGL062W nucleus
+YGL135W cyto.
+YIL109C cyto. / ER
+YLL026W cyto.
+YNL189W nucleus
+YGR261C cyto., non-nuclear
+YBR249C cyto., non-nuclear
+YCL018W cyto.
+YBL068W bar-shaped pattern
+YPR030W cyto., non-nuclear
+YDL019C cyto., non-nuclear
+YIL094C mitochondria
+YDR348C cyto.
+YER043C cyto.
+YGL061C nucleus
+YLL008W nucleolus
+YNL233W cell neck
+YDL117W cyto.
+YMR196W cyto.
+YIR006C cyto.
+YIR006C cyto.
+YOR138C cyto.
+YDR495C cyto. (patches)
+YOL092W cyto. (patches)
+YKL129C cyto. / nucleus
+YNL216W nucleus
+YDL099W cyto., non-nuclear
+YML072C cell periphery
+YLR429W cell periphery
+YLR373C cyto., nucleus
+YFL022C cyto., non-nuclear
+YNL097C nucleus
+YJL020C cyto., non-nuclear
+YEL034W cyto.
+YJL079C nuclear rim / ER
+YGL026C cyto., non-nuclear
+YNL186W nucleus
+YNL112W nucleus
+YCR052W nucleus
+YPR029C cyto.
+YDR012W cyto.
+YLR399C nucleus
+YDL188C cyto.
+YMR039C nucleus
+YJL078C cyto.
+YNL147W nucleus
+YKL098W cyto. / nucleus
+YIR035C cyto., non-nuclear
+YBR215W cyto.
+YDL034W cyto., non-nuclear
+YBL050W cyto.
+YAL054C cyto. / mitochondria
+YLR256W nucleus
+YIR012W cyto.
+YGL236C mitochondria
+YDR148C mitochondria
+YMR272C cyto. / ER
+YOR100C mitochondria
+YGR087C mitochondria
+YOL006C cyto. / nucleus
+YJR147W cyto. / nucleus
+YER023W mitochondria
+YMR273C cyto.
+YJR127C nuclear rim / ER
+YER154W mitochondria
+YJL080C cyto. / ER
+YIR006C cyto. (patches)
+YOR186W cyto.
+YDR207C nucleus
+YAL038W cyto.
+YLR438W cyto.
+YLR380W cyto.
+YIL033C cyto. / nucleus
+YGL062W cyto.
+YLR436C cyto., non-nuclear
+YAR044W cyto.
+YAR044W cyto.
+YLR375W nucleus
+YLR375W nucleus
+YGL179C cyto.
+YGL179C cyto.
+YEL034W cyto.
+YEL034W cyto.
+YMR068W cyto.
+YMR068W cyto.
+YGL208W cyto. / nucleus
+YLR177W cyto.
+YLR177W cyto.
+YHR070W cyto., non-nuclear
+YHR070W cyto., non-nuclear
+YOR227W cyto.
+YOR227W cyto.
+YPL137C cyto.
+YPL137C cyto.
+YLR216C cyto.
+YLR216C cyto.
+YAR042W cyto.
+YAR042W cyto.
+YLR378C cyto. / ER
+YMR181C cyto.
+YMR181C cyto.
+YNL103W nucleus, cyto.
+YLR399C nucleus
+YKR009C cyto. (patches)
+YPL004C cyto., non-nuclear
+YPR145W cyto.
+YAL053W cyto. (patches)
+YER154W mitochondria
+YGR269W cyto.
+YGR267C cyto.
+YNL230C cyto.
+YGL178W cyto.
+YMR273C cyto.
+YJR072C cyto.
+YPL135W mitochondria
+YHR027C nuclear rim / ER, cyto.
+YGL236C mitochondria
+YDL222C cyto.
+YLL019C cyto.
+YEL058W cyto.
+YJR077C mitochondria
+YEL034W cyto. (patches)
+YAR064W cyto. (patches)
+YGL007W cyto. (patches)
+YHR137W cyto.
+YOL109W cyto.
+YIL142W cyto.
+YDL185W cyto., non-nuclear
+YML035C cyto.
+YLR337C cyto.
+YJL080C cyto. / ER
+YBL069W cyto., cell periphery
+YLR438W cyto.
+YJR046W cyto. / nucleus
+YJL069C cyto. / nucleus
+YNL096C cyto (patches), non-nuclear
+YGR192C cyto.
+YDR134C cyto., nuclear rim / ER
+YJR045C mitochondria
+YNL098C cyto., cell periphery
+YDL182W nucleus
+YOL086C cyto.
+YEL076C nuclear rim / ER
+YDL019C cyto. (patches)
+YCL018W cyto.
+YGR085C cyto.
+YHR008C mitochondria
+YNL278W cyto.
+YER155C cyto.
+YPL136W cyto.
+YHR041C cyto.
+YLR219W cyto., non-nuclear
+YNL277W cyto.
+YIL155C mitochondria
+YLL024C cyto.
+YGR117C cyto.
+YOR153W cell periphery
+YLR373C cyto. / nucleus
+YCL043C cyto. / ER
+YLL067C cyto.
+YIR012W cyto.
+YPR172W cyto.
+YDR024W cyto.
+YIL107C cyto.
+YAR044W cyto.
+YAL035W cyto.
+YJL029C mitochondria
+YJL122W nucleus
+YKR075C cyto.
+YAL035W cyto.
+YAL049C cyto.
+YPL081W cyto.
+YKR092C nucleolus
+YAR042W cyto.
+YJL198W cyto.
+YAR044W cyto.
+YGL062W cyto.
+YLR438W cyto.
+YLR399C nucleus
+YJR045C mitochondria
+YMR316W cyto.
+YHR042W cyto. / ER
+YHR116W cyto. (patches)
+YLR176C cyto. / nucleus
+YBR049C nucleus
+YBR049C nucleus
+YOR028C cyto. / nucleus
+YNL278W cyto.
+YHR042W cyto. / ER
+YGL062W cyto.
+YCR088W cyto. (patches)
+YGL062W cyto.
+YJR072C cyto.
+YLL010C cyto., cell periphery
+YLR337C cyto.
+YNL104C cyto. / mitochondria
+YHR205W cyto.
+YJR072C cyto.
+YLR256W cyto. / nucleus
+YOL006C cyto. / nucleus
+YDR432W nucleus, cyto.
+YHR117W mitochondria, cyto.
+YNR003C cyto. / nucleus
+YGR021W mitochondria
+YGR270W cyto. / ER
+YJL026W cyto., non-nuclear
+YER154W mitochondria
+YLL024C cyto., non-nuclear
+YIR016W cyto. (patches)
+YMR183C cyto. (patches) / ER
+YCR052W nucleus
+YLR179C cyto.
+YML100W cyto.
+YKL025C cyto., non-nuclear
+YFL004W mitochondria
+YAL054C cyto. / mitochondria
+YDL185W cyto. (patches)
+YBL099W mitochondria
+YHR069C nucleus
+YLR432W cyto.
+YNL036W mitochondria
+YLR391W-A nuclear rim / ER
+YBR208C cyto.
+YLR373C cyto. / nucleus
+YER123W nucleus / nuclear rim
+YGL237C cyto. / nucleus
+YBL079W nucleus, cyto.
+YPL061W cyto.
+YGR204W cyto.
+YBL099W mitochondria
+YOR335C cyto., non-nuclear
+YGR162W cyto., non-nuclear
+YAL021C cyto. / nucleus
+YKR095W nucleus, cyto.
+YHR070W cyto.
+YER088C nucleus
+YOR171C cyto.
+YGR157W cyto. / ER
+YBL076C cyto.
+YDR295C nucleus
+YLR299W cyto., non-nuclear
+YDR006C nucleolus
+YJL159W cyto. / ER
+YML057W cyto.
+YIL115C nuclear rim / ER
+YGR245C cyto. / nucleus
+YKL171W cyto.
+YMR297W cyto. / ER
+YGR086C cyto., non-nuclear
+YGR085C cyto., non-nuclear
+YPL082C nucleus
+YPL075W nucleus
+YDL185W cyto., non-nuclear
+YDR391C mitochondria
+YGL180W cyto.
+YKL052C nucleolus
+YLR304C mitochondria
+YBR181C cyto.
+YKL101W cell neck
+YER049W nucleus
+YER091C cyto., non-nuclear
+YIL155C mitochondria
+YJL041W nuclear rim / ER
+YOR037W cyto., non-nuclear
+YPL146C nucleus
+YDL185W cyto. (patches)
+YMR116C cyto., non-nuclear
+YHR196W nucleolus
+YMR307W cyto. / nucleus
+YGR204W cyto.
+YMR307W nuclear rim / ER
+YKR002W nucleus, cyto.
+YLR373C cyto., nucleus
+YKL038W nucleus
+YMR144W nucleus
+YOR008C cell periphery, buds
+YJL078C cyto., non-nuclear
+YDL185W cyto., non-nuclear
+YAR010C cyto., non-nuclear
+YFL004W cyto.
+YDL099W cyto., non-nuclear
+YDR293C cyto.
+YCL030C cyto., non-nuclear
+YPL082C nucleus
+YER088C nucleus
+YAL054C cyto. / mitochondria
+YNR003C nucleus
+YJL042W cyto.
+YPL117C cyto.
+YCR052W nucleus
+YHR027C cyto. / ER
+YAR044W cyto.
+YNR003C cyto. / nucleus
+YGR204W cyto.
+YLR136C nuclear rim / ER
+YJL021C cyto., non-nuclear
+YMR047C nuclear rim / cyto.
+YJR077C mitochondria
+YBL072C cyto.
+YBR263W mitochondria
+YLL018C cyto.
+YER088C nucleus, cyto.
+YER178W mitochondria
+YMR044W cyto.
+YBR208C cyto., non-nuclear
+YGR021W mitochondria
+YJL078C cell periphery
+YBR214W cyto.
+YFL038C cyto.
+YLR044C cyto., non-nuclear
+YAR044W cyto., non-nuclear
+YDR171W cyto. (patches)
+YOL086C cyto., non-nuclear
+YGR136W cyto.
+YBL007C cyto.
+YBL007C cyto.
+YHR042W cyto.
+YNL117W cyto. (patches)
+YBR214W cyto.
+YGL007W cyto.
+YFR016C cyto., non-nuclear
+YGL073W nucleus
+YFR034C cyto. / nucleus
+YNL103W cyto. / nucleus
+YLR026C cyto. (patches)
+YFR034C nucleus, cyto.
+YDR432W nucleus, cyto.
+YMR273C cyto.
+YLR095C nucleus
+YCR084C nucleus
+YLR337C cyto.
+YLR337C cyto.
+YLR219W cyto.
+YLR219W cyto.
+YCR047C cyto.
+YCR047C cyto.
+YCR045C cyto.
+YCR045C cyto.
+YAR042W cyto.
+YAR042W cyto.
+YDR516C cyto.
+YDR516C cyto.
+YCL039W cyto. / ER
+YCL039W cyto.
+YNR035C mitochondria
+YMR086W cyto.
+YLR120C cyto.
+YJR045C mitochondria
+YIL153W cyto.
+YOR224C cyto.
+YEL022W cyto.
+YIL022W cyto.
+YOR348C cyto.
+YFL030W cyto.
+YBL006C cyto.
+YDR334W cyto.
+YJL057C cyto.
+YAR062W cyto.
+YGR205W cyto.
+YMR134W cyto.
+YFL030W cyto.
+YGL072C cyto.
+YJL042W cyto. (patches)
+YFL022C cyto., non-nuclear
+YFL022C cyto., non-nuclear
+YLR373C cyto. / nucleus
+YLR373C cyto. / nucleus
+YNL054W cyto. (patches)
+YDR207C cyto. / nucleus
+YLR300W ER
+YDL145C cyto.
+YLR399C nucleus
+YNL243W cyto., cell periphery
+YNL278W cyto.
+YJL076W nucleolus
+YLR300W cyto., cell periphery
+YDL128W vacuole
+YGR192C cyto.
+YFL014W cyto.
+YLR399C nucleus
+YBR192W mitochondria
+YJL042W cyto. (patches)
+YDR536W cyto., cell periphery
+YOL086C cyto.
+YJL020C cyto.
+YFR033C mitochondria
+YNR051C cyto.
+YLR438W cyto.
+YDL182W nucleus
+YDL199C cyto.
+YGR270W cyto. / ER
+YLR391W nuclear rim / ER
+YDR207C cyto. / nucleus
+YDL223C cyto.
+YHR143W-A nuclear / nucleolar
+YGR268C cyto.
+YIL098C cyto., non-nuclear
+YFL022C cyto.
+YJR009C cyto.
+YPL085W mitochondria
+YNL241C cyto.
+YEL034W cyto., non-nuclear
+YGL062W cyto.
+YIL154C cyto. / nucleus
+YFR028C cyto. / nucleus
+YGR251W cyto.
+YGR055W cyto., cell periphery
+YDR133C cyto.
+YAR042W cyto.
+YLR437C cyto.
+YNL243W cyto. (patches)
+YGL209W cyto. / nucleus
+YER145C cyto.
+YNL194C cyto. (patches)
+YDR486C cyto.
+YFR034C cyto. / nucleus
+YOL020W cyto.
+YJL078C cyto.
+YIL155C mitochondria
+YLR380W cyto. / ER
+YOR140W cyto.
+YPL135W mitochondria
+YPR160W cyto.
+YGL172W nucleus / nuclear rim
+YGR159C nucleolus
+YNL097C nucleus
+YBL006C cyto.
+YHR196W nuclear / nucleolar
+YMR272C ER, cyto.
+YLR380W cyto./ ER, cell periphery
+YGR055W cell periphery
+YOR133W cyto.
+YJR077C mitochondria
+YPR160W cyto.
+YOR196C mitochondria
+YER154W mitochondria
+YNL241C cyto.
+YCL041C cyto.
+YER110C cyto. / nucleus
+YBR133C cyto.
+YHR042W cyto. / ER
+YJL078C cyto.
+YCR048W cyto. / ER
+YOR184W cyto.
+YPR040W cyto.
+YDR441C cyto.
+YDR516C cyto.
+YCR024C-A cyto. (patches)
+YNL276C cyto. (patches)
+YOR204W cyto.
+YBR263W mitochondria
+YMR047C nucleus / nuclear rim
+YPR184W cyto.
+YOR181W cyto.
+YIL061C cyto. / nucleus
+YJL068C cyto.
+YJL084C cyto.
+YFR034C cyto. / nucleus
+YNL239W cyto.
+YCR073C cyto.
+YJR045C mitochondria
+YDL214C cyto.
+YDR207C nucleus
+YBL072C cyto.
+YMR297W cyto., non-nuclear
+YBR263W mitochondria
+YJR009C cyto. (patches)
+YER088C nucleus
+YDR101C cyto.
+YDR101C cyto. / nucleus
+YLL021W cyto., non-nuclear
+YPL223C cyto.
+YPL214C cyto.
+YJL078C cyto.
+YGR204W cyto., non-nuclear
+YPR173C cyto. / ER
+YHR068W cyto., non-nuclear
+YBR214W cyto.
+YGR162W cyto., non-nuclear
+YIL094C mitochondria
+YLR115W cyto.
+YGR117C buds
+YKL005C cyto.
+YER002W nucleus
+YLR344W cyto.
+YKL148C mitochondria
+YDL228C cyto., non-nuclear
+YKL057C nuclear rim / ER
+YJR139C cyto.
+YDR464W cyto.
+YJR139C buds
+YLR155C nucleus
+YLR268W ER
+YAL043C nucleus
+YGL062W cyto., non-nuclear
+YBR143C cyto., non-nuclear
+YKR090W cyto., non-nuclear
+YPL225W cyto.
+YKL094W cyto.
+YNL232W nucleus
+YKL157W ER, cell periphery
+YGR270W cyto. / ER
+YDR101C nucleus
+YGR162W cyto., non-nuclear
+YDL056W nucleus
+YER172C nucleus
+YPL160W cyto., non-nuclear
+YHR030C cyto.
+YDR050C cyto., non-nuclear
+YLR300W nuclear rim / ER
+YDR335W cyto.
+YHL030W cyto.
+YHL024W cyto.
+YBR212W cyto., non-nuclear
+YBL051C cyto., non-nuclear
+YGL062W cyto.
+YBR214W cyto.
+YBR177C cyto., non-nuclear
+YJL158C nuclear rim / ER
+YDR348C cyto., non-nuclear
+YBR214W cyto.
+YEL061C bar-shaped pattern
+YIL033C cyto. / nucleus
+YIL052C cyto.
+YIL052C cyto., non-nuclear
+YMR196W cyto., non-nuclear
+YDR464W cyto., non-nuclear
+YMR261C cyto., non-nuclear
+YAL019W cyto. / nucleus
+YCR004C cell periphery
+YIR006C cell periphery
+YIR006C cyto.
+YPR159W cyto.
+YHR069C nucleus
+YGL135W cyto.
+YOL086C cyto.
+YCR052W nucleus
+YAR044W cyto., non-nuclear

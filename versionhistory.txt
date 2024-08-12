@@ -1,0 +1,24 @@
+1.11 => 1.2
+------------
+- Minor bug fixes
+- Minor changes to HTML documentation
++ Cytoscape plugin functionality implemented
++ Multiple cutoffs for hierarchical clustering (without the need for more computation time)
++ Advanced parameters for the MCL algorithm can now be set
+
+
+1.1 => 1.11
+-----------
+- Bug fix in the CommonAncestors class 
++ Some code improvements
++ a few minor changes in the documentation
+
+
+1.1
+---
+First release
+
+
+< 1.1
+-----
+Internal release candidates

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Networks</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>Networks<br>
+</h2>
+Networks in ProCope can be undirected (default) or directed and consist
+of a collection of network edges. Each edge can have a <span style="font-style: italic;">weight</span> and an
+arbitrary number of key/value pairs called <span style="font-style: italic;">annotations</span>.<br>
+<br>
+The edge weight is not stored as another annotation due to <span style="font-weight: bold;">performance reasons</span>.
+ProCope contains performant edge handling methods optimized for edges
+only consisting of a a single numeric edge weight or score. All score
+calculating methods will produce networks containing no annotations but
+only edge weights.<br>
+<br>
+In general, an edge in a ProCope network can have a weight, a set of
+annotations or both. That is, an edge without a weight and only a set
+of annotations is also a valid edge and will be considered when
+iterating over the network.<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

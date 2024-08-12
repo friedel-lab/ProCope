@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>generatescores</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">generatescores</code><br>
+<br>
+Creates PPI score networks using a given score method. Note that
+boostrap scores <span style="text-decoration: underline;">cannot</span>
+be calculated with this tool as several consequtive steps are required
+for that method.<br>
+<br>
+Call the tool without any command line arguments to get detailed
+information about the parameters for this program.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_scorenet.html">Score network
+generation</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats<br>
+    </a><br>
+  </li>
+</ul>
+<h3>Example calls<br>
+</h3>
+<ul>
+  <li>use the <a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al., 2006</a> purification
+dataset (<code>-p</code>)</li>
+  <li>calculate socio affinity scores (<code>-score socio</code>)</li>
+  <li>only output scores &gt;= 5.0 (<code>-c</code>)</li>
+  <li>write the output to a file (<code>-o</code>)</li>
+</ul>
+<code>cmdline.sh generatescores -p
+data/purifications/gavin_raw.txt -score socio -c 5.0 -o socios.net</code><br>
+<br>
+<ul>
+  <li>this time calculate Purification enrichment scores (<code>-score
+pe</code>)</li>
+  <li>set the r parameter to 0.62 (<code>-peR</code>)</li>
+  <li>set the pseudocount paramter to 10 (<code>-peP</code>)</li>
+  <li>GZIP the output (<code>-oz</code>)</li>
+</ul>
+<code>cmdline.sh generatescores -p
+data/purifications/gavin_raw.txt -score pe -peR 0.62 -peP 10 -c 5.0 -o
+PEs.net.gz -oz</code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  <title>complexscores</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">complexscores</code><br>
+<br>
+Calculates scores of complexes using a given scores network. A complex
+score is the average edge score of all inner-complex protein
+interactions. Thus to calculate a complex score <span style="font-style: italic;">n*(n-1)/2</span> values
+are averaged where missing edges get an implicit weight of 0.<br>
+<br>
+Call the tool without any command line arguments to get detailed information about the parameters for this program.<br>
+<br>
+See also:<br>
+<ul>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats<br>
+    </a><br>
+  </li>
+</ul>
+<h3>Example calls</h3>
+<ul>
+  <li>Calculate scores for all complexes in the MIPS reference complex set using the bootstrap scores network</li>
+</ul>
+<code>cmdline.sh complexscores -i data/complexes/mips_complexes.txt -net data/scores/bootstrap_combined.txt.gz</code><br>
+<br>
+<ul>
+  <li>same as above but this time we only output the average score (<code>-avg</code>)</li>
+  <li>for average calculation the complex scores are weighted by the complex size (<code>-weighted</code>)</li>
+</ul>
+<code>./cmdline.sh complexscores -i data/complexes/mips_complexes.txt -net data/scores/bootstrap_combined.txt.gz -avg -weighted</code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

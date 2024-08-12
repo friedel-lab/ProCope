@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Complex sets menu</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>
+Complex sets menu<br>
+</h2>
+Contains methods to manipulate, display and evaluate complex sets.<br>
+<h3>Overview</h3>
+<ul>
+  <li><a href="#load">Load set fro</a><a href="#load">m file</a></li>
+  <li><a href="#save">Save set to file</a></li>
+  <li><a href="#cyto">Export to Cytoscape<br>
+    <br>
+    </a></li>
+  <li><a href="#rename">Rename set</a></li>
+  <li><a href="#dispose">Dispose set<br>
+    <br>
+    </a></li>
+  <li><a href="#show">Show complexes and scores</a></li>
+  <li><a href="#show"></a><a href="#sizehisto">Show complex size histogram</a><br>
+    <br>
+  </li>
+  <li><a href="#comp">Comparison</a></li>
+  
+  
+  
+  
+  
+  
+  <ul>
+    <li><a href="#brohee">Brohee comparison</a></li>
+    <li><a href="#map">Map complexes</a></li>
+  
+  
+  
+  
+  
+  
+  </ul>
+  <li><a href="#quality">Quality</a></li>
+  
+  
+  
+  
+  
+  
+  <ul>
+    <li><a href="#coloc">Colocalization</a></li>
+    <li><a href="#go">Semantic similarity (GO)</a></li>
+  
+  
+  
+  
+  
+  
+  </ul>
+  <li><a href="#manipulate">Manipulate</a></li>
+  
+  
+  
+  
+  
+  
+  <ul>
+    <li><a href="#sizecut">Size cutoff</a></li>
+    <li><a href="#scorecut">Score cutoff</a></li>
+    <li><a href="#decompose">Restrict to proteins</a></li>
+    <li><a href="#decompose">Decompose</a></li>
+    <li><a href="#shared">Add shared proteins</a></li>
+  
+  
+  
+  
+  
+  
+  </ul>
+  <li><a href="#random">Randomize</a></li>
+  
+  
+  
+  
+  
+  
+  <ul>
+    <li><a href="#exchange">by exchanging</a></li>
+    <li><a href="#remap">by remapping</a></li>
+  
+  
+  
+  
+  
+  
+  </ul>
+  <li><a href="#induced">Get complex-induced network</a></li>
+</ul>
+<h3><a name="load"></a>Load set from file</h3>
+Loads a complex set from a user-specified file.<br>
+<br>
+See also: <a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+<h3><a name="save"></a>Save set to file</h3>
+Saves a complex set to a user-specified file.<br>
+<br>
+See also: <a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+<br>
+<h3><a name="cyto"></a>Export to Cytoscape<br>
+</h3>
+Exports a Cytoscape-compatible XGMML file or directly creates a new graph within Cytoscape when running in plugin mode.<br>
+<br>
+See also: <a href="cytoscape.html">Cytoscape integration</a><br>
+<h3><a name="rename"></a>Rename set</h3>
+Assigns a new internal name for the selected complex set.
+<h3><a name="dispose"></a>Dispose set</h3>
+Deletes the complex set from the complexes list. Note: This will <span style="text-decoration: underline;">not</span> affect
+an eventual file the set was loaded from.
+<h3><a name="show"></a>Show complexes and scores</h3>
+Opens a window which lets you investigate the complexes in the selected
+set as well as complex scores with respect to a given scores network.<br>
+<ul>
+  <li>Use the lookup text field to search for one or more proteins (comma-separated) in the complex set.</li>
+  <li>Click "Shows scores" to calculate and show average complex scores with respect to a given scores network</li>
+</ul>
+<h3><a name="sizehisto"></a>Show complex size histogram</h3>
+Displays a histogram of the complex sizes in the currently selected dataset.
+<h3><a name="comp"></a>Comparison</h3>
+This submenu contains two methods to compare complex sets with each other.<br>
+<h3><a name="brohee"></a>Brohee comparison</h3>
+Calculates sensitivity, positive-preditive value and accuracy according to <a href="http://www.ncbi.nlm.nih.gov/pubmed/17087821" target="_blank">Brohee et al., 2006</a>. You can select more than two complex sets, ProCope will perform an all-against-all comparison.<br>
+<br>
+See also: <a target="_top" href="../main/index_evaluation.html">Complex set evaluation</a>
+<h3><a name="map"></a>Map complexes</h3>
+This method attempts to map complexes between two selected complex sets. For all methods except <span style="font-style: italic;">Exact mapping</span>
+the user has to choose an overlap threshold needed for two complexes to
+be mappable (default: 2 proteins). The user can select 4 ways to
+perform this mapping process.<br>
+<ol>
+  <li><span style="font-style: italic;">Only one mapping per complex</span>
+- Each complex can only be mapped once. If there are multiple overlaps
+with complexes in the other set, the one with the largest overlap will
+be the mapping partner.</li>
+  <li><span style="font-style: italic;">Multiple mappings per complex</span> - Each complex will be mapped to all complexes in the other set for which the protein overlap is large enough.</li>
+  <li><span style="font-style: italic;">Unambigous mapping</span> - A complex is only mapped if it has only one mapping candidate in the other complex set</li>
+  <li><span style="font-style: italic;">Exact mapping (identical complexes)</span> - Finds identical complexes between the two complex sets.</li>
+</ol>
+See also: <a target="_top" href="../main/index_evaluation.html">Complex set evaluation</a>
+<h3><a name="quality"></a>Quality</h3>
+This submenu contains methods to evaluate the quality of a complex set based on colocalization data or GO annotations.<br>
+<h3><a name="coloc"></a>Colocalization</h3>
+Evaluates the degree of colocalization of all complexes in the selected set.<br>
+<br>
+See also:<br>
+<ul>
+  <li><a href="menutools.html#loc">Tools menu: Localization data</a></li>
+  <li><a target="_top" href="../main/index_evaluation.html">Complex set evaluation</a></li>
+</ul>
+<h3><a name="go"></a>Semantic similarity (GO)</h3>
+Evaluates functional similarities of the members of each complex in the selected set.<br>
+<br>
+<span style="font-weight: bold;">Important note</span>: The protein
+identifier types used in the GO files might not be the same as in the
+other data files. You might have to use a name mapping file. ProCope
+provides such a name mapping file for yeast in <code>data/yeastmappings_YYMMDD.txt</code>.<br>
+<br>
+See also:<br>
+<ul>
+  <li><a href="menutools.html#loc">Tools menu: GO settings</a></li>
+  <li><a target="_top" href="../main/index_evaluation.html">Complex set evaluation</a><br>
+  </li>
+</ul>
+<h3><a name="manipulate"></a>Manipulate</h3>
+The "Manipulate" submenu contains methods for restricting, filtering and processing the selected complex set.<br>
+<h3><a name="sizecut"></a>Size cutoff</h3>
+Deletes all complexes which have more or less than a given number of proteins.<br>
+<h3><a name="scorecut"></a>Score cutoff</h3>
+Deletes all complexes whose average complex score with respect to a given network is below a certain threshold. When <span style="font-style: italic;">Ignore missing scores</span> is enabled, protein-protein interactions in the complex which have no edge in the network are not scored 0 but ignored.
+<h3><a name="restrict"></a>Restrict to proteins</h3>
+Retains only those complexes in the set whose members are in a given
+protein set. The user can choose whether all proteins of the complex
+have to be contained in this set or if just one member of the complex
+is sufficient. The restriction set may come
+from another data object (network, complex set, purification dataset),
+from the user directly or from a filtererd subset of annotated proteins
+(see also: <a href="menutools.html#anno">Protein annotations</a>).
+<h3><a name="decompose"></a>Decompose</h3>
+Treats each complex as a graph where the edge weights are taken from a
+given scores network. All edges below a given threshold are deleted and
+thus the graph may decompose into two or more subgraphs. These
+subgraphs create the resulting complex set of decomposition.<br>
+<h3><a name="shared"></a>Add shared proteins</h3>
+Adds shared proteins to the complex sets. You can choose between the
+method described in the publication of our bootstrap approach or the
+method by Pu et. al.<br>
+<br>
+See also: <a target="_top" href="../main/index_prediction.html">Complex set prediction</a>
+<h3><a name="random"></a>Randomize</h3>
+Contains two methods to randomize the seleted complex set(s).<br>
+<h3><a name="exchange"></a>by exchanging</h3>
+Exchanges proteins randomly between complexes. The size of the 
+ complexes as well as the number of complexes a protein is contained
+ in will be preserved.<br>
+<br>
+<h3><a name="remap"></a>by remapping</h3>
+Randomization is achieved using a random permutation of the proteins. That means, for instance, that all occurences of <span style="font-style: italic;">Protein1</span> will be replaced by <span style="font-style: italic;">Protein4</span>, all occurences of <span style="font-style: italic;">Protein2</span> will be replaced by <span style="font-style: italic;">Protein3</span> and so on. The sizes of the complexes will be preserved.<br>
+<h3><a name="induced"></a>Get complex-induced network</h3>
+Returns a network containing an edge for each pair of proteins which are in the sample complex. All edges have a weight of 1.0.
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

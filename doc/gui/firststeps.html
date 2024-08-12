@@ -1,0 +1,379 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>First steps</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+
+
+
+  
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+
+
+<body onload="ensureframes()">
+
+
+
+<h2>First steps</h2>
+
+
+
+Below&nbsp;you find a 5-minutes introduction to the graphical user
+interface of ProCope. Follow the steps to learn how to load a set of
+purification data, generate a scores network, cluster this network to
+get a set of predicted complexes and finally evaluate the quality of
+these complexes.<br>
+
+
+
+<h3>Starting the program</h3>
+
+
+
+Start one of the start-up scripts in the main directory of ProCope, depending on your system:
+<ul>
+
+
+
+  <li><code>gui.bat</code> for Windows users<br>
+
+
+
+  </li>
+
+
+
+  <li><code>gui.sh</code> for Linux and Mac OS users</li>
+
+
+
+</ul>
+
+
+
+<h3>Loading a set of purification data</h3>
+
+
+
+<ul>
+
+
+
+  <li>Right-click the purification data list at the bottom of the window, choose&nbsp;<span style="font-style: italic;">Load purification data from file</span>. In the file dialog select a purification data file (which may be GZIPed). You will find purification data sets in the <code>data/purifications/</code> directory of the ProCope package.<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Alternatively, you can drag&amp;drop a purification data file from your file browser directly into the purification data list.</li>
+
+
+
+</ul>
+
+
+
+<h3>Generating a scores network</h3>
+
+
+
+<ul>
+
+
+
+  <li>Select the purification data set you just loaded, then right-click it&nbsp;and choose&nbsp;<span style="font-style: italic;">Calculate scores</span>.<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Choose&nbsp;<span style="font-style: italic;">Socio affinity scores</span> and leave the cutoff field empty, click <span style="font-style: italic;">OK</span><br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>The scores network you just generated will appear in the networks list at the top of the window.<br>
+
+
+
+  </li>
+
+
+
+</ul>
+
+
+
+<h3>Clustering the network to predict a complex set</h3>
+
+
+
+<ul>
+
+
+
+  <li>Select the scores network you just generated, right-click it and choose&nbsp;<span style="font-style: italic;">Cluster</span><br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Select&nbsp;<span style="font-style: italic;">Hierarchical agglomerative clustering</span>, click <span style="font-style: italic;">OK</span><br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Choose&nbsp;<span style="font-style: italic;">UPGMA</span> and a <span style="font-style: italic;">cut-off</span> of 1.0<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>The clustering will appear in the complex set list in the middle
+of the window. Note: We did not do any parameter tuning or
+preprocessing steps. The predicted complexes are most probably not of
+high quality.</li>
+
+
+
+</ul>
+
+
+
+<h3>Evaluating the complex set using a reference complex set<br>
+
+
+
+</h3>
+
+
+
+<ul>
+
+
+
+  <li>Right-click the complex set list, choose&nbsp;<span style="font-style: italic;">Load&nbsp;set from file</span> and load the MIPS reference set (<code>data/complexes/mips_complexes.txt</code>). Alternatively, drag&amp;drop this file directly into the list.<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Select both the reference set and the clustering, right-click them in the list and choose&nbsp;<span style="font-style: italic;">Comparison =&gt; Brohee comparison</span>. This will calculate the sensitivity, positive predictive value and accuracy according to <a href="http://www.ncbi.nlm.nih.gov/pubmed/17087821" target="_blank">Brohee et al., 2006</a>. You can investigate the results.<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Next, choose <span style="font-style: italic;">Comparison =&gt; Map complexes. </span>Select <span style="font-style: italic;">Only one mapping per complex</span>. click <span style="font-style: italic;">OK</span>. This time you will see which complexes of your prediction are mappable to which complexes of the reference.</li>
+
+
+
+</ul>
+
+
+
+<h3>Evaluating the complex set using localization data<br>
+
+
+
+</h3>
+
+
+
+<ul>
+
+
+
+  <li>Select the menu <span style="font-style: italic;">Tools =&gt; Localization data</span>. In the window which just opened, click&nbsp;<span style="font-style: italic;">Add localization data</span>.<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Choose the localization data set by Huh et al., 2003 (<code>data/localization/huh_loc_070804.txt</code>).<br>
+
+
+
+    <br>
+
+
+
+  </li>
+
+
+
+  <li>Close the window, select your clustering, right-click it and choose <span style="font-style: italic;">Quality =&gt; Colocalization<br>
+
+
+
+    <br>
+
+
+
+    </span></li>
+
+
+
+  <li>In the dialog, select the Huh data set and the <span style="font-style: italic;">Colocalization score,</span> click <span style="font-style: italic;">OK<br>
+
+
+
+    <br>
+
+
+
+    </span></li>
+
+
+
+  <li>In the next dialog, simply click <span style="font-style: italic;">OK<br>
+
+
+
+    </span><br>
+
+
+
+  </li>
+
+
+
+  <li>You will now get a list of the complexes of your prediction,
+along with their colocalization scores and the overall colocalization
+score of the clustering.<br>
+  </li>
+
+
+
+</ul>
+<h3>Evaluating the complex set using GO annotations</h3>
+<ul>
+  <li>As the GO files contain primary SGDIDs whereas the purification
+data sets (and thus your predicted complex set) contain systematic
+names, you need to use a name mapping set.&nbsp;<br>
+    <br>
+  </li>
+  <li>Select the menu <span style="font-style: italic;">Tools</span> =&gt; <span style="font-style: italic;">Name mappings</span>, click <span style="font-style: italic;">Add name mapping.<br>
+    <br>
+    </span></li>
+  <li>Choose the yeast name mapping file coming with ProCope (<code>data/yeastmappings_YYMMDD.txt</code>). Leave the target identifier setting as it is. Click <span style="font-style: italic;">OK</span> and close the window.<br>
+    <br>
+  </li>
+  <li>Now we add a GO setting. Select <span style="font-style: italic;">Tools</span> =&gt; <span style="font-style: italic;">GO settings</span>. Click <span style="font-style: italic;">Add GO setting</span>.<br>
+    <br>
+  </li>
+  <li>Select the <code>.obo</code> file from <code>data/go/</code> as the GO network file and the <code>.sgd</code> file as the annotation file. Leave all other settings as they are. Click <span style="font-style: italic;">OK</span>. Close the window.<br>
+    <br>
+  </li>
+  <li>Select your clustering, right-click it and choose <span style="font-style: italic;">Quality</span> =&gt; <span style="font-style: italic;">Semantic similarity (GO)</span>.<br>
+    <br>
+  </li>
+  <li>Select the GO setting you just created. in the next dialog, simply click OK.<br>
+    <br>
+  </li>
+  <li>You get a list of your predicted complexes and their GO semantic similarity scores.<br>
+  </li>
+</ul>
+
+
+
+<!-- footer start -->
+<br>
+
+
+<br>
+
+
+
+<hr size="1">
+<div style="font-size: small;"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+
+
+
+<!-- footer end -->
+
+</body>
+</html>

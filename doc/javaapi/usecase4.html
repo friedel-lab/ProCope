@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  <title>Sample Use Case 4: Integrating data into Petri nets, exporting to XGMML and ToPNeT</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>Sample Use
+Case 4: Integrating data
+into Petri nets, exporting to XGMML and ToPNeT</h2>
+<br>
+In this final use case we learn the basics of integrating data from
+different objects into a single Petri net. See also: <a href="../main/index_petrinets.html">Petri nets</a><br>
+<br>
+The full
+source code of this example is available in the <code>procope.examples</code>
+package of the <code>src/</code>
+folder.<br>
+<ul>
+  <li><a href="#prepdata">Preparing some datasets</a></li>
+  <li><a href="#prepnet">Preparing the Petri net</a></li>
+  <li><a href="#gennet">
+Generating the Petri net</a></li>
+  <li><a href="#convert">Converting the Petri net<br>
+    <br>
+    </a></li>
+</ul>
+<h3><a name="prepdata"></a>Preparing some datasets<br>
+</h3>
+First we need to load the datasets which will then be integrated in the
+Petri net. As we want to create a really small sample Petri net here,
+we will only use one complex set and one protein network which are both
+very restricted in their sizes.<br>
+<code><br>
+</code>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"><code></code></td>
+      <td><code>ProteinNetwork bt = NetworkReader.readNetwork(new GZIPInputStream(new<br>
+&nbsp; &nbsp; FileInputStream("data/scores/bootstrap_combined.txt.gz")));<br>
+ProteinNetwork btRestricted = bt.getCutOffNetwork(1f);<br>
+      <br>
+ComplexSet mips = ComplexSetReader.readComplexes("data/complexes/</code><code>mips_complexes</code><code>.txt");<br>
+ComplexSet mipsRestricted = mips.restrictToProteinSpace(btRestricted, false);</code><br>
+      <code>
+      </code></td>
+    </tr>
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<h3><a name="prepnet"></a>Preparing the Petri net<br>
+</h3>
+Next we create a Petri net object and add our source data objects to it. We need to tell the <code>PetriNetCreator</code> the file into which the network will be written as Petri nets can get too large to hold them in-memory.<br>
+<code><br>
+</code>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"><code></code></td>
+      <td><code>PetriNetCreator petriNet = new PetriNetCreator("petrinet.txt");<br>
+      <br>
+petriNet.addInteractionNetwork(btRestricted, "BT_restricted", true);<br>
+petriNet.addComplexSet(mipsRestricted, "MIPS_restricted");</code><br>
+      <code>
+      </code></td>
+    </tr>
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Note that we could also add further complex sets and protein networks and also purification datasets here.<br>
+<br>
+<h3><a name="gennet"></a>
+Generating the Petri net<br>
+</h3>
+After adding all data objects we simply call the createPetriNet method
+and finally close the writer (which flushes the output stream and
+closes the output file handle).<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"><code></code></td>
+      <td><code>PetriNetCreator petriNet = new PetriNetCreator("petrinet.txt");<br>
+      <br>
+petriNet.addInteractionNetwork(btRestricted, "BT_restricted", true);<br>
+petriNet.addComplexSet(mipsRestricted, "MIPS_restricted");</code><br>
+      <code>
+      </code></td>
+    </tr>
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<h3><a name="convert"></a>Converting the Petri net<br>
+</h3>
+The Petri net we just generated is represented in a ProCope-internal
+format. Currently you can export this internal format to two file
+formats: ToPNet and XGMML:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"><code></code></td>
+      <td><code>XGMMLGenerator.convertToXGMML("petrinet.txt", "petrinet.xgmml");<br>
+ToPNetGenerator.convertToToPNet("petrinet.txt", "data.places", "data.interactions");</code><br>
+      <code>
+      </code></td>
+    </tr>
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

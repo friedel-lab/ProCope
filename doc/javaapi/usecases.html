@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>Use cases</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>
+Use cases<br>
+</h2>
+Here you find practical applications of the ProCope API which guide you
+through different parts of the functionality in this library.<br>
+<br>
+<ol>
+  <li><a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/intro.html#scoreclustereval">Generating
+score networks, clustering, cluster evaluation</a></li>
+  <li><a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/intro.html#networks">Working
+with score networks</a></li>
+  <li><a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/intro.html#complexes">Working
+with complex sets</a></li>
+  
+  <li><a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/intro.html#petri">Integrating
+data
+into Petri nets, exporting to XGMML and ToPNeT</a><br>
+    <br>
+  </li>
+</ol>
+<h3><big style="font-weight: bold;"><big><a name="scoreclustereval"></a></big></big>Sample
+Use Case 1:
+Generating score networks, clustering, cluster evaluation<br>
+</h3>
+<a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/usecase1.html">Show
+use case</a><br>
+<br>
+This first use case introduces you to the basic functionality of
+ProCope, namely the prediction of protein complexes from
+purification data and the quality assessment of the resulting complexes
+using experimental data.<br>
+<br style="font-weight: bold;">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="font-weight: bold;">What will be done?<br>
+      </td>
+      <td><span style="font-weight: bold;">Techniques
+used</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left; vertical-align: top;">
+      
+      <ul>
+        <li>Generation of <a target="_top" href="file:///home/jan/work/workspace/ProCope/doc/main/index_scorenet.html"><span style="font-style: italic;">Socio Affinity</span></a>
+and <a target="_top" href="file:///home/jan/work/workspace/ProCope/doc/main/index_scorenet.html"><span style="font-style: italic;">Purification
+Enrichment</span></a> score networks based on purification
+data</li>
+        <li>Clustering of these networks using hierarchical
+agglomerative clustering (average-link)</li>
+        <li>Comparison of the resulting clusterings with the
+MIPS[l] gold-standard complex set</li>
+        <li>Evaluation of the clusterings using Colocalization
+score and GO semantic similarity&nbsp;</li>
+      
+      </ul>
+      </td>
+      <td>
+      
+      <ul>
+        <li>Purification data loading from the file system</li>
+        <li>Purification data merging</li>
+        <li>Socio affinity score network generation</li>
+        <li>PE score network generation (weighted combination of
+two networks)</li>
+        <li>Clustering</li>
+        <li>Complex set loading from the file systen</li>
+        <li>Complex set writing to the file system</li>
+        <li>Complex set comparison (Brohee measure)</li>
+        <li>Loading of localization data from the file system</li>
+        <li>Calculating Colocalization scores</li>
+        <li>Name mappings</li>
+        <li>Loading of a GO network from the file system</li>
+        <li>Calculating GO semantic similarity scores</li>
+      
+      </ul>
+      </td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<h3><big style="font-weight: bold;"><big><a name="networks"></a></big></big>Sample Use
+Case 2: Working with score networks<br>
+</h3>
+<a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/usecase2.html">Show
+use case</a><br>
+<br>
+In this use case we load different score networks from the file system
+and do some manipulation, filtering
+and evaluation steps.<br>
+<br style="font-weight: bold;">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="font-weight: bold;">What will be done?<br>
+      </td>
+      <td><span style="font-weight: bold;">Techniques
+used</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left; vertical-align: top;">
+      
+      <ul>
+        <li>Comparison of scores networks with each other</li>
+        <li>Evaluation of scores network using <a target="_top" href="file:///home/jan/work/workspace/ProCope/doc/main/index_netevaluation.html">complex
+enrichment</a> and <a target="_top" href="file:///home/jan/work/workspace/ProCope/doc/main/index_netevaluation.html">ROC
+curves</a></li>
+        <li>Different network manipulation/merging/filtering steps</li>
+        <li>Iterating over networks</li>
+      
+      </ul>
+      </td>
+      <td>
+      
+      <ul>
+        <li>Network loading from the file system</li>
+        <li>Network comparison, correlation coefficient
+calculation</li>
+        <li>Removing edges below a given score (score cutoff)</li>
+        <li>Random network generation</li>
+        <li>Complex set loading from the file system</li>
+        <li>Removing complexes with more than a given number of
+proteins (size cutoff)</li>
+        <li>Calculating complex enrichments</li>
+        <li>Calculating, plotting and saving ROC curves</li>
+        <li>Network merging</li>
+        <li>Network filtering using boolean expressions</li>
+        <li>Network iteration</li>
+        <li>Working with the ProteinManager (internal protein IDs)</li>
+      
+      </ul>
+      </td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<h3><big style="font-weight: bold;"><big><a name="complexes"></a></big></big>Sample
+Use Case 3: Working with complex sets<br>
+</h3>
+<a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/usecase3.html">Show
+use case</a><br>
+<br>
+Here we learn how to manipulate and filter complex sets and how to
+iterate over all complexes and proteins contained in a complex set.<br>
+<br style="font-weight: bold;">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="font-weight: bold;">What will be done?<br>
+      </td>
+      <td><span style="font-weight: bold;">Techniques
+used</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left; vertical-align: top;">
+      
+      <ul>
+        <li>Decomposition of a complex set using a given scores
+network</li>
+        <li>Complex filtering by size</li>
+        <li>Extraction of highly confident complexes</li>
+      
+      </ul>
+      </td>
+      <td>
+      
+      <ul>
+        <li>Loading complex sets and network from the file system</li>
+        <li>Decomposition</li>
+        <li>Singleton removing</li>
+        <li>Filtering complexes by their average complex score</li>
+        <li>Iterating over a complex set</li>
+        <li>Working with the ProteinManager (internal protein IDs)</li>
+        <li>Writing a complex set to the file system</li>
+      
+      </ul>
+      </td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<h3><big style="font-weight: bold;"><big><a name="petri"></a></big></big>Sample Use
+Case 4: Integrating data
+into Petri nets, exporting to XGMML and ToPNeT<br>
+</h3>
+<a href="file:///home/jan/work/workspace/ProCope/doc/javaapi/usecase4.html">Show
+use case</a><br>
+<br>
+This use case shows you how to integrate the information from
+scores networks, complex sets and purification data into single <a target="_top" href="file:///home/jan/work/workspace/ProCope/doc/main/index_petrinets.html">Petri
+nets</a> and export these nets to XGMML or <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/14962941">ToPNeT</a>
+format. The XGMML format is compatible with <a href="http://www.cytoscape.org/" target="_blank">Cytoscape</a>.<br>
+<br style="font-weight: bold;">
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="font-weight: bold;">What will be done?<br>
+      </td>
+      <td><span style="font-weight: bold;">Techniques
+used</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: left; vertical-align: top;">
+      
+      <ul>
+        <li>Generating a Petri net from a small set of data</li>
+        <li>Exporting this Petri net to XGMML and ToPNet format</li>
+      
+      </ul>
+      </td>
+      <td>
+      
+      <ul>
+        <li>Loading and restricting protein networks</li>
+        <li>Loading and restricting complex sets</li>
+        <li>Petri net generation</li>
+        <li>Petri net conversion</li>
+      
+      </ul>
+      </td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<br>
+<h3></h3>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

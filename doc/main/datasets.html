@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  <title>Datasets</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>Datasets</h2>
+The package uses three main types of dataset objects: Complex sets,
+Purification data sets and Protein-protein interaction networks. Below
+you find an introduction on what these objects represent and how they
+interact with each other.<br>
+<br>
+<h3>Complex sets<br>
+</h3>
+A complex set represents a list of protein complexes. Such a set can
+either be the result of a&nbsp;prediction based on experimental
+data, an experimentally determined reference set (see below) or any
+other collection of of protein sets (e.g. complexes derived from GO
+annotations). The creation of a correct and complete set of complexes
+for a given organism or cell (in a specific state) is the main goal for
+the methods contained in this package.<br>
+<br>
+Two reference sets of protein complexes are commonly used to evaluate
+prediction result. You find both sets in the <code>data/complexes/</code>
+folder of this package.<br>
+<ol>
+  <li>102 complexes by <a target="_blank" href="http://view.ncbi.nlm.nih.gov/pubmed/15044803">Aloy et
+al., 2004</a></li>
+  <li>A set of 217 complexes from the MIPS database (<a href="http://view.ncbi.nlm.nih.gov/pubmed/14681354" target="_blank">Mewes et al., 2004</a>)</li>
+</ol>
+It is to be noted that these reference sets of course do not provide full coverage of the yeast proteome.&nbsp;<br>
+<br>
+ProCope contains different methods to evaluate the quality
+of&nbsp;predicted complex sets using reference complex sets or other
+data like
+GO annotations and localization data. See also: <a href="evaluation.html">Complex evaluation</a><br>
+<br>
+<h3>Purification data sets<br>
+</h3>
+The main source of information used for the prediction of complexes in
+ProCope comes from protein purification assays. Such a set of
+purifications contains a number experiments containing interactions
+between the bait protein of that experiment and a set of preys it
+purified.&nbsp;Two large datasets created using the <a href="http://www.ncbi.nlm.nih.gov/pubmed/11403571" target="_blank">Tandem Affinity Purification</a> (TAP) method were published in 2006 by <a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al.</a> and <a href="http://www.ncbi.nlm.nih.gov/pubmed/16554755" target="_blank">Krogan et al</a>. Another set produced with a different method was published earlier in 2002 by <a href="http://view.ncbi.nlm.nih.gov/pubmed/11805837" target="_blank">Ho et al</a>.<br>
+<br>
+The bait-prey interactions in these purification data sets are used to
+derive confidence values for potential interactions&nbsp;in the
+proteome of an organism. The resulting PPI scores network can then be
+clustered to derive a set of predicted proteins. See also:&nbsp;<a href="netevaluation.html">Network evaluation</a><br>
+<br>
+<h3>Protein interaction networks<br>
+</h3>
+As described above protein interaction score networks can be derived
+from purification data.&nbsp;Such a network consists of a set of nodes
+which represent the interacting proteins and a set of edges describing
+interactions between those proteins. In ProCope you can associate
+numeric weights with each edge as well as arbitrary annotations given
+as key/value pairs. This allows you to integrate many different kinds
+of information in your PPI networks (aside from the actual confidence
+scores this could be literature reference information, user comments
+etc.).<br>
+<br>
+Usually different steps of manipulation, filtering and processing are
+required to create a final network which can then be clustered.
+ProCope contains various methods for the work with protein networks. See also: <a href="networks.html">Networks</a><br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

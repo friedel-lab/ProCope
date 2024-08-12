@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  <title>Introduction</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>
+ProCope - Protein Complex Prediction and Evaluation<br>
+</h2>
+<!-- intro start-->
+ProCope is a software package which provides easy access to
+different methods used for the prediction and evaluation of protein
+complexes from purification data experiments. <br>
+<br>
+Large scale protein purification experiments provide a vast amount of
+indirect protein-protein interaction information. As these data are
+inherently noisy and incomplete, sophisticated methods are required to
+predict actual protein complexes existing and operating <span style="font-style: italic;">in-vivo</span>. Since the
+publication of two large-scale purification datasets for the yeast&nbsp;<span style="font-style: italic;">Saccharomyces cerevisiae</span>
+in 2006 (<a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al.</a> and <a href="http://www.ncbi.nlm.nih.gov/pubmed/16554755" target="_blank">Krogan et al.</a>) different methods
+for the processing of these datasets have been developed. These include
+methods for the derivation of PPI score networks from the data, the
+clustering of these networks to predict actual complexes and the
+evaluation of the predictions using experimental data.<br>
+<br>
+ProCope implements many of the methods described in the literature
+along with further useful methods for PPI score network manipluation,
+complex set manipulation, data integration with Petri nets and result
+visualization. All functionality can be accessed using a <span style="font-weight: bold;">graphical user interface</span>,
+a collection of <span style="font-weight: bold;">command
+line tools</span> and an <span style="font-weight: bold;">application
+programming interface </span>
+ (API) to use all these features in
+your own computer programs. The whole software package is written in
+Java and requires the 
+<a href="http://www.java.com" target="_blank">Java Runtime Environment 5.0</a> or
+higher.<br>
+<br>
+<!-- intro end-->
+<h3><span style="font-weight: bold;">Getting started</span><br>
+</h3>
+<a href="install.html">Installation guide</a><br>
+<br>
+If you quickly want to start using ProCope check out the <a target="_top" href="../gui/index_firststeps.html">first steps</a> guide of the graphical user interface.<br>
+<br>
+<h3><span style="font-weight: bold;">Parts of the package</span><br>
+</h3>
+Detailed documentations of the three differents parts of the package
+are linked here and above in the navigation panel.<br>
+<ul>
+  <li><a target="_top" href="../gui/index.html">Graphical user interface</a></li>
+  <li><a target="_top" href="../cmdline/index.html">Command line tools</a></li>
+  <li><a target="_top" href="../javaapi/index.html">Java API</a><br>
+  </li>
+</ul>
+<h3><span style="font-weight: bold;"><br>
+Methods and Materials</span></h3>
+Here you find information about the datasets and methods implemented in the package
+and references to the original literature. Note the navigation panel on
+the left which gives you quick access to all parts of this
+documentation.<br>
+<ul>
+  <li><a href="datasets.html">Datasets</a> - describes the basic
+dataset objects used in the package, namely protein complex sets,
+purification data sets and protein score networks</li>
+  <li><a href="scorenet.html">Score network generation</a> - gives an overview over the scoring methods used to derive PPI confidence values from a set of purification data</li>
+  <li><a href="prediction.html">Complex set prediction</a> - basic concepts of complex set prediction using the clustering of protein score networks and the evaluation of the results</li>
+  <li><a href="evaluation.html">Complex set evaluation</a> - methods to evaluate predicted complexes using experimental data</li>
+  <li><a href="netevaluation.html">Network evaluation</a> - the quality of PPI score networks can directly be evaluated with experiment data</li>
+  <li><a href="petrinets.html">Petri nets</a> - ProCope can
+integrate information if various datasets into single Petri nets and
+export the result to different file formats (currently ToPNet and XGMML)<br>
+  </li>
+</ul>
+<h3>Additional information and features<br>
+</h3>
+<ul>
+  <li><a href="networks.html">Networks</a> - basic information about the protein networks in ProCope</li>
+  <li><a href="fileformats.html">File formats</a> - ProCope awaits certain file formats for the different types of data</li>
+  <li><a href="namemap.html">Name mappings</a> - for many proteins there are different identifiers from different databases, use name mappings to solve this problem</li>
+  <li><a href="annosfilter.html">Annotations and filtering</a>
+-&nbsp;proteins and edges in protein networks can be annotated with
+arbitrary key/value pairs, these annotations can be used for filtering</li>
+  <li><a href="userdef.html">User defined classes</a> - GUI and command line interface can be extended by user-defined clustering implementations and score calculators</li>
+  <li><a href="interologs.html">Interologs</a> - ProCope&nbsp;contains some methods to calculate and score interologs</li>
+  <li><a target="content" href="external.html">External libraries</a> - External software libraries used by ProCope</li>
+</ul>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

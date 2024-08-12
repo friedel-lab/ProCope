@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>Cytoscape integration</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>
+Cytoscape integration<br>
+</h2>
+The score networks, complex sets and purification datasets in ProCope can be exported to Cytoscape (<a href="http://www.cytoscape.org/" target="_blank">http://www.cytoscape.org/</a>) graphs. <br>
+<h3>Normal mode<br>
+</h3>
+When normally running the ProCope GUI, you can export the data objects to Cytoscape-compatible XGMML format. Use the <span style="font-style: italic;">Export to Cytoscape</span> context-menu entries of the respective data object list (networks, complex sets or purification data).<br>
+<h3>Cytoscape plugin mode<br>
+</h3>
+ProCope can be integrated as a plugin into Cytoscape. Simply copy <code>procope-X.Y.jar</code> from the <code>lib/</code> directory to the <code>plugin/</code> directory of Cytoscape. You can start the ProCope GUI from the <span style="font-style: italic;">Plugins</span> menu of Cytoscape. Exporting a data object (see above) will then directly produce a new graph on the Cytoscape desktop.<br>
+<br>
+<span style="text-decoration: underline;">Note:</span> The resulting graphs are not layouted yet. The yFiles <span style="font-style: italic;">Circular</span> and <span style="font-style: italic;">Organic</span> layouts have shown to produce good layouts for the protein networks.<br>
+<br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  <title>Tools menu</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2 style="font-weight: bold;">
+Tools menu<br>
+</h2>
+Contains methods to load supplementary data and export networks into
+Petri nets.<br>
+<h3>
+Overview</h3>
+<ul>
+  <li><a href="#anno">Protein annotations</a><br>
+  </li>
+  <li><a href="#namemap">Name mappings</a><br>
+  </li>
+  <li><a href="#go">GO settings</a></li>
+  <li><a href="#loc">Localization data</a><br>
+    <br>
+  </li>
+  <li><a href="#petri">Petri nets</a></li>
+  
+  
+  <ul>
+    <li><a href="#genpetri">Generate Petri net</a></li>
+    <li><a href="#xgmml">Convert to Cytoscape/XGMML</a></li>
+    <li><a href="#topnet">Convert to ToPNet</a></li>
+  
+  
+  </ul>
+</ul>
+<h3><a name="anno"></a>Protein annotations</h3>
+Opens a window in which the user manages protein annotations. Protein
+annotations are key/value pairs associated with a given protein
+identifier. Annotations must be loaded from the file system (note: the
+Java API contains methods to generate such annotation file). These
+protein annotations can be used to create filtered protein sets
+to&nbsp;restrict networks or complex sets to the filtered protein space.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_annosfilter.html">Annotations
+and filtering</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+  </li>
+</ul>
+<h3><a name="namemap"></a>Name mappings</h3>
+Opens a window for managing name mappings. Name mappings are loaded as directed networks from the file system.<br>
+<br>
+See also: <a target="_top" href="../main/index_namemap.html">Name mappings</a><br>
+<h3><a name="go"></a>GO settings</h3>
+Manages Gene Ontology (GO) functional similarity calculators. A GO setting consists of the following parameters:<br>
+<ul>
+  <li><span style="font-style: italic;">GO network</span> -&nbsp;Gene Ontology network loaded from an .obo format file</li>
+  <li><span style="font-style: italic;">Namespace</span> - GO namespace: "biological process", "cellular component" or "molecular function"</li>
+  <li><span style="font-style: italic;">Relationships</span> - the
+relationships followed in the ontology used to construct the network
+("is_a" relationships, "part_of" relationships or both)</li>
+  <li><span style="font-style: italic;">Annotations</span> - a set of gene to GO-term annotations loaded from an annotations file</li>
+  <li><span style="font-style: italic;">Term similarity</span> - a measure for the similarity between two given GO terms</li>
+  <li><span style="font-style: italic;">Functional similarity</span> - a measure for the functionaly similarity of two proteins based on the term similarities of their annotated terms</li>
+</ul>
+Ontology and annotation files can be downloaded from the <a href="http://www.geneontology.org/GO.downloads.shtml" target="_blank">Gene Ontology</a> website.<br>
+<br style="font-weight: bold;">
+<span style="font-weight: bold;">Important note</span>: The protein
+identifier types used in the GO files might not be the same as in the
+other data files. You might have to use a name mapping file. ProCope
+provides such a name mapping file for yeast in <code>data/yeastmappings_YYMMDD.txt</code>.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_evaluation.html">Complex set evaluation</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats</a></li>
+</ul>
+<h3><a name="loc"></a>Localization data</h3>
+Manages localization data for proteins. Localization data must be loaded from files in a specific format.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_evaluation.html">Complex set evaluation</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+  </li>
+</ul>
+<h3><a name="petri"></a>Petri nets</h3>
+Contains methods to export and convert Petri nets.<br>
+<h3><a name="genpetri"></a>Generate Petri net</h3>
+Generates a Petri net which integrates information from all selected
+networks, complex sets and purification datasets. The Petri net is
+stored in a GZIPed file.<br>
+<br>
+See also: <a target="_top" href="../main/index_petrinets.html">Petri nets</a><br>
+<h3><a name="xgmml"></a>Convert to
+Cytoscape/XGMML</h3>
+Converts a given Petri net file to a Cytoscape-compatible XGMML format file.<br>
+<br>
+See also: <a target="_top" href="../main/index_petrinets.html">Petri nets</a><br>
+<h3><a name="topnet"></a>Convert to ToPNet<br>
+</h3>
+Converts a given Petri net file to a pair of ToPNet .places/.interactions files.<br>
+<br>
+See also: <a target="_top" href="../main/index_petrinets.html">Petri nets</a>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

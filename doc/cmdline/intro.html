@@ -1,0 +1,106 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Command line tools</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>Command line tools</h2>
+<br>
+ProCope provides a collection of command line tools which provide
+fast access to many methods and functions in a way suitable for
+automated computations and batch jobs. In this part of the
+documentation you find general information on how to access these tools
+as well as descriptions and example calls for each single tool.<br>
+<br>
+Note: All tools&nbsp;detect GZIPed input files and automatically&nbsp;decompress them.<br>
+<h3>Calling from the command line<br>
+</h3>
+All tools are called using a single script file which can be found in
+the root directory of the package:<br>
+<ul>
+  <li><code>cmdline.sh</code> - for systems with
+a&nbsp;bash-shell (e.g. Linux)</li>
+  <li><code>cmdline.bat</code> - for Microsoft
+Windows Systems</li>
+</ul>
+The first argument you pass to the script is the name of the command
+line tool you want to use. Specifiy no parameters to get a list of
+available tool names (or consult this documentation). Each command line
+tool itself will print usage information when called without any
+further parameters. <br>
+<br>
+<span style="font-weight: bold;">Note:</span> All examples in this documentation use the <code>cmdline.sh</code> script for bash shells. Windows users simply replace this command with <code>cmdline.bat</code>.<br>
+<br>
+Example:<br>
+<code>cmdline.sh colocalization </code>- starts the colocalization tool and shows usage information as no further parameters are passed<br>
+<br>
+<h3>Memory<br>
+</h3>
+By default 256MB of memory will be available for the Java VM when using
+a command line tool. If you want to change this amount, specificy <code>-Xmx000m</code> as the first argument where <code>000</code> is the amount of megabytes which will be available. (Note: the <code>-Xmx</code> parameter is directly passed to the Java virtual machine, syntax errors will cause error messages of the Java interpreter). <br>
+<br>
+Example:<br>
+<code>cmdline.sh -Xmx1024m generatescores</code> ... - starts the scores generator with 1GB of available memory<br>
+<br>
+<h3>Return codes<br>
+</h3>
+All command line tools return<br>
+<ul>
+  <li>0 - if everything worked fine</li>
+  <li>1 - if invalid or no command line arguments where specified</li>
+  <li>2 - if an error occured during the program execution (e.g. file not found)<br>
+    <br>
+  </li>
+</ul>
+<h3>
+Name mapping</h3>
+All tools support the argument <code>-namemap</code>. See also: <a href="../main/namemap.html">Name mapping</a><br>
+<br>
+<a href="../main/namemap.html">
+</a>
+<h3>Tools</h3>
+The following command line tools are provided with this package:<br>
+<ul>
+  <li><code><a href="btsampler.html">btsampler</a></code> - randomly samples purification data, needed to calculate Bootstrap scores</li>
+  <li><code><a href="btclusterer.html">btclusterer</a></code> - cluster bootstrap samples</li>
+  <li><code><a href="btfinisher.html">btfinisher</a></code> - integrate clustering results to calculate final bootstrap network</li>
+  <li><a href="clusterer.html"><code>clusterer</code></a> - clusters score networks to derive complex sets</li>
+  <li><a href="colocalization.html"><code>colocalization</code></a> - calculates colocalization scores or PPVs for a given complex set&nbsp;</li>
+  <li><a href="complexcompare.html"><code>complexcompare</code></a> - compares given sets of complexes</li>
+  <li><a href="complexmanipulate.html"><code>complexmanipulate</code></a> - contains different methods to manipulate complex sets</li>
+  <li><a href="complexscores.html"><code>complexscores</code></a> - calculates scores for complex sets using a given scores network</li>
+  <li><a href="generatescores.html"><code>generatescores</code></a> - generates score networks from purification data</li>
+  <li><a href="gosim.html"><code>gosim</code></a> - calculates semantic similarities based on GO annotations</li>
+  <li><a href="roc.html"><code>roc</code></a> - plots a ROC curve for a given set of networks and a reference complex set</li>
+</ul>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

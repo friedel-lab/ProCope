@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  <title>Network evaluation</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>Network evaluation<br>
+</h2>
+The PPI score networks should contain a good reflection of the
+interactions existing in living cells. Ideally, edges between
+interacting proteins would have a weight of 1 in the network whereas
+edges between non-interacting protein pairs have a weight of zero. Using
+experimental data, we can not only evaluate predicted complexes but
+also the quality of a scores network directly. ProCope currently
+contains two methods to perform this task based on reference complex
+sets.<br>
+<br>
+<h3>Complex enrichment<br>
+</h3>
+A high-quality PPI network should have many high-scoring edges within
+the complexes of a reference dataset whereas inter-complex edges should
+have a low weight. This property is taken into account when calculating
+the <span style="font-style: italic;">complex enrichment</span> of a
+score networks. The method uses the network to calculate the quotient
+of the average inner-complex edge score and the average inner-complex
+score of a <span style="text-decoration: underline;">randomized</span> version of the reference complex set. The higher this value the more high-scoring edges there are within the correct complexes.<br>
+<br>
+To minimize variations in the result due to the random character of the
+method, the average score of multiple randomization runs should be
+taken. The ProCope GUI for instance performs 100 randomizations by
+default to calculate a complex enrichment score.<br>
+<br>
+<h3><a name="roc"></a>Receiver operating characteristic (ROC) curves<br>
+</h3>
+The quality of a score network can also be evaluated and compared using a ROC curve (for an introduction click <a href="http://dx.doi.org/10.1016%2Fj.patrec.2005.10.010" target="_blank">here</a>).
+In this diagram the true-positive rate is plotted against the
+false-positive rate for decreasing thresholds. To determine the true-
+and false-positive rate, first each edge in the network is assigned one
+of the following states:<br>
+<ul>
+  <li><span style="font-style: italic;">true positive edge</span>: If the edge is between two proteins which are in the same complex.</li>
+  <li><span style="font-style: italic;">false positive edge</span>: If the edge is between complexes and the proteins are not colocalized (see also: <a href="evaluation.html#coloc">Colocalization</a>).
+Note that only a limited number of such negative edges are randomly
+sampled from the network as there are too many possible negative edges.
+Our methods generates 10 times as many negative edges as there are
+positive edges.</li>
+  <li><span style="font-style: italic;">unknown</span> otherwise</li>
+</ul>
+The negative set generation will also work without any localization data.<br>
+<br>
+To generate the ROC curve we sort the list of edges by their weight and
+iterate over the edges beginning from the highest-scoring edge. The
+true and false positive counts are increased according to the states of
+the edges (see above), no value is increased for <span style="font-style: italic;">unknown</span>
+edges. The true positive rates is the quotient of the current true
+positive count and the total number of true edges. The false negative
+rate is calculated analogically.<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

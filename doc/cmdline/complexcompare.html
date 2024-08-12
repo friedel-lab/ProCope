@@ -1,0 +1,71 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>complexcompare</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">complexcompare</code><br>
+<br>
+Compares given sets of complex sets with each other using the Brohee
+measure and checks for complexes that can be mapped.<br>
+<br>
+Call the tool without any command line arguments to get detailed information about the parameters for this program.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_evaluation.html">Complex
+set evaluation: Comparison with reference protein complex sets</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats</a></li>
+</ul>
+<br>
+<span style="font-weight: bold;">Note:</span> You can provide and arbitrary number of complex sets, an
+all-against-all comparison will be performed. If you seperated two
+complex set files by a comma instead of a whitespace, these complex
+sets will be <span style="font-style: italic;">grouped</span>.
+Grouped complex sets are not compared to each other.<br>
+<br>
+<h3>Output<br>
+</h3>
+The program outputs the result of each comparison to the standard output or in HTML format.<br>
+<br>
+<code>Sn^-1</code>,&nbsp;<code>PPV^-1</code> and <code>Acc^-1</code> of the Brohee comparison denote a comparison in the backward direction with the first complex set used as the reference set.<br>
+<br>
+<h3>Example calls<br>
+</h3>
+<ul>
+  <li>Compare a set of predicted clusters with the MIPS reference complex set</li>
+</ul>
+<code>cmdline.sh complexcompare data/complexes/BT_217.txt data/complexes/mips_complexes.txt</code><br>
+<br>
+<ul>
+  <li>Compare two sets of predicted clusters with the MIPS and Aloy
+reference complex sets, do not compare clusterings with clustering or
+reference sets with reference sets (comma-separated parameters)</li>
+  <li>produce HTML output and save it to a file</li>
+</ul>
+<code>cmdline.sh complexcompare
+data/complexes/BT_217.txt,data/complexes/hart_complexes.txt
+data/complexes/mips_complexes.txt,data/complexes/aloy_complexes.txt
+-html &gt; output.html</code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>Complex set prediction</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>Complex set prediction<br>
+</h2>
+After generating a score network from a set of purification data we
+need to derive a set of protein complexes from this network. This is
+achived by clustering the respective networks. <a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al., 2006</a> used
+hierarchical agglomerative clustering, <a href="http://www.ncbi.nlm.nih.gov/pubmed/17087821" target="_blank">Brohee et al., 2006</a> have shown
+that <a href="http://micans.org/mcl/lit/" target="_blank">Markov
+Clustering</a>
+is the most efficient method for complex set prediction.&nbsp;Both
+clustering methods are implemented in ProCope and can easily be
+accessed to cluster any given scores network.<br>
+<br>
+Clustering algorithms produce distinct sets of proteins whereas <span style="font-style: italic;">in vivo</span> proteins
+can be contained in multiple complexes. This is taken into account
+differently by the authors which published sets of predicted protein
+complexes. For instance <a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al.</a> used iterative clustering and
+introduced a <span style="font-style: italic;">core/module/attachment</span> terminology. Our <a href="scorenet.html#bootstrap">bootstrap approach</a>calculates
+such shared proteins based on the underlying score network. ProCope
+also implements a shared protein computation method proposed by <a href="http://view.ncbi.nlm.nih.gov/pubmed/17370254" target="_blank">Pu et al</a>.<br>
+<br>
+All clustering algorithms use parameters, e.g. the <span style="font-style: italic;">inflation coefficient</span>
+for Markov Clustering and the cutoff value for hierarchical clustering.
+These parameters need to be tuned carefully in order to generate a
+confident set of protein complexes. See also: <a href="evaluation.html">Complex evaluation</a>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

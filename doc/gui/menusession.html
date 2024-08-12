@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Session menu</title>
+  <script language="JavaScript" src="../frames.js"></script>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+</head>
+<body onload="ensureframes()">
+<h2>Session menu</h2>
+<br>
+The ProCope GUI can store current session information to the file
+system. That means that all objects you loaded into the program can be
+restored later on by loading the corresponding session file. The
+following objects will be stored when saving a session:<br>
+<ul>
+  <li>protein networks</li>
+  <li>complex sets</li>
+  <li>purification datasets</li>
+  <li>GO settings (file is linked, see note below)</li>
+  <li>localization data (file is linked, see note below)</li>
+  <li>protein annotations</li>
+  <li>loaded name mappings<br>
+  </li>
+</ul>
+<span style="font-weight: bold;">Note:</span> All
+objects except GO
+settings and localization data are completely stored in the session
+file. That means you could delete or move the original datafiles and
+the session would restore successfully nevertheless.<br>
+<br>
+<h3>Load session<br>
+</h3>
+Loads a session from a file.<br>
+<h3>Save session<br>
+</h3>
+Save current session to GZIPed file.<br>
+<h3>Exit<br>
+</h3>
+Exits the ProCope graphical user interface.
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

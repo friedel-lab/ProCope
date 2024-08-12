@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Graphical user interface</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+
+  
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+
+
+<body onload="ensureframes()">
+
+<h2>
+Graphical user interface</h2>
+
+The ProCope package contains a graphical user interface (GUI) you
+provides fast access to most of the functionality of the library.<br>
+
+<h3>Starting the GUI<br>
+
+</h3>
+
+The GUI java program is launched with a start-up script located in the
+main directory of the ProCope package. Choose the right script,
+depending on your system:<br>
+
+<ul>
+
+  <li><code>gui.bat</code> for Windows users<br>
+
+  </li>
+
+  <li><code>gui.sh</code> for Linux and Mac OS users<br>
+
+    <br>
+
+  </li>
+
+</ul>
+
+<h3>Basic features of the GUI<br>
+
+</h3>
+
+<ul>
+
+  <li>The GUI consists of three <span style="font-weight: bold;">lists</span> containing networks, complex sets and purification datasets.</li>
+
+  <li>All functionality is accessed via <span style="font-weight: bold;">menus</span>: The main menus at the
+top of the window and one popup window for each list which are accessed
+by right-clicking on the respective list. You can <b>select multiple items</b> in each list by holding the SHIFT or CTRL key.</li>
+
+  <li>Instead of loading data objects using the popup menus you can
+directly <span style="font-weight: bold;">drag&amp;drop</span> files from your file browser into the lists.</li>
+
+  <li>You can <span style="font-weight: bold;">save and restore</span> your work <span style="font-weight: bold;">sessions</span> (i.e. all loaded objects and settings). See also: <a href="menusession.html">Session menu</a></li>
+
+  <li>Most components in the GUI have <span style="font-weight: bold;">tooltips</span>, hold your mouse over them to get corresponding information<a href="menusession.html"><br>
+
+    </a><br>
+
+  </li>
+
+</ul>
+
+<h3>First steps<br>
+
+</h3>
+
+Check out the <a href="firststeps.html">First steps guide</a> for a 5-minute tutorial to the ProCope GUI.<br>
+
+<br>
+
+<h3>Memory<br>
+
+</h3>
+
+By default 256MB of memory will be available for the Java VM when using
+a command line tool. If you want to change this amount, specificy <code>-Xmx000m</code> as the first argument where <code>000</code> is the amount of megabytes which will be available. (Note: the <code>-Xmx</code> parameter is directly passed to the Java virtual machine, syntax errors will cause error messages of the Java interpreter). <br>
+
+<br>
+
+Example:<br>
+
+<span style="font-family: monospace;">gui</span><code>.sh -Xmx1024m</code><br>
+
+<br>
+
+<h3>Bootstrap<br>
+
+</h3>
+
+Note that the bootstrap confidence calculation methods (<span style="text-decoration: underline;">s</span><a href="http://www.bio.ifi.lmu.de/Complexes/"></a>)
+are not integrated in the ProCope GUI. The bootstrap approach is very
+CPU-intensive and should be parallelized over several computers. You
+can access these method using the <a target="_top" href="../indexcmd.html">Command line tools</a> of ProCope.<br>
+
+<br>
+
+<h3>Functionality<br>
+
+</h3>
+
+<span style="font-weight: bold;">Main window menus</span><br>
+
+<ul>
+
+  <li><a href="menusession.html">Session menu&nbsp;</a></li>
+
+  <li><a href="menutools.html">Tools menu</a></li>
+
+  <li><a href="menuoptions.html">Options menu</a></li>
+
+  <li><a href="menuhelp.html">Help menu</a></li>
+
+</ul>
+
+<span style="font-weight: bold;">Pop-up menus</span><a target="content" href="clusterer.html"><code></code></a><br>
+
+<ul>
+
+  <li><a href="menunetworks.html">Networks menu</a></li>
+
+  <li><a href="menucomplexes.html">Complex sets menu</a></li>
+
+  <li><a href="menupuri.html">Purification data menu</a></li>
+
+</ul>
+
+<br>
+
+<h3>Cytoscape<br>
+
+</h3>
+
+ProCope can produce <a href="http://www.cytoscape.org/">Cytoscape</a>-compatible XGMML files or, alternatively, can be integrated directly as a plugin into Cytoscape. For further information, see: <a href="cytoscape.html">Cytoscape integration</a><br>
+
+<br>
+
+<br>
+
+<hr size="1">
+<div style="font-size: small;"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+
+<!-- footer end -->
+</body>
+</html>

@@ -1,0 +1,399 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Sample Use Case 2: Working with score networks</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h3>Sample Use Case 2: Working with score networks<br>
+</h3>
+This example code demonstrates how to manipulate, evaluate, merge, filter and
+iterate over scores networks.&nbsp;The full
+source code of this example is available in the <code>procope.examples</code>
+package of the <code>src/</code>
+folder.<br>
+<br>
+<span style="font-weight: bold;">
+Table of contents</span><br>
+<ul>
+  <li><a href="#load">Loading score networks</a></li>
+  <li><a href="#compare">Comparing the networks</a> </li>
+  <li><a href="#cutoff">Cutoff networks and create randomized network</a></li>
+  <li><a href="#reference">Loading the reference complex set</a></li>
+  <li><a href="#enrichment">Complex enrichment</a></li>
+  <li><a href="#rocprep">ROC preparation</a></li>
+  <li><a href="#roccurves">ROC curves</a></li>
+  <li><a href="#netmerge">Network merging</a></li>
+  <li><a href="#filter">Filtering</a></li>
+  <li><a href="#iterate">Iterating over the network</a></li>
+  <li><a href="#output">Output</a><br>
+  </li>
+</ul>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><span style="font-style: italic;"><span style="font-style: italic;"><a name="load"></a></span></span>Loading score networks</span><br>
+<br>
+First we load two existing score networks from the filesystem. The network reading functionality is provided by the <code>NetworkReader</code> class.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinNetwork hart=null, pe=null;<br>
+try {<br>
+&nbsp;&nbsp; &nbsp;hart = NetworkReader.readNetwork(new GZIPInputStream(<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; new FileInputStream("data/scores/hart_scores.txt.gz")));<br>
+&nbsp;&nbsp; &nbsp;pe = NetworkReader.readNetwork(new GZIPInputStream(<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; new FileInputStream("data/scores/pe_combined.txt.gz")));<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp; &nbsp;// something went wrong, output error message<br>
+&nbsp;&nbsp; &nbsp;System.err.println("Could not load score networks:");<br>
+&nbsp;&nbsp; &nbsp;System.err.println(e.getMessage());<br>
+&nbsp;&nbsp; &nbsp;System.exit(1);<br>
+}</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Note that you can use any <code>InputStream</code> to read network data from. In this case we create a <code>GZIPInputStream</code> for on-the-fly decompression of&nbsp;GZIPed input files.<br>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="compare"></a>Comparing the networks </span><br>
+<br>
+Next we compare the edge weights of both networks to figure out if they have a significant correlation. The <code>NetworkComparison.weightsOverlap</code>
+function outputs pairs of numbers, each pair is a weight for the same
+edge in both networks. Missing edges get an implicit weight of zero.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>List&lt;Point&gt; overlap = NetworkComparison.weightsOverlap(hart, pe, false);<br>
+CorrelationCoefficient coeff = new PearsonCoefficient(); // could also use Spearman<br>
+coeff.feedData(overlap);<br>
+System.out.println("Correlation between the networks: " + coeff.getCorrelationCoefficient());</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="cutoff"></a>Cutoff networks and create randomized network</span><br>
+<br>
+To avoid a too large ROC curve we remove all edges from the networks
+which are below a given threshold value (3 and 2 in this case.
+arbitrary values used here). Then we create a randomized version of one
+of the networks which we will need later on.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>hart = hart.getCutOffNetwork(3);<br>
+pe = pe.getCutOffNetwork(2);<br>
+      <br>
+ProteinNetwork randomized = hart.randomizeByRewiring();</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="reference"></a>Loading the reference complex set</span><br>
+<br>
+We need a reference complex set to evaluate the networks using the
+Complex enrichment and ROC curves methods. Again, we use the MIPS
+reference protein complex set.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ComplexSet mips=null;<br>
+try {<br>
+&nbsp;&nbsp; &nbsp;mips = ComplexSetReader.readComplexes("data/complexes/mips_complexes.txt");<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp; &nbsp;// something went wrong, output error message<br>
+&nbsp;&nbsp; &nbsp;System.err.println("Could not load reference set:");<br>
+&nbsp;&nbsp; &nbsp;System.err.println(e.getMessage());<br>
+&nbsp;&nbsp; &nbsp;System.exit(1);<br>
+}</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="enrichment"></a>Complex enrichment</span><br>
+<br>
+Next we calculate and output the complex enrichment of all score
+networks with respect to the given reference complex set. We use 100 randomizations to minimize variations. See also: <a target="_top" contentmain="targe" href="../main/index_netevaluation.html">Network evaluation</a><br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>System.out.println("Complex enrichment of Hart: " +<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; ComplexEnrichment.calculateComplexEnrichment(hart, mips, 100, true));<br>
+System.out.println("Complex enrichment of PE: " +<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; ComplexEnrichment.calculateComplexEnrichment(pe, mips, 100, true));<br>
+System.out.println("Complex enrichment of Hart-randomized: " +<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; ComplexEnrichment.calculateComplexEnrichment(randomized, mips, 100, true));</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+The result shows that the randomized network does not
+have&nbsp;significantly higher edges within the reference complex set
+than between the complexes.<br>
+<br>
+<br style="font-weight: bold; text-decoration: underline;">
+<span style="font-weight: bold; text-decoration: underline;"><a name="rocprep"></a>ROC preparation</span><br>
+<br>
+We want to calculate ROC curves which demonstrate the scoring performance of the given scores networks (see also: <a target="_top" contentmain="targe" href="../main/index_netevaluation.html">Network evaluation</a>).
+As the the original MIPS complex set contains two very large complexes
+which could generate too many positive edges, we remove all complexes
+larger than 50 proteins from this set.<br>
+<br>
+Additionally we generate a list of networks and a list of network names
+which will be used in the next step for ROC curve calculation and plot
+generation.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ComplexSet mips_below50 = mips.copy();<br>
+mips_below50.removeComplexesBySize(50, false);<br>
+      <br>
+ArrayList&lt;ProteinNetwork&gt; networks = new ArrayList&lt;ProteinNetwork&gt;();<br>
+networks.add(hart);<br>
+networks.add(randomized);<br>
+networks.add(pe);<br>
+ArrayList&lt;String&gt; names = new ArrayList&lt;String&gt;();<br>
+names.add("Hart");<br>
+names.add("Randomized");<br>
+names.add("PE");</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="roccurves"></a>ROC curves</span><br>
+<br>
+Now we actually generate the ROC curves by calling the corresponding function in the <code>ROC</code> class. The result is a list of <code>ROCCurve</code> objects which we pass into the chart generation function of the <code>ROCCurveHandler</code> class to create the plot and save it into a file. For the generation of the negative set, we use the original MIPS set.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>List&lt;ROCCurve&gt; curves = ROC.calculateROCCurves(networks, mips_below50, mips, null, false); <br>
+// plot them &amp; write to file<br>
+JFreeChart chart = ROCCurveHandler.generateChart(curves, names);<br>
+try {<br>
+&nbsp;&nbsp; &nbsp;ChartTools.writeChartToPNG(chart, new File("roc.png"), 800, 600);<br>
+} catch (IOException e) {<br>
+&nbsp;&nbsp; &nbsp;// could not write the image<br>
+&nbsp;&nbsp; &nbsp;System.err.println("Could not write image: roc.png\n\n" + e.getMessage());<br>
+&nbsp;&nbsp; &nbsp;System.exit(1);<br>
+}</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="netmerge"></a>Network merging</span><br>
+<br>
+Next we merge the two score networks. The final network does not have
+any edge weights, but both weights of the original networks are stored
+as annotations to the edges.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>CombinationRules rules = new CombinationRules(CombinationRules.CombinationType.INTERSECT);<br>
+rules.setWeightMergePolicy(CombinationRules.WeightMergePolicy.ANNOTATE_WEIGHTS, "Hart", "PE");<br>
+ProteinNetwork merged = hart.combineWith(pe, rules);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="filter"></a>Filtering</span><br>
+<br>
+We filter out all edges from this merged network where both annotated
+scores are below certain thresholds (arbitrary values used) to get very
+highly confident edges. To filter a network we first create a <code>BooleanExpression</code> and pass this expression to the filter method of the <code>ProteinNetwork</code> object. See also: <a target="_top" href="../main/index_annosfilter.html">Annotations and filtering</a><br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>BooleanExpression expression=null;<br>
+try {<br>
+&nbsp;&nbsp; &nbsp;expression = new BooleanExpression("Hart&gt;=70 &amp; PE&gt;=25");<br>
+} catch (InvalidExpressionException e) {<br>
+&nbsp;&nbsp; &nbsp;// this won't happen as we know the expression is correct<br>
+}<br>
+ProteinNetwork filtered = merged.getFilteredNetwork(expression);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br style="font-weight: bold; text-decoration: underline;">
+<span style="font-weight: bold; text-decoration: underline;"><a name="iterate"></a></span><span style="font-weight: bold; text-decoration: underline;">Iterating over the network</span><br>
+<br>
+Finally we iterate over the filtered network and output the high-confidence edges. A <code>ProteinNetwork</code> objects is iterable using the <code>NetworkEdge</code> class. Note how the <code>ProteinManager</code> is used to map back internal protein IDs to their String labels.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>for (NetworkEdge edge : filtered) {<br>
+&nbsp;&nbsp; &nbsp;int protein1 = edge.getSource(); // source and target are not relevant<br>
+&nbsp;&nbsp; &nbsp;int protein2 = edge.getTarget(); // as this is an undirected network<br>
+&nbsp;&nbsp; &nbsp;System.out.println(ProteinManager.getLabel(protein1) +<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; "\t" + ProteinManager.getLabel(protein2));<br>
+}</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<a name="output"></a><span style="font-weight: bold;"><span style="text-decoration: underline;">Output<br>
+<br>
+</span></span>The output of the program should look like this:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>Loading networks...<br>
+Comparing networks...<br>
+Correlation between the networks: 0.7263753<br>
+Cutting off networks...<br>
+Generating randomized network...<br>
+Complex enrichment of Hart:83.504555<br>
+Complex enrichment of PE:61.335667<br>
+Complex enrichment of Hart-randomized:1.0372198<br>
+Calculating and saving ROC curve...<br>
+Combining networks...<br>
+High-confidence interactions:<br>
+ykl012w&nbsp;&nbsp;&nbsp; ygr013w<br>
+yfr052w&nbsp;&nbsp;&nbsp; yhr200w<br>
+yfr004w&nbsp;&nbsp;&nbsp; yhr200w<br>
+ygl019w&nbsp;&nbsp;&nbsp; yor061w<br>
+yor061w&nbsp;&nbsp;&nbsp; yil035c<br>
+ylr277c&nbsp;&nbsp;&nbsp; ykr002w<br>
+ylr115w&nbsp;&nbsp;&nbsp; ylr277c</code><code><span style="font-family: sans-serif;"></span></code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

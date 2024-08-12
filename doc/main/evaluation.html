@@ -1,0 +1,113 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Complex evaluation</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>Complex set evaluation</h2>
+Protein clusters produced by the clustering of score networks cannot be
+directly accepted as existing <span style="font-style: italic;">in-vivo</span>
+protein complexes. We need experimental data or highly confident
+protein annotations to verify the quality of our predictions and of
+course our methods. Different approaches were proposed in the
+literature which are implemented in ProCope. Here you find a short
+introduction on these evaluation methods.<br>
+<br>
+<h3><a name="comparison"></a>Comparison with reference protein complex sets<br>
+</h3>
+A very straighforward approach to determine the correctness of a given
+set of predicted protein complexes is the comparison with a reference
+set of protein complexes which must of course&nbsp;be of high
+quality.
+See <a href="datasets.html">Datasets</a> for more
+information on existing protein complex reference sets.<br>
+<br>
+<a href="http://www.ncbi.nlm.nih.gov/pubmed/17087821" target="_blank">Brohee et al., 2006</a> proposed a
+similarity measure consisting of <span style="font-style: italic;">sensitivity</span>,
+<span style="font-style: italic;">positive predictive value</span>
+(PPV) and <span style="font-style: italic;">accuracy. </span>Basically<span style="font-style: italic;">, </span>the <i>sensitivity</i>
+describes how much of the reference complex sets are also contained in
+the candidate complex set, where as the <i>positive predictive
+value</i> (PPV) is a measure how much of the prediction in the
+candidate set is correct. The <i>accuracy</i> is then the
+geometric mean of sensitivity and PPV.<br>
+<br>
+Another comparison method is the <span style="font-style: italic;">mapping</span> of complexes between the predicition and the reference set. Two complexes are defined to be <span style="font-style: italic;">mappable</span>
+if they have a sufficiently large overlap. Mappings can be used as a
+measure of how good real complexes from a reference set are matched in
+the prediciton.<br>
+<br>
+<span style="text-decoration: underline;">Note</span>:
+As the reference
+data sets do not provide full coverage and the clusterings contain many
+more complexes than the reference sets, 100% PPV cannot
+be the final goal of this evaluation approach.<br>
+<br>
+<h3><a name="go"></a>GO semantic similarity<br>
+</h3>
+Another way to evaluate the quality of predicted protein complexes is
+the comparison of <a href="http://www.geneontology.org/" target="_blank">Gene Ontology</a> (GO) terms
+associated with the proteins within a complex. <a href="http://www.ncbi.nlm.nih.gov/pubmed/16776819" target="_blank">Schlicker et al., 2006</a>
+proposed a new scoring methods for proteins based on these GO
+information. This scoring method basically generates another
+PPI
+scores network containing functional relationships based on the GO
+annotations. The network is then used to calculate average
+inner-complex scores for the predicted complex set. The higher this
+score, the better is our prediction (assuming that the GO annotations
+are correct).<br>
+<br>
+<h3><a name="coloc"></a>Colocalization<br>
+</h3>
+Proteins which belong to the same complex should be localized in the
+same inner-cellular compartment. If we have&nbsp;localization data
+for
+the proteins of an organism we can use this information to evaluate the
+localization consistency of our predicted complexes. For yeast two such
+datasets are available, one published by <a href="http://view.ncbi.nlm.nih.gov/pubmed/11914276" target="_blank">Kumar et al., 2002</a> and the other
+one by <a href="http://view.ncbi.nlm.nih.gov/pubmed/14562095" target="_blank">Huh et al., 2003</a>. Note that for
+each protein there may be more than one localization information.<br>
+<br>
+ProCope implements two different methods which score a complex based
+on localization data. Both measures take into account overlap of
+localization information of the proteins within each complex. Both
+methods first calculate the cellular localization with the highest
+annotation frequency for the given complex (e.g. <span style="font-style: italic;">nucleus</span> which is annotated for 6 of 8 proteins in a complex). The<span style="font-style: italic;"> Colocalization score</span>
+which was proposed in our own work divides this value by the size of
+the complex (for our example we would get a colocalization score of
+0.75). <a href="http://view.ncbi.nlm.nih.gov/pubmed/17370254" target="_blank">Pu et al., 2007</a> defined the <span style="font-style: italic;">Colocalization PPV</span>.
+In this measure the highest annotation frequency is divided by the
+total sum of annotation frequencies of all localizations present in the
+complex.<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

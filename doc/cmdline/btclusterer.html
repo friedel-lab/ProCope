@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>btclusterer</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">btclusterer</code><br>
+<br>
+Clusters purification bootstrap samples using the Markov Clustering
+algorithm. Scans over a specific range of inflation coefficient
+parameters.<br>
+<br>
+This tool implements the only time-consuming step of bootstrap scores
+network calculation. It can be used to parallelize the calculation
+process by clustering only a small set of purification data samples for
+each call. Use <code><a href="btfinisher.html">btfinisher</a></code>
+to merge the results and calculate the final bootstrap network and complexes.<br>
+<br>
+Call the tool without any command line arguments to get detailed
+information about the parameters for this program.<br>
+<br>
+See also: <a target="_top" href="../main/index_scorenet.html">Score network
+generation</a><br>
+<h3>Example calls<br>
+</h3>
+These examples tie in with the bootstrap sample generation example from <a href="btsampler.html"><code>btsampler</code></a><code></code>. They assume an existing output directory <code>btresults/</code> in the current working directory.<br>
+<ul>
+  <li>use&nbsp;samples contained in <code>gavin_1000_samples</code> (<code>-i</code>)</li>
+  <li>cluster the samples 1 to 10 (<code>-s</code>), samples are 1-based</li>
+  <li>use inflation coefficients 2.2 to 2.9 in steps of 0.1 (<code>-inf</code>)</li>
+  <li>cut-off the generated scores network at 5.0 before clustering (<code>-c</code>)</li>
+  <li>output to <code>btresults/&nbsp;</code>directory, files get the prefix <code>bt_</code> (<code>-prefix</code>)</li>
+</ul>
+<code>./cmdline.sh btclusterer -i gavin_1000_samples -s 1-10 -inf 2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9 -c 5</code><code> -prefix btresults/bt_</code>
+<ul>
+  <li>now cluster samples 11-20</li>
+</ul>
+<code>./cmdline.sh btclusterer -i gavin_1000_samples -s 11-20 -inf 2.2,2.3,2.4,2.5,2.6,2.7,2.8,2.9 -c 5 -prefix btresults/bt_</code><br>
+<br>
+and so on...<br>
+<br>
+For each sample one network and one clustering file will be generated in the output directory.
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

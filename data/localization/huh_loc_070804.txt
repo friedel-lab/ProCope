@@ -1,0 +1,4156 @@
+yORF localization summary
+YOR332W vacuolar membrane
+YOR335C cytoplasm
+YOL069W spindle pole
+YGL119W mitochondrion
+YOL059W cytoplasm,nucleus
+YIL173W endosome
+YPR025C nucleus
+YDR248C cytoplasm
+YJR091C ambiguous
+YKL145W nucleus
+YDR288W cytoplasm,nucleus
+YPL031C cytoplasm,nucleus
+YIL108W cytoplasm
+YOR212W cytoplasm
+YDR006C nucleus
+YGL122C nucleus
+YLR292C ER
+YLR134W cytoplasm,nucleus
+YGL135W cytoplasm
+YKR077W cytoplasm,nucleus
+YKL102C cytoplasm,nucleus
+YMR171C endosome
+YLR110C ER
+YCR017C ER
+YLR439W mitochondrion
+YJR161C vacuole
+YKL167C mitochondrion
+YHR082C cytoplasm
+YLR001C vacuolar membrane
+YHL040C vacuole,endosome
+YHR216W cytoplasm
+YGR267C cytoplasm,nucleus
+YDL055C cytoplasm
+YPL184C cytoplasm
+YDR228C nucleus
+YFR006W cytoplasm
+YOL027C mitochondrion
+YIL064W cytoplasm
+YPR182W nucleus
+YPL219W cytoplasm,nucleus
+YBL097W nucleus
+YGL145W ER
+YBL013W mitochondrion
+YPL226W cytoplasm
+YBR105C cytoplasm,nucleus
+YDR226W cytoplasm,nucleus
+YGR102C mitochondrion
+YPR037C vacuole
+YOR193W peroxisome
+YHR199C mitochondrion
+YMR232W cytoplasm
+YJL146W cytoplasm,nucleus
+YEL017W nuclear periphery
+YDL005C nucleus
+YKL182W cytoplasm
+YML120C mitochondrion
+YNL261W nucleus
+YBL014C cytoplasm,nucleolus
+YDL135C cytoplasm,nucleus
+YPR174C nuclear periphery
+YBR009C nucleus
+YDR096W nucleus
+YDL180W vacuole
+YNR004W nucleolus
+YFR039C ambiguous
+YLR025W endosome
+YBR208C cytoplasm
+YJL115W nucleus
+YPR102C cytoplasm
+YLR144C cytoplasm,nucleus
+YER136W cytoplasm
+YPL090C cytoplasm
+YDR471W cytoplasm
+YMR258C cytoplasm,nucleus
+YGR207C mitochondrion
+YBR244W cytoplasm,nucleus
+YLR453C cytoplasm,nucleus
+YNL064C cytoplasm,nucleus
+YDR356W spindle pole
+YLR398C cytoplasm
+YDR186C cytoplasm
+YMR253C punctate composite,early Golgi
+YLR044C ambiguous,cytoplasm,nucleus
+YDR054C cytoplasm,nucleus
+YHR147C cell periphery
+YFR010W cytoplasm,nucleus
+YOR109W punctate composite
+YOL076W cytoplasm
+YOR299W late Golgi
+YDL020C cytoplasm,nucleus
+YMR073C cytoplasm
+YIR022W ER
+YIL107C cytoplasm
+YDL238C ambiguous,cytoplasm
+YGL001C ER
+YDL129W cytoplasm,nucleus
+YDR407C late Golgi
+YLR148W endosome
+YBR167C nucleus
+YMR291W cytoplasm,nucleus
+YJL063C mitochondrion
+YGR269W cytoplasm,nucleus
+YKL028W nucleus
+YJR083C ambiguous
+YDR441C cytoplasm
+YJL131C mitochondrion
+YAL047C spindle pole
+YPL178W nucleus
+YDL043C nucleus
+YML032C nucleus
+YPR043W cytoplasm
+YMR089C mitochondrion
+YFL036W punctate composite
+YNR034W cytoplasm,nucleus
+YOR018W cytoplasm
+YIL078W cytoplasm
+YGR180C cytoplasm,nucleus
+YNL152W cytoplasm
+YLR299W ambiguous
+YDR477W cytoplasm
+YJL169W cytoplasm,nucleus
+YNL007C cytoplasm,nucleus
+YLR388W cytoplasm
+YGR214W cytoplasm
+YBR159W ER
+YNL061W nucleolus,nucleus
+YLR132C cytoplasm,mitochondrion,nucleus
+YFR031C cytoplasm,nucleus
+YHR030C cytoplasm,nucleus
+YDR379W cytoplasm
+YDR363W-A nucleus
+YBR107C nucleus,spindle pole
+YJR070C cytoplasm,nucleus
+YBR046C cytoplasm,nucleus
+YLL040C cytoplasm,endosome
+YDR511W mitochondrion
+YDR293C cytoplasm
+YDR528W cytoplasm
+YJL042W cytoplasm
+YGR088W cytoplasm
+YKL152C cytoplasm
+YDR310C nucleus
+YNL063W mitochondrion
+YCL056C punctate composite
+YDR411C ER
+YBR279W nucleus
+YML053C cytoplasm,nucleus
+YML057W cytoplasm
+YLR423C punctate composite
+YLR117C nucleus
+YDR364C cytoplasm,nucleus
+YKL127W cytoplasm
+YGR068C ambiguous
+YLR268W Golgi
+YDL134C cytoplasm,nucleus
+YGR248W cytoplasm,nucleus
+YBR137W cytoplasm
+YHR201C cytoplasm,nucleus
+YML073C cytoplasm
+YPR139C ambiguous
+YPL259C late Golgi
+YDR033W cell periphery,bud
+YLR194C ER
+YDR132C cytoplasm,nucleus
+YMR179W nucleus
+YGR200C cytoplasm
+YBR015C Golgi
+YMR060C mitochondrion
+YOR058C microtubule
+YPR135W nucleus
+YOR341W nucleolus
+YHR143W-A cytoplasm,nucleolus
+YKL023W cytoplasm
+YHR007C ER
+YIL046W cytoplasm,nucleus
+YBR067C ER
+YPL232W lipid particle
+YIL069C cytoplasm
+YMR031C punctate composite
+YCL016C nucleus
+YDR194C mitochondrion
+YNL156C ER
+YER112W cytoplasm,nucleus
+YML098W cytoplasm,nucleus
+YJL012C-A ER
+YDR069C ambiguous,endosome
+YKR090W ambiguous,bud neck,cytoplasm,cell periphery,bud
+YOR346W cytoplasm,nucleus
+YOL102C cytoplasm
+YLR342W vacuole
+YIL104C nucleus
+YBR233W-A spindle pole
+YER063W nucleus
+YER013W cytoplasm,nucleus
+YNL001W cytoplasm
+YIL037C vacuole
+YER128W ambiguous
+YER033C cytoplasm
+YBR236C nucleus
+YDR184C cytoplasm,nucleus
+YLR401C cytoplasm,nucleus
+YDL159W cytoplasm
+YKR021W cytoplasm
+YDR067C cytoplasm
+YER044C ER
+YBR111C cytoplasm,nucleus
+YER025W cytoplasm
+YHR197W nucleus
+YIR023W nucleus
+YLR360W endosome
+YCR033W nucleus
+YLR197W nucleolus
+YJR025C cytoplasm,nucleus
+YAL024C cytoplasm
+YNL067W cytoplasm
+YMR113W cytoplasm
+YOR098C nuclear periphery
+YLR300W vacuole
+YPR178W cytoplasm,nucleus
+YDR389W cytoplasm
+YOR291W ER
+YPR172W cytoplasm,nucleus
+YHR179W cytoplasm,nucleus
+YJL024C punctate composite,early Golgi
+YIL172C cytoplasm
+YBL080C mitochondrion
+YBR085W mitochondrion
+YMR266W cell periphery
+YBR283C ER
+YGR192C cytoplasm,nucleus
+YGR120C Golgi,early Golgi
+YDR281C vacuole
+YKL032C nucleus
+YOR322C cytoplasm,late Golgi
+YLR034C ER
+YPR141C nucleus,spindle pole,microtubule
+YDL040C cytoplasm
+YGL130W cytoplasm,nucleus
+YER073W mitochondrion
+YKL042W spindle pole
+YHR156C nucleus
+YDL188C cytoplasm,nucleus
+YLR454W ambiguous
+YOL126C peroxisome
+YGL083W late Golgi
+YER176W cytoplasm
+YLL060C cytoplasm
+YIL094C mitochondrion
+YJR075W Golgi
+YBR090C cytoplasm,nucleus
+YDR265W peroxisome
+YGR117C cytoplasm
+YDL036C cytoplasm,nucleus
+YBL010C late Golgi
+YMR192W ambiguous,bud neck,cytoplasm,bud
+YOL094C nucleus
+YNR021W ER
+YLR427W cytoplasm
+YLR091W mitochondrion
+YLR131C cytoplasm,nucleus,bud
+YDR280W nucleolus,nucleus
+YDL116W nuclear periphery
+YKR035W-A endosome
+YDR044W cytoplasm,nucleus
+YDR527W cytoplasm
+YLR187W ambiguous,bud neck,cytoplasm,cell periphery,bud
+YGR255C mitochondrion,punctate composite
+YLR058C cytoplasm,nucleus
+YGL227W cytoplasm,nucleus
+YKR082W nuclear periphery
+YIR011C cytoplasm,nucleus
+YML128C ER
+YHR027C cytoplasm,nucleus
+YPL094C ER
+YDR469W nucleus
+YLR141W nucleolus
+YAR009C punctate composite
+YPL150W ambiguous
+YBR103W nucleus
+YML082W cytoplasm,nucleus
+YDR519W ER
+YNR048W ambiguous
+YLL034C nucleolus,nucleus
+YLR384C cytoplasm
+YHR049W cytoplasm,nucleus
+YKL049C nucleus,spindle pole
+YPL139C cytoplasm,nucleus
+YPL233W spindle pole
+YBR056W cytoplasm
+YGL008C cell periphery,vacuole
+YKR070W mitochondrion
+YDL215C cytoplasm
+YOR221C mitochondrion
+YDR099W cytoplasm,nucleus
+YPL194W cytoplasm,nucleus
+YFR046C nucleus
+YHR117W mitochondrion
+YPL112C peroxisome
+YLR245C cytoplasm,nucleus
+YMR165C cytoplasm
+YPL229W cytoplasm
+YLR375W nucleus
+YPR175W cytoplasm,nucleus
+YOL115W nucleus
+YGR105W vacuole
+YMR104C cytoplasm,nucleus
+YPR137W nucleolus
+YHR086W cytoplasm,nucleus
+YDR392W nucleus
+YBR030W nucleus
+YBR120C mitochondrion
+YJL043W mitochondrion
+YGL186C ER
+YJL207C late Golgi
+YOR304C-A ambiguous,bud neck,cytoplasm,cell periphery,bud
+YOR296W cytoplasm
+YGL240W cytoplasm,nucleus
+YLR382C mitochondrion
+YBR048W cytoplasm
+YHR138C ambiguous
+YBR085C-A cytoplasm,nucleus
+YIR010W spindle pole
+YIL005W vacuole
+YBR058C cytoplasm,nucleus
+YBR231C nucleus
+YJL013C cytoplasm,nucleus
+YGL009C cytoplasm,nucleus
+YML008C lipid particle
+YML056C cytoplasm
+YBR110W ER
+YMR043W nucleus
+YHR105W endosome
+YKL125W nucleolus,nucleus
+YEL036C Golgi
+YGR094W cytoplasm
+YEL048C late Golgi
+YHR193C cytoplasm
+YHR013C cytoplasm
+YDR322W mitochondrion
+YJR073C ER,vacuole
+YMR011W cell periphery,vacuole
+YJR134C Golgi,early Golgi
+YML034W nuclear periphery
+YNL052W mitochondrion
+YLL015W vacuolar membrane
+YJR116W ambiguous
+YBR133C bud neck,cytoplasm
+YHR114W actin
+YIL093C mitochondrion
+YGR063C nucleus
+YGL250W cytoplasm,nucleus
+YIR014W vacuole
+YGR159C nucleolus
+YGR087C cytoplasm
+YMR295C cell periphery,bud
+YMR297W vacuole
+YKR075C cytoplasm,nucleus
+YPL135W mitochondrion
+YPL082C nucleus
+YOR224C nucleus
+YBR158W cytoplasm,nucleus
+YDL173W cytoplasm
+YFL018C mitochondrion
+YCL039W cytoplasm,nucleus
+YOR273C cell periphery,bud
+YOL088C vacuole
+YOL159C-A cytoplasm
+YLR426W 
+YGR220C mitochondrion
+YLR403W cytoplasm,nucleus
+YKL038W cytoplasm,nucleus
+YCR088W actin
+YMR071C late Golgi
+YER049W nucleus
+YML079W cytoplasm,nucleus
+YLR332W cell periphery
+YJL173C nucleus
+YJR015W ER,cytoplasm
+YJL162C cytoplasm,nucleus
+YPR107C nucleus
+YBL093C nucleus
+YHL008C vacuole
+YGL211W mitochondrion
+YDR065W mitochondrion
+YKL173W nucleus
+YPL079W cytoplasm
+YDL197C nucleus
+YCL031C nucleolus,nucleus
+YLR257W cytoplasm
+YOR229W nucleus
+YIL075C cytoplasm,nucleus
+YOR252W nucleus
+YOR061W cytoplasm,nucleus
+YIL145C cytoplasm,nucleus
+YKL209C vacuole
+YFL049W nucleus
+YDL089W ambiguous,nuclear periphery
+YKL176C ambiguous
+YLL038C ambiguous
+YHR187W cytoplasm
+YOL001W cytoplasm,nucleus
+YDR185C mitochondrion
+YBR140C cytoplasm
+YJL041W nuclear periphery
+YPL158C bud neck
+YJR147W cytoplasm,nucleus
+YDL106C nucleus
+YJL036W endosome
+YDR031W cytoplasm,nucleus
+YBR115C cytoplasm
+YLR195C cytoplasm
+YOL148C nucleus
+YGL213C cytoplasm
+YBR155W cytoplasm
+YGR163W vacuolar membrane
+YNL046W ER
+YBL029C-A cell periphery
+YOL142W nucleolus,nucleus
+YIL056W cytoplasm,nucleus
+YPL246C Golgi,early Golgi
+YOR276W cytoplasm
+YDL136W cytoplasm
+YLR290C mitochondrion
+YMR292W ER
+YLR179C cytoplasm,nucleus
+YPR110C nucleolus,nucleus
+YMR271C cytoplasm
+YPR128C peroxisome
+YML011C nucleus
+YOL054W nucleus
+YJR059W cytoplasm
+YGR128C nucleolus
+YBL011W ER
+YGL157W cytoplasm,nucleus
+YLR319C bud neck,cytoplasm,cell periphery
+YDR284C vacuolar membrane
+YPL256C cytoplasm,nucleus
+YGL077C cell periphery,bud
+YLR323C nucleus
+YJL198W ER
+YDR493W mitochondrion
+YBR291C mitochondrion
+YDR414C ambiguous
+YDR130C cytoplasm,nucleus,spindle pole
+YLR212C spindle pole
+YBL103C cytoplasm,nucleus
+YML020W ambiguous
+YER022W nucleus
+YPR066W cytoplasm,punctate composite
+YGL079W endosome
+YDR507C ambiguous,bud neck,cytoplasm,bud
+YNR022C mitochondrion
+YLR168C mitochondrion
+YML043C nucleolus,microtubule
+YML059C ER
+YKR048C cytoplasm
+YBR126C cytoplasm
+YGL049C cytoplasm
+YAR003W nucleus
+YHL025W nucleus
+YDR464W nucleus
+YDL076C nucleus
+YGR118W cytoplasm
+YGR281W cell periphery
+YHR144C cytoplasm
+YDR329C peroxisome
+YDL012C cell periphery
+YAR002C-A vacuolar membrane
+YPL012W cytoplasm,nucleus
+YGR002C nucleus
+YDR476C ER
+YOR326W ambiguous,bud neck,cytoplasm,cell periphery,bud
+YOL097C cytoplasm
+YER088C cytoplasm,nucleus
+YER006W nucleolus,nucleus
+YNL025C nucleus
+YML094W cytoplasm
+YBR274W cytoplasm
+YDR144C vacuole
+YDL185W vacuolar membrane
+YDR272W cytoplasm,nucleus
+YER038C cytoplasm,nucleus
+YGL167C ER
+YKL168C cytoplasm
+YMR241W mitochondrion
+YGR092W bud neck,cytoplasm
+YOL145C nucleus
+YMR310C nucleus
+YOR060C nucleus,spindle pole
+YLR048W cytoplasm
+YKL187C ambiguous
+YDL189W cytoplasm,punctate composite
+YDR091C cytoplasm
+YIL143C nucleus
+YNL219C ER
+YLR114C cytoplasm
+YDL202W mitochondrion
+YMR288W cytoplasm,nucleus
+YHR159W cytoplasm
+YPL239W cytoplasm
+YDL100C ER
+YPR179C nucleus
+YBR132C ER
+YDL119C mitochondrion
+YIL088C ER
+YDL227C nucleus
+YDR120C nuclear periphery,nucleus
+YPL050C Golgi
+YKL197C peroxisome
+YBR265W ER
+YKL134C mitochondrion
+YDR196C ER
+YML081W nucleus
+YBL087C nucleus
+YGL150C nucleus
+YLR335W nuclear periphery
+YDR369C cytoplasm,nucleus
+YLR016C cytoplasm,nucleus
+YNR029C cytoplasm
+YBR127C vacuolar membrane
+YLR098C cytoplasm,nucleus
+YOL140W mitochondrion
+YLR035C cytoplasm,nucleus
+YGL226C-A ER
+YDR354W cytoplasm,nucleus
+YDR309C ambiguous,cytoplasm,bud
+YDR485C nucleus
+YOL023W mitochondrion
+YBL056W cytoplasm,nucleus
+YGL249W ambiguous
+YLR435W cytoplasm,nucleus
+YJL125C nucleus
+YPL037C cytoplasm
+YLR051C nucleolus
+YDL137W early Golgi,late Golgi
+YML025C mitochondrion
+YDL178W mitochondrion
+YGR167W late Golgi
+YML096W cytoplasm
+YBR129C cytoplasm
+YPR086W nucleus
+YJR005W bud neck,cell periphery
+YDL019C punctate composite
+YPL026C cytoplasm
+YKL077W vacuole
+YOL034W cytoplasm,nucleus
+YBR077C vacuolar membrane
+YNL066W vacuole
+YFR011C cytoplasm,mitochondrion
+YMR112C nucleus
+YGR271W cytoplasm
+YLR309C cytoplasm
+YCL010C nucleus
+YPR147C cytoplasm
+YKL091C cytoplasm,nucleus
+YKL143W cytoplasm
+YMR269W nucleolus
+YBR049C nucleus
+YOR362C cytoplasm,nucleus
+YBL036C cytoplasm,nucleus
+YOL077W-A mitochondrion
+YPL249C ambiguous,bud neck,cytoplasm,cell periphery,bud
+YLR065C ambiguous
+YAL001C cytoplasm,nucleus
+YBR163W mitochondrion
+YMR077C vacuolar membrane,endosome
+YBR267W cytoplasm
+YPL242C bud neck
+YPL183C cytoplasm
+YML028W cytoplasm,punctate composite
+YGR179C spindle pole
+YGL164C cytoplasm
+YPL006W vacuolar membrane
+YMR285C cytoplasm
+YBR141C nucleolus
+YGL169W cytoplasm
+YPL243W cytoplasm
+YMR212C cell periphery
+YPL192C ER
+YLL061W ER
+YBL042C cell periphery,bud
+YDL082W cytoplasm
+YML097C cytoplasm
+YBR145W cytoplasm,nucleus
+YGL137W Golgi,early Golgi
+YGR205W cytoplasm,nucleus
+YDL181W mitochondrion
+YNL100W mitochondrion
+YGL124C late Golgi
+YBR117C cytoplasm,nucleus
+YDR432W nucleus
+YIL055C ambiguous
+YOR016C ER
+YKL092C bud neck,cytoplasm,cell periphery
+YBR273C ER
+YOL112W ambiguous,bud neck,cell periphery,bud
+YNL169C mitochondrion
+YFL030W 
+YNR032W cytoplasm,nucleus
+YOR208W cytoplasm,nucleus
+YNL134C cytoplasm,nucleus
+YPL083C mitochondrion
+YNL068C nucleus
+YGR140W nucleus,spindle pole,microtubule
+YCR054C cytoplasm
+YLR432W cytoplasm
+YGR174C mitochondrion
+YOR367W actin
+YER020W cell periphery
+YGL222C cytoplasm
+YPL015C cytoplasm
+YMR090W cytoplasm
+YMR315W cytoplasm,nucleus
+YLR385C nucleus
+YJL029C punctate composite,early Golgi
+YOR027W cytoplasm
+YIL063C nucleus
+YCL026C-B cytoplasm,nucleus
+YOR035C cytoplasm
+YHR127W nucleus
+YKL013C actin
+YDR326C ambiguous
+YBR189W cytoplasm
+YLR390W mitochondrion
+YNL030W nucleus
+YNL246W nucleus
+YEL065W vacuole
+YAL021C cytoplasm
+YAL017W cytoplasm
+YIL092W cytoplasm,nucleus
+YBR036C ER,vacuole
+YDL059C cytoplasm,nucleus
+YDR025W cytoplasm
+YGR106C vacuolar membrane
+YKL012W nucleus
+YNR011C cytoplasm,nucleus
+YJR104C ambiguous,cytoplasm,nucleus
+YNR075W ER
+YJR111C mitochondrion
+YML076C nucleus
+YHL030W cytoplasm,nucleus
+YDR348C bud neck,cell periphery
+YLR185W cytoplasm
+YOR057W cytoplasm,nucleus,bud
+YNL279W vacuole
+YDR423C cytoplasm,nucleus
+YGR258C cytoplasm,nucleus
+YML114C nucleus
+YPL225W cytoplasm
+YCR084C nucleus
+YFL008W cytoplasm,nucleus
+YGR283C nucleolus
+YIL160C ambiguous
+YJL127C cytoplasm,nucleus
+YBR202W cytoplasm,nucleus
+YOR210W nucleolus,nucleus
+YNR045W mitochondrion
+YER168C cytoplasm
+YKL020C cytoplasm
+YPR023C nucleus
+YDR540C cytoplasm,nucleus
+YJL017W cytoplasm
+YMR255W cytoplasm
+YOR078W nucleolus,nucleus
+YPR072W cytoplasm
+YNR030W ER
+YKL157W cytoplasm,mitochondrion
+YER048W-A mitochondrion
+YBL039C cytoplasm
+YER150W vacuole
+YPR061C mitochondrion
+YHR112C cytoplasm
+YMR125W nucleus
+YOR014W cytoplasm,nucleus
+YER089C cytoplasm,nucleus
+YMR108W mitochondrion
+YGL229C cytoplasm
+YML063W cytoplasm
+YGR208W cytoplasm,nucleus
+YKL060C cytoplasm
+YPL069C mitochondrion
+YHR067W mitochondrion
+YLR100W lipid particle
+YLR127C cytoplasm,nucleus
+YDL097C cytoplasm,nucleus
+YMR014W nucleolus
+YHR204W cytoplasm
+YBR042C lipid particle
+YGL059W mitochondrion
+YLR011W cytoplasm,nucleus
+YLR262C-A cytoplasm,nucleus
+YGL210W cytoplasm,nucleus
+YMR224C cytoplasm,nucleus
+YOR361C cytoplasm
+YCR069W vacuole
+YBR016W cell periphery
+YPR033C cytoplasm
+YEL003W cytoplasm
+YLR018C nuclear periphery
+YDR532C ambiguous,spindle pole
+YLR192C cytoplasm
+YJR097W cytoplasm,nucleus
+YGL025C nucleus
+YJL034W ambiguous
+YBL018C nucleus
+YHR121W cytoplasm,nucleus
+YPR013C ambiguous
+YKL119C ER
+YHL013C cytoplasm
+YDR081C nucleus
+YLR277C nucleus
+YPL084W cytoplasm,endosome
+YDL160C cytoplasm
+YGL187C mitochondrion
+YIR009W cytoplasm,nucleus
+YER129W cytoplasm
+YMR300C cytoplasm
+YOR087W ER,cytoplasm
+YMR243C vacuolar membrane
+YMR287C mitochondrion
+YPL078C mitochondrion
+YLR240W endosome
+YGL035C cytoplasm,nucleus
+YLR237W cell periphery,vacuole
+YDR041W mitochondrion
+YML115C vacuole,Golgi
+YNL229C cytoplasm
+YDR291W nucleus
+YKR088C punctate composite,endosome,early Golgi,late Golgi
+YPL241C ambiguous
+YBR003W mitochondrion
+YOR064C nucleus
+YBR195C cytoplasm,nucleus
+YLR142W mitochondrion
+YEL053C cytoplasm
+YKL029C mitochondrion
+YLR107W cytoplasm,nucleus
+YOR077W cytoplasm,nucleus
+YGL056C cytoplasm,nucleus
+YOR215C mitochondrion
+YLR452C cytoplasm
+YOR113W nucleus
+YIR006C punctate composite
+YLR176C nucleus
+YJL153C cytoplasm
+YCR002C bud neck,cell periphery
+YLR196W cytoplasm,nucleolus,nucleus
+YDR026C nucleolus
+YDR382W cytoplasm
+YDR014W nucleus
+YMR093W nucleolus,nucleus
+YNR031C cytoplasm
+YLL054C cytoplasm
+YMR042W nucleus
+YBR225W ambiguous
+YGL126W ER
+YJR129C cytoplasm
+YPR035W cytoplasm
+YHR061C cytoplasm,nucleus
+YDR098C cytoplasm,nucleus
+YOR272W nucleolus,nucleus
+YJR069C cytoplasm,nucleus
+YGR282C vacuole
+YPL177C cytoplasm,nucleus
+YGL244W nucleus
+YNL272C ambiguous,bud neck,cytoplasm,bud
+YPR132W cytoplasm
+YKL086W cytoplasm,nucleus
+YHR165C cytoplasm,nucleus
+YKL211C cytoplasm
+YOR209C cytoplasm,nucleus
+YMR159C ambiguous
+YGR124W cytoplasm
+YDR319C ambiguous
+YOR185C cytoplasm,nucleus
+YPL250C ambiguous
+YLR149C ambiguous
+YMR070W nucleus
+YDR180W nucleus
+YMR038C cytoplasm,nucleus
+YBL061C bud neck,cytoplasm,nucleus
+YPR127W cytoplasm,nucleus
+YMR273C cytoplasm
+YJL157C nucleus
+YLR032W cytoplasm,nucleus
+YPR091C ER
+YMR220W cytoplasm,nucleus
+YNL022C cytoplasm,nucleolus,nucleus
+YMR314W cytoplasm,nucleus
+YNR001C mitochondrion
+YGL255W ER
+YOR094W cell periphery
+YGL216W microtubule
+YGR014W vacuole
+YOL058W cytoplasm
+YMR238W ER
+YMR037C cytoplasm,nucleus
+YHR111W cytoplasm
+YCR051W cytoplasm,nucleus
+YPR056W nucleus
+YLR064W ER
+YDL030W nucleus
+YLR145W cytoplasm,nucleus
+YNL090W cytoplasm,nucleus
+YLR024C cytoplasm
+YNL271C bud neck,cytoplasm
+YDR003W cytoplasm,vacuole
+YNL104C cytoplasm,mitochondrion
+YDR318W nucleus,spindle pole
+YER166W late Golgi
+YNL293W ambiguous
+YEL012W cytoplasm,nucleus
+YPR186C cytoplasm,nucleus
+YLR324W peroxisome
+YML121W vacuolar membrane
+YPR116W mitochondrion
+YCR028C-A mitochondrion
+YDR110W nucleolus
+YBR125C cytoplasm
+YOL089C cytoplasm,nucleus
+YGR003W cytoplasm,nucleus
+YPL206C punctate composite
+YMR030W cytoplasm,nucleus
+YEL043W ER
+YNR047W cytoplasm
+YLL006W mitochondrion,punctate composite
+YPL097W mitochondrion
+YNL031C ambiguous
+YOR352W cytoplasm,nucleus
+YJL062W-A mitochondrion
+YGR177C ER
+YPR065W nucleus
+YJL209W mitochondrion
+YER111C cytoplasm,nucleus
+YNR051C cytoplasm
+YHR101C ER
+YKR092C nucleolus
+YML129C mitochondrion
+YAL060W cytoplasm
+YPR168W cytoplasm,nucleus
+YGL225W punctate composite,Golgi,early Golgi
+YPL070W cytoplasm
+YNL212W cytoplasm
+YAL014C cytoplasm,nucleus
+YLR457C spindle pole
+YJR006W nucleus
+YDR395W cytoplasm,nucleus
+YGR026W cell periphery
+YGR272C cytoplasm,nucleus
+YNL085W cytoplasm,punctate composite
+YOR182C cytoplasm
+YPR098C mitochondrion
+YDR210W cell periphery
+YBR171W ER
+YBR023C late Golgi
+YNL036W cytoplasm,nucleus
+YLR433C ambiguous
+YNL142W cell periphery
+YNL055C cytoplasm,mitochondrion
+YOL038W cytoplasm,nucleus
+YGR046W mitochondrion
+YJL084C cytoplasm
+YPL269W ambiguous,spindle pole
+YML014W cytoplasm
+YIL140W ambiguous,bud neck,cell periphery,vacuole,bud
+YGL223C early Golgi
+YKR096W cytoplasm,nucleus
+YKL215C cytoplasm
+YBR152W nucleus
+YBR256C ambiguous
+YKL058W nucleus
+YGL026C cytoplasm,nucleus
+YMR022W ER
+YLR347C cytoplasm,nuclear periphery,punctate composite
+YGR080W actin
+YHR038W mitochondrion
+YMR289W cytoplasm
+YJL154C vacuolar membrane,endosome
+YLR295C mitochondrion
+YER152C cytoplasm,nucleus
+YBR286W ambiguous
+YIL131C nucleus
+YHR039C-A vacuolar membrane
+YIL084C nucleus
+YOL150C mitochondrion
+YOL017W cytoplasm,nucleus
+YDR343C cell periphery
+YMR208W cytoplasm,nucleus
+YER126C cytoplasm
+YNL161W bud neck,cytoplasm
+YJL016W cytoplasm
+YDL216C cytoplasm
+YLR438C-A cytoplasm,nucleus
+YKL206C cytoplasm
+YNL113W nucleolus
+YDL088C nuclear periphery
+YGR111W cytoplasm,nucleus
+YDL203C ambiguous
+YPL260W cytoplasm,nucleus
+YIL133C cytoplasm
+YGL086W nuclear periphery
+YER173W cytoplasm,nucleus
+YDL060W cytoplasm,nucleus
+YCR034W ER
+YLL041C mitochondrion
+YOR254C ER
+YDR495C punctate composite
+YLR371W bud neck,cytoplasm,bud
+YML009C mitochondrion
+YML010W nucleus
+YDR236C cytoplasm
+YJL186W punctate composite
+YPR148C punctate composite
+YDL091C punctate composite
+YJR046W cytoplasm,nucleus
+YBR043C cell periphery
+YKL048C bud neck
+YLR260W ambiguous
+YPR183W ER
+YDR019C mitochondrion
+YLR218C cytoplasm,nucleus
+YGL043W nucleus
+YDR316W mitochondrion
+YGR268C cytoplasm,nucleus
+YBR106W ER
+YDR266C cytoplasm
+YKL166C cytoplasm,nucleus
+YGL131C cytoplasm,nucleus
+YNL126W punctate composite,spindle pole
+YGL016W cytoplasm,nuclear periphery,nucleus
+YBL104C cytoplasm
+YLR441C cytoplasm,nucleus
+YMR319C cell periphery,vacuole
+YPL100W ambiguous,endosome
+YJL180C cytoplasm
+YOR227W cytoplasm
+YJL164C cytoplasm,nucleus
+YDL147W nucleus
+YPR138C cell periphery
+YNL129W cytoplasm
+YDR016C spindle pole
+YLR262C ambiguous
+YAL036C cytoplasm
+YOR354C mitochondrion
+YOL130W ambiguous
+YNL081C mitochondrion
+YDR011W cell periphery
+YNL213C mitochondrion
+YPL071C cytoplasm,nucleus
+YGR049W mitochondrion
+YGR238C ambiguous,cell periphery,bud
+YJL124C cytoplasm
+YKR031C cytoplasm
+YGR240C cytoplasm
+YDL112W cytoplasm
+YNR027W cytoplasm,nucleus
+YJL079C vacuole
+YNL148C ambiguous
+YIL065C ambiguous
+YMR145C mitochondrion
+YMR138W cytoplasm
+YLR249W cytoplasm
+YHR066W nucleolus,nucleus
+YEL052W mitochondrion
+YLR118C cytoplasm,nucleus
+YER053C-A ER
+YOR220W cytoplasm
+YGR271C-A nucleolus
+YPR080W cytoplasm
+YAL054C cytoplasm,nucleus
+YML021C cytoplasm,nucleus
+YIR015W nucleus
+YDR137W early Golgi
+YMR214W ambiguous
+YER052C cytoplasm
+YNL118C punctate composite
+YNL241C cytoplasm
+YAL023C ER
+YHL018W mitochondrion
+YKR065C mitochondrion
+YLR050C ER
+YLL024C cytoplasm,nucleus
+YIL035C cytoplasm,nucleus
+YML038C early Golgi
+YKL154W ER
+YLR116W nucleus
+YEL066W cytoplasm,nucleus
+YDR400W cytoplasm,nucleus
+YGR030C nucleus
+YFL014W cytoplasm,nucleus
+YDL090C cytoplasm
+YER007C-A cytoplasm
+YKR003W cell periphery
+YNL311C cytoplasm
+YNL049C ER to Golgi
+YDL150W nucleus
+YIL129C ambiguous
+YPL116W bud neck
+YOR083W cytoplasm,nucleus
+YGR086C punctate composite
+YGL012W ER
+YOR148C cytoplasm,nucleus
+YDR323C endosome
+YPR113W ER
+YNL073W mitochondrion
+YDR007W cytoplasm,nucleus
+YKL094W ER
+YIR021W mitochondrion
+YPR159W vacuole
+YMR283C cytoplasm
+YJR138W vacuolar membrane
+YER040W cytoplasm,nucleus
+YHR119W ambiguous,nucleus
+YML125C ER
+YHR006W cytoplasm,nucleus
+YHR064C cytoplasm
+YDR213W nucleus
+YDR429C cytoplasm
+YDL080C nucleus
+YMR226C cytoplasm,nucleus
+YLR343W cytoplasm
+YOR281C cytoplasm
+YBR271W cytoplasm
+YLR210W nucleus,spindle pole
+YDR270W punctate composite
+YOR128C cytoplasm
+YOR238W cytoplasm
+YKL216W cytoplasm,nucleus
+YLR321C nucleus
+YPR108W nucleus
+YIL091C nucleolus,nucleus
+YOR304W nucleus
+YBR089C-A nucleus
+YDR251W ambiguous,bud neck,bud
+YJR080C mitochondrion
+YGR101W mitochondrion
+YPL163C vacuole
+YOR377W ER
+YDL208W nucleolus
+YER120W ER
+YGR136W cytoplasm,nucleus
+YOR385W cytoplasm
+YPL122C nucleus
+YKR072C cytoplasm
+YER087C-B ambiguous
+YOR181W actin
+YOL135C nucleus
+YDR515W cytoplasm
+YDL236W cytoplasm,nucleus
+YPL096W cytoplasm
+YDR484W punctate composite
+YPL057C vacuole
+YOR129C cytoplasm
+YLR138W cell periphery
+YLR150W cytoplasm
+YLR006C cytoplasm
+YIR004W ER
+YJR131W ER
+YOR142W mitochondrion
+YLR397C cytoplasm
+YMR032W bud neck
+YER079W cytoplasm,nucleus
+YOR147W mitochondrion
+YDR128W vacuolar membrane
+YIL122W nucleus
+YLL008W cytoplasm,nucleolus,nucleus
+YBR047W mitochondrion
+YGR256W ambiguous
+YLL014W ER
+YDR460W nucleus
+YJR055W cytoplasm,nucleus
+YDR363W cytoplasm,nucleus
+YDL205C cytoplasm,nucleus
+YAL035W cytoplasm
+YGL011C cytoplasm,nucleus
+YNL181W ER
+YPL089C cytoplasm,nucleus
+YNL162W cytoplasm
+YKL089W spindle pole
+YOR258W cytoplasm,nucleus
+YMR128W nucleolus
+YJL138C cytoplasm
+YBL064C mitochondrion
+YCR053W cytoplasm,nucleus
+YJR089W nucleus,spindle pole,microtubule
+YJL039C nuclear periphery
+YNL214W peroxisome
+YDL064W cytoplasm,nucleus
+YMR095C cytoplasm
+YDR197W mitochondrion
+YJL201W cytoplasm
+YDL066W mitochondrion
+YHR072W-A nucleolus
+YBR223C cytoplasm,nucleus
+YBL074C cytoplasm,nucleus
+YDR508C ER,cell periphery
+YNL153C cytoplasm
+YPL155C spindle pole,microtubule
+YBR263W mitochondrion
+YLR130C ER
+YDR275W lipid particle
+YGR121C cell periphery
+YJL178C punctate composite
+YGL067W cytoplasm,nucleus
+YBR082C cytoplasm,nucleus
+YLR354C nucleus
+YNL147W cytoplasm
+YKL016C mitochondrion
+YBL022C mitochondrion
+YBR185C mitochondrion
+YML029W ambiguous
+YNL024C cytoplasm
+YPR129W cytoplasm
+YOR076C ambiguous
+YER095W cytoplasm,nucleus
+YJR067C cytoplasm,nucleus
+YIL106W cytoplasm,spindle pole
+YGL004C cytoplasm
+YML013W ER
+YIL083C cytoplasm,nucleus
+YBR179C mitochondrion
+YLR327C cytoplasm,nucleus
+YMR190C cytoplasm,nucleus
+YOR234C cytoplasm
+YDR472W late Golgi
+YPL231W cytoplasm
+YGL070C nucleus
+YMR098C mitochondrion
+YOR095C cytoplasm,nucleus
+YNL121C mitochondrion
+YLR166C ambiguous,bud neck,cell periphery,bud
+YFL017W-A nucleus
+YIR012W cytoplasm,nucleus
+YGR215W mitochondrion
+YNL312W nucleus
+YLR093C vacuole
+YKL210W cytoplasm,nucleus
+YHR015W cytoplasm
+YHL034C cytoplasm
+YNL183C cytoplasm
+YOL061W cytoplasm
+YLL002W nucleus
+YNL221C cytoplasm,nucleus
+YER110C cytoplasm,nucleus
+YJL148W nucleolus
+YML001W cytoplasm,nucleus
+YLR129W cytoplasm,nucleus
+YJL074C nucleus
+YKR023W cytoplasm
+YFR053C cytoplasm
+YBR215W nucleus
+YBL025W nucleolus
+YOR084W ambiguous
+YHL021C mitochondrion
+YDR370C cytoplasm
+YPR144C nucleus
+YMR276W cytoplasm,nucleus
+YOL111C cytoplasm
+YER080W mitochondrion
+YOR217W nucleus
+YPR052C nucleus
+YGL010W ER
+YKL122C ER
+YAL056W cytoplasm,mitochondrion
+YOR359W cytoplasm
+YOR167C cytoplasm
+YNR040W mitochondrion
+YOL072W nuclear periphery
+YNL086W endosome
+YBR002C ER
+YJR130C cytoplasm,nucleus
+YEL040W ER
+YFL034C-A cytoplasm
+YPL048W cytoplasm
+YGL082W cytoplasm,nucleus
+YDR221W ER
+YHR175W ER
+YDR168W cytoplasm
+YJL203W nucleus
+YPL214C cytoplasm,punctate composite
+YOR131C cytoplasm,nucleus
+YNL227C cytoplasm
+YGR250C cytoplasm
+YJR031C Golgi
+YBR205W vacuole
+YHL017W late Golgi
+YDL184C cytoplasm
+YJL143W cytoplasm,nucleus
+YKL033W cytoplasm
+YDL028C bud neck
+YJR053W spindle pole
+YGR203W cytoplasm,nucleus
+YPL111W cytoplasm,nucleus
+YDR122W cytoplasm
+YMR301C mitochondrion
+YCR048W ER
+YOR091W cytoplasm
+YDR056C ER
+YMR105C cytoplasm,nucleus
+YBL029W cytoplasm,nucleus
+YER151C cytoplasm
+YOR179C nucleus
+YBL028C nucleolus,nucleus
+YLR163C mitochondrion
+YPR010C nucleolus
+YPL087W vacuole
+YPR069C cytoplasm,nucleus
+YNL141W cytoplasm,nucleus
+YGR007W cytoplasm,nucleus
+YBR034C cytoplasm,nucleus
+YPR090W late Golgi
+YGL247W nuclear periphery
+YER169W nucleus
+YPL061W cytoplasm,nucleus
+YOL041C nucleolus
+YLR442C nuclear periphery
+YDR141C punctate composite,early Golgi
+YJR035W cytoplasm,nucleus
+YMR242C cytoplasm
+YJL078C ER
+YDR258C mitochondrion
+YLR052W nucleus
+YPR070W nucleus
+YGL040C cytoplasm,nucleus
+YFL034C-B cytoplasm,cell periphery
+YDR189W Golgi,early Golgi
+YER167W cytoplasm,nucleus
+YAL011W nucleus
+YJR056C cytoplasm,nucleus
+YDR398W nucleolus
+YDR458C nuclear periphery
+YPR134W mitochondrion
+YEL024W mitochondrion
+YDR299W nucleolus
+YER031C cytoplasm,nucleus
+YER092W nucleus
+YFR037C nucleus
+YJR146W cytoplasm,nucleus
+YMR218C late Golgi
+YIL050W cytoplasm
+YGR010W cytoplasm,nucleus
+YAL027W nucleus
+YNL108C cytoplasm,nucleus
+YER061C mitochondrion
+YBR080C Golgi,early Golgi
+YDR127W cytoplasm
+YPL065W punctate composite
+YKR093W cell periphery,vacuole
+YBR207W vacuolar membrane
+YER165W cytoplasm
+YOL105C cell periphery
+YFL046W mitochondrion
+YPR047W mitochondrion
+YOL101C ER
+YER116C cytoplasm,nucleus
+YNR024W nucleus
+YDR524C cytoplasm
+YFR019W vacuolar membrane
+YKR014C cytoplasm,nucleus
+YBR055C cytoplasm,nucleus
+YEL044W nucleus
+YIL136W mitochondrion
+YNL326C vacuole
+YNL283C cell periphery
+YOR052C nucleus
+YHR058C cytoplasm,nucleus
+YDR352W vacuolar membrane
+YIL009W cell periphery
+YML104C ambiguous
+YPR049C punctate composite
+YNR017W mitochondrion
+YDL058W punctate composite
+YGR061C cytoplasm
+YNL008C nuclear periphery
+YJR149W cytoplasm
+YJL066C ambiguous,mitochondrion
+YNL072W cytoplasm,nucleus
+YBR112C nucleus
+YNL287W Golgi,early Golgi
+YPR017C cytoplasm,nucleus
+YDR247W cytoplasm
+YBR253W nucleus
+YDR320C-A spindle pole
+YPL014W cytoplasm,nucleus
+YDL139C cytoplasm,nucleus
+YKL074C cytoplasm,nucleus
+YGL029W nucleus
+YDR523C cytoplasm,nucleus
+YML055W ER
+YLR094C cytoplasm,nucleus
+YPR097W ambiguous
+YGR084C mitochondrion
+YGR082W mitochondrion
+YBL055C cytoplasm
+YEL038W cytoplasm,nucleus
+YOR248W vacuole
+YBR181C cytoplasm
+YGL147C cytoplasm
+YNL218W cytoplasm,nucleus
+YKR066C mitochondrion
+YKL027W mitochondrion
+YBR269C mitochondrion
+YLR422W cytoplasm
+YPL117C cytoplasm,nucleus
+YCL026C-A cytoplasm,nucleus
+YKL072W ambiguous
+YGR081C nucleolus,nucleus
+YMR049C nucleolus,nucleus
+YDR497C cell periphery,vacuole
+YPR173C endosome
+YDL182W nucleus
+YCR083W mitochondrion
+YBL034C ambiguous,spindle pole
+YJR049C cytoplasm,nucleus
+YNL336W vacuole
+YDL107W mitochondrion
+YJL025W nucleolus
+YMR196W cytoplasm
+YNL006W punctate composite
+YIL019W cytoplasm,nucleus
+YBR143C cytoplasm
+YIL057C cytoplasm
+YNL306W mitochondrion
+YDL046W vacuole
+YHR008C mitochondrion
+YPL169C nuclear periphery
+YNL111C ER
+YJL177W cytoplasm
+YPL161C cytoplasm,nucleus
+YKL129C cytoplasm,actin
+YAL009W nucleus
+YML064C punctate composite,spindle pole
+YDR332W mitochondrion
+YOR261C cytoplasm,nucleus
+YOR226C mitochondrion
+YOR243C nucleus
+YDR347W mitochondrion
+YEL039C cytoplasm
+YHR104W cytoplasm,nucleus
+YDR135C vacuolar membrane
+YDR001C cytoplasm
+YKR026C cytoplasm
+YPR190C cytoplasm,nucleus
+YPL120W vacuole
+YBL052C nucleus
+YPL270W mitochondrion
+YNL200C cytoplasm
+YPL040C mitochondrion
+YFR047C cytoplasm,nucleus
+YER027C cytoplasm
+YJR112W spindle pole
+YBR001C cytoplasm,mitochondrion
+YPL127C nucleus
+YDR238C Golgi,early Golgi
+YDR473C nucleus
+YGR206W endosome
+YMR209C ambiguous
+YJL183W Golgi
+YML124C cytoplasm,nucleus,spindle pole
+YDR076W cytoplasm,nucleus
+YDR084C punctate composite,early Golgi,late Golgi
+YNL124W nucleus
+YDR322C-A mitochondrion
+YIL121W cell periphery
+YLR073C endosome
+YOL143C cytoplasm,nucleus
+YJL021C actin
+YFL034W ambiguous
+YLR200W cytoplasm
+YLR345W cytoplasm
+YHR129C ambiguous
+YMR286W mitochondrion
+YLR221C nucleolus
+YKL164C cytoplasm,nucleus
+YBL084C cytoplasm,nucleus
+YKR046C lipid particle
+YOR115C punctate composite
+YNL177C mitochondrion
+YDL087C nucleus
+YMR024W mitochondrion
+YPR149W punctate composite
+YJR137C cytoplasm
+YIL135C cytoplasm
+YDR173C cytoplasm,nucleus
+YDL234C cytoplasm
+YFR021W ambiguous
+YGR186W nucleus
+YOR298C-A cytoplasm
+YKL126W cytoplasm
+YOR329C ambiguous
+YBR200W ambiguous,bud neck,cell periphery,bud
+YKR079C cytoplasm,nucleus
+YNL084C punctate composite
+YMR029C ER,ambiguous,cytoplasm
+YNR014W cytoplasm
+YNL149C ER
+YMR225C mitochondrion
+YCR011C ER
+YJR024C cytoplasm
+YDR481C vacuole
+YMR052W ER
+YFR016C ambiguous,cytoplasm,bud
+YHR169W nucleolus,nucleus
+YOR038C nucleus
+YLR146C cytoplasm
+YPL009C cytoplasm
+YNL300W ER
+YPL183W-A mitochondrion
+YML106W cytoplasm,nucleus
+YER177W cytoplasm
+YDL168W cytoplasm
+YOR271C mitochondrion
+YKR036C mitochondrion
+YFR052W nucleus
+YBR272C cytoplasm
+YPL104W mitochondrion
+YCR079W mitochondrion
+YPL008W cytoplasm,nucleus
+YDR211W cytoplasm
+YNL143C cytoplasm,nucleus
+YBL063W microtubule
+YPL028W nucleus
+YPL146C nucleus
+YDR313C ambiguous,endosome
+YHR146W cell periphery
+YBL035C nucleus
+YDR101C nucleus
+YLR177W cytoplasm
+YIR034C cytoplasm,nucleus
+YBR170C cytoplasm,nucleus
+YHR163W cytoplasm,nucleus
+YBR068C cell periphery,vacuole
+YGL141W cytoplasm,nucleus
+YIL105C punctate composite
+YLR264W cytoplasm
+YKR016W ambiguous,mitochondrion
+YJL054W mitochondrion
+YDR478W nucleus
+YER030W nucleus
+YLR405W ambiguous
+YLR038C cytoplasm
+YKR027W late Golgi
+YMR169C cytoplasm
+YDR500C cytoplasm
+YNL265C endosome
+YLR219W cell periphery
+YEL071W cytoplasm,nucleus
+YER035W cytoplasm,nucleus
+YGR295C vacuole
+YPR011C mitochondrion
+YCR042C nucleus
+YHL004W mitochondrion
+YGL194C cytoplasm,nucleus
+YJL200C mitochondrion
+YOR302W cytoplasm,nucleus
+YKL194C mitochondrion
+YDR448W nucleus
+YDR079C-A nucleus
+YPL181W nucleus
+YML075C nuclear periphery
+YER178W mitochondrion
+YCR044C ER
+YNL096C cytoplasm
+YDR301W nucleus
+YOR373W spindle pole
+YOL047C punctate composite
+YPR122W bud neck,cell periphery
+YGL202W cytoplasm
+YLR083C vacuole
+YLR003C nucleus
+YOR171C ambiguous
+YDR231C mitochondrion
+YLR253W mitochondrion
+YDL070W cytoplasm,nucleus
+YGR097W cytoplasm
+YER032W bud neck
+YGL022W ER
+YGL233W bud neck,cytoplasm,cell periphery
+YOR023C cytoplasm,nucleus
+YLR022C cytoplasm,nucleus
+YLR102C cytoplasm,nucleus
+YGR031W mitochondrion
+YLR396C vacuolar membrane
+YDL103C cytoplasm,nucleus
+YDL193W ER
+YMR227C cytoplasm,nucleus
+YIL090W ER
+YFL023W cytoplasm
+YGL031C cytoplasm
+YBR005W ambiguous
+YIL117C vacuole
+YDR147W cytoplasm
+YNL016W cytoplasm
+YLR336C nucleolus
+YER133W cytoplasm,nucleus,punctate composite
+YDR388W actin
+YOR136W mitochondrion
+YBR199W vacuole
+YMR246W lipid particle
+YHR046C cytoplasm,nucleus
+YPL193W cytoplasm,nucleus
+YLL001W mitochondrion,punctate composite
+YNR016C cytoplasm,punctate composite
+YIL027C ER
+YLR039C Golgi
+YNR019W ER
+YHR077C cytoplasm
+YKL006C-A cytoplasm,nucleus
+YFL001W nucleus
+YER005W ambiguous,Golgi,early Golgi
+YOL129W vacuolar membrane
+YDR116C mitochondrion
+YCR073W-A cytoplasm
+YML018C vacuolar membrane
+YOR374W mitochondrion
+YKL073W vacuole
+YDR480W cytoplasm,nucleus
+YBR149W cytoplasm,nucleus
+YDR200C cytoplasm
+YJL192C ER
+YKL175W vacuole
+YJL050W nucleolus,nucleus
+YDL152W nucleus
+YOR069W endosome
+YDR156W nucleolus
+YDR105C vacuolar membrane
+YML110C mitochondrion
+YDL157C mitochondrion
+YLR248W cytoplasm
+YDL232W ER
+YLR033W nucleus
+YNL309W cytoplasm,nucleus
+YLR272C cytoplasm,nucleolus,nucleus
+YOL082W punctate composite
+YOR290C nucleus
+YJR077C mitochondrion
+YAL044C mitochondrion
+YHR113W cytoplasm
+YPR124W cell periphery,bud
+YMR230W cytoplasm
+YIL157C mitochondrion
+YIL042C mitochondrion
+YKR103W cytoplasm,nucleus
+YJL102W mitochondrion
+YKL075C cytoplasm
+YCL064C mitochondrion
+YIL124W ER
+YGL061C spindle pole
+YKR099W nucleus
+YPL129W nucleus
+YDR368W cytoplasm,nucleus
+YKR045C ambiguous
+YNL094W cytoplasm
+YBL005W cytoplasm,nucleus
+YBR164C punctate composite,early Golgi
+YNL242W ambiguous
+YNL234W cytoplasm
+YOR033C nucleus
+YMR127C cytoplasm,nucleus
+YOR048C nucleus
+YKL103C cytoplasm,punctate composite
+YIL048W early Golgi
+YMR308C cytoplasm,nucleus
+YBL051C cytoplasm
+YOL141W cytoplasm
+YGL113W cytoplasm,nucleus
+YDR119W vacuolar membrane
+YKL003C mitochondrion
+YHR090C nucleus
+YEL029C cytoplasm,nucleus
+YCL057W cytoplasm
+YNL164C cytoplasm
+YML067C ER
+YIL101C nucleus
+YLR356W mitochondrion
+YGL098W lipid particle
+YBR198C nucleus
+YBL037W bud neck,cell periphery
+YGR193C mitochondrion
+YIR005W cytoplasm,nucleus
+YCR003W mitochondrion
+YLR421C cytoplasm,nucleus
+YFR031C-A cytoplasm
+YDR049W cytoplasm
+YDR086C ER
+YDR240C nucleus
+YNL233W bud neck,cytoplasm,cell periphery
+YPR029C punctate composite
+YNL166C ambiguous,bud neck,cytoplasm,bud
+YAL033W cytoplasm,nucleus
+YIL039W ER
+YPL195W early Golgi
+YLL028W ER,cell periphery,bud
+YCR030C bud neck,cell periphery,punctate composite
+YGR194C cytoplasm
+YPL016W nucleus
+YNL238W punctate composite,early Golgi
+YDL209C nucleus
+YDR262W vacuole
+YDR179C cytoplasm
+YPL151C cytoplasm,nucleus
+YJR062C mitochondrion
+YDR080W vacuole,vacuolar membrane
+YMR272C ER
+YJL096W mitochondrion
+YDR328C cytoplasm,nucleus
+YER081W cytoplasm
+YFR041C ER
+YOL056W cytoplasm
+YIL144W spindle pole
+YBR061C cytoplasm
+YOL042W mitochondrion
+YDR300C cytoplasm
+YMR201C cytoplasm,nucleus
+YGR264C cytoplasm
+YMR172W nucleus
+YDR353W cytoplasm,nucleus
+YDL033C mitochondrion
+YOR002W ER
+YDR159W nuclear periphery
+YLR189C cytoplasm
+YNL076W cytoplasm
+YDL220C cytoplasm,nucleus
+YOR127W bud neck,cytoplasm,cell periphery
+YGR044C cytoplasm,nucleus
+YMR235C cytoplasm
+YCL043C vacuole
+YPR105C early Golgi
+YLR206W actin
+YCR087C-A nucleolus
+YPL215W mitochondrion
+YBR139W vacuole
+YER139C cytoplasm
+YHR198C mitochondrion
+YDL001W cytoplasm
+YPR040W cytoplasm,nucleus
+YNL268W cell periphery,vacuole
+YDR060W nucleolus
+YLR226W nucleus
+YOL032W cytoplasm,nucleus
+YBR248C cytoplasm,nucleus
+YNL211C mitochondrion
+YDL083C cytoplasm
+YGR119C nuclear periphery
+YPR042C cytoplasm
+YMR135C cytoplasm,nucleus
+YDR492W ER
+YJL171C ER
+YDR334W nucleus
+YKL078W nucleolus
+YPR034W nucleus
+YER036C cytoplasm
+YNL048W ER
+YBL059C-A cytoplasm,nucleus
+YHL026C ambiguous
+YJL002C ER
+YMR240C nucleus
+YGR162W cytoplasm
+YDR250C cytoplasm
+YFR024C actin
+YGR251W nucleolus,nucleus
+YPR060C cytoplasm,nucleus
+YML109W cytoplasm
+YGL237C nucleus
+YDR172W cytoplasm
+YOR175C ER
+YGL085W mitochondrion
+YNL041C Golgi
+YPL005W mitochondrion
+YDR158W cytoplasm,nucleus
+YJL099W late Golgi
+YMR282C mitochondrion
+YDR516C cytoplasm
+YPR001W mitochondrion
+YIL132C cytoplasm,nucleus
+YKL155C mitochondrion
+YJL092W nucleus
+YDR063W cytoplasm,nucleus
+YLR301W cytoplasm,nucleus
+YNL163C cytoplasm
+YGR083C cytoplasm
+YHR024C mitochondrion
+YGL066W nucleus
+YBR066C cytoplasm,nucleus
+YCR027C cytoplasm
+YDR005C cytoplasm,nucleus
+YGR279C vacuole
+YBR239C cytoplasm,nucleus
+YMR244C-A cytoplasm,nucleus
+YGR252W nucleus
+YNL280C ER
+YPR036W vacuolar membrane
+YLR390W-A ER
+YLR108C nucleus
+YBR160W cytoplasm,nucleus
+YKR089C lipid particle
+YOL134C cytoplasm,nucleus
+YLL055W ER
+YDR454C cytoplasm,nucleus
+YPR074C cytoplasm,nucleus
+YKL116C cytoplasm
+YNL248C nucleolus
+YLL045C cytoplasm
+YBR196C cytoplasm
+YJL197W cytoplasm,nucleus
+YLR406C cytoplasm
+YGR157W ER
+YPL152W cytoplasm
+YGR004W ambiguous
+YMR142C cytoplasm
+YGR028W mitochondrion
+YBR162W-A ER
+YGR034W cytoplasm
+YER124C bud neck
+YMR119W nuclear periphery
+YIL016W ER
+YNL139C nucleus
+YBL071W-A cytoplasm,nucleus
+YOL062C bud neck,cell periphery
+YGR052W cytoplasm,nucleus
+YKL041W punctate composite,endosome
+YLR120C ER
+YNL220W cytoplasm
+YPL140C cytoplasm
+YLR312W-A mitochondrion
+YHR106W mitochondrion
+YDR115W mitochondrion
+YNL185C mitochondrion
+YGR231C mitochondrion
+YDR032C punctate composite
+YOL093W cytoplasm,nucleus
+YJL098W cytoplasm
+YMR121C nucleolus,nucleus
+YIR035C cytoplasm
+YBR079C cytoplasm
+YPL254W nucleus
+YOR245C ER,cytoplasm
+YJR063W nucleolus
+YDR531W cytoplasm,nucleus
+YLR105C mitochondrion
+YNL317W nucleus
+YMR149W ER
+YLR369W mitochondrion
+YLR086W nucleus
+YDR450W cytoplasm
+YDR294C ER
+YLR002C nucleolus,nucleus
+YKL108W nucleus
+YOR062C cytoplasm,nucleus
+YCR023C ambiguous
+YNL021W nucleus
+YLR095C nucleus
+YLR254C cytoplasm,nucleus
+YJR074W cytoplasm
+YDL166C cytoplasm,nucleus
+YIL007C cytoplasm
+YJL179W cytoplasm
+YLR430W nucleus
+YPR003C ER
+YDR456W endosome
+YJR013W ER
+YGL127C nucleus
+YGR278W cytoplasm,nucleus
+YMR048W nucleus
+YDL175C nucleus
+YNL327W ER
+YJL112W mitochondrion
+YPR063C ER
+YEL058W cytoplasm,nucleus
+YAL007C ER
+YLL012W lipid particle
+YPR143W nucleolus,nucleus
+YOL012C nucleus
+YKR071C cytoplasm
+YOR266W mitochondrion
+YPR140W mitochondrion
+YHR155W mitochondrion
+YDR034C cytoplasm,nucleus
+YDR295C nucleus
+YBL085W bud neck,cytoplasm,cell periphery,bud
+YML093W nucleolus,nucleus
+YOR141C nucleus
+YLR328W cytoplasm,nucleus
+YNL020C actin
+YGL190C cytoplasm
+YIL052C cytoplasm
+YGL046W cytoplasm,nucleus
+YKR063C nucleus
+YDR177W cytoplasm,nucleus
+YDR043C cytoplasm,nucleus
+YAL005C cytoplasm
+YJL090C cytoplasm,nucleus
+YDL015C ER
+YMR229C nucleolus
+YER034W cytoplasm,nucleus
+YDR261C ambiguous
+YGR038W ER
+YGR048W cytoplasm,nucleus
+YNL095C ER
+YOR308C nucleus
+YGR183C mitochondrion
+YGR017W cytoplasm,nucleus
+YFR024C-A bud neck,cytoplasm,mitochondrion,cell periphery
+YBR282W mitochondrion
+YDR145W nucleus
+YAR014C cytoplasm,nucleus
+YLR015W nucleus
+YER071C punctate composite
+YIL147C cell periphery
+YLR121C mitochondrion
+YBR097W endosome
+YJL006C nucleus
+YJL033W nucleolus
+YNR015W cytoplasm,nucleus
+YLR380W ambiguous
+YNL005C mitochondrion
+YNL065W cell periphery,vacuole
+YCR067C ER
+YNL162W-A cytoplasm,nucleus
+YFL007W cytoplasm,nucleus
+YBL090W mitochondrion
+YBR130C ambiguous,cytoplasm,cell periphery,bud
+YIL126W nucleus
+YPL153C nucleus
+YOL005C nucleus
+YLR090W mitochondrion,nucleus
+YCR060W cytoplasm,nucleus
+YBL095W mitochondrion
+YBR039W mitochondrion
+YBR255W punctate composite
+YPL045W vacuolar membrane
+YOR316C vacuolar membrane
+YFR034C cytoplasm,nucleus
+YMR002W cytoplasm,nucleus
+YDL229W cytoplasm
+YKL096W-A ER
+YPL160W cytoplasm
+YBR138C cytoplasm
+YGL125W cytoplasm,nucleus
+YLR085C cytoplasm,nucleus
+YML091C mitochondrion
+YJL222W ambiguous
+YPR100W mitochondrion
+YMR124W ambiguous,bud neck,cytoplasm,cell periphery,bud
+YEL037C cytoplasm,nucleus
+YEL008W cytoplasm,nucleus
+YNL167C cytoplasm,nucleus
+YLR139C mitochondrion
+YGL116W cytoplasm,nucleus
+YBR008C cell periphery,vacuole
+YGR235C mitochondrion
+YDL042C nuclear periphery
+YJR094W-A cytoplasm
+YLR357W nucleus
+YGL133W nucleus
+YCR020C ambiguous
+YDR235W nucleus
+YDR208W cytoplasm
+YDL095W ER
+YNL250W cytoplasm,nucleus
+YIL148W cytoplasm,nucleus
+YJR060W nucleus
+YCR057C nucleolus
+YNL078W bud neck,cell periphery
+YJR119C cytoplasm,nucleus
+YBR011C cytoplasm,nucleus
+YJR086W cytoplasm,punctate composite
+YDR233C ER,cell periphery
+YDR089W ambiguous
+YPL220W cytoplasm
+YKR029C nucleus
+YHR136C punctate composite
+YOL084W cell periphery,vacuole
+YHR041C cytoplasm,nucleus
+YDL167C cytoplasm
+YIL074C cytoplasm
+YBR058C-A ER
+YGL068W mitochondrion
+YDL141W cytoplasm,nucleus
+YKL138C mitochondrion
+YML070W cytoplasm
+YDR068W cytoplasm
+YGL241W cytoplasm,nucleus
+YGL161C cytoplasm
+YLR204W mitochondrion
+YDR451C nucleus
+YDR155C cytoplasm,nucleus
+YOL044W punctate composite
+YLR096W ambiguous
+YEL005C punctate composite
+YNR053C nucleus
+YHR149C bud neck,cytoplasm,cell periphery,bud
+YAL039C mitochondrion
+YNL206C nucleus
+YNL262W cytoplasm,nucleus
+YBR262C mitochondrion
+YBR071W cytoplasm
+YEL019C cytoplasm,nucleus
+YDR365C nucleolus,nucleus
+YDR394W ambiguous
+YOR244W nucleus
+YML116W cell periphery,vacuole
+YGR071C nucleus
+YNL209W cytoplasm
+YKR059W cytoplasm
+YOL007C vacuole
+YML041C nucleus
+YGR047C cytoplasm,nucleus
+YKL101W bud neck
+YNR023W nucleus
+YBR059C bud neck,cytoplasm,cell periphery
+YKR052C mitochondrion
+YBL001C cytoplasm,nucleus
+YER117W nucleus
+YLL043W cell periphery,vacuole
+YLR203C mitochondrion
+YGR112W mitochondrion
+YDL219W cytoplasm
+YKL192C mitochondrion
+YFL031W cytoplasm,nucleus
+YBL026W cytoplasm,nucleus
+YOR039W cytoplasm,nucleus
+YNL127W ambiguous
+YGR116W nucleus
+YLR348C mitochondrion
+YOR152C ambiguous
+YDL121C ER
+YBL091C cytoplasm,nucleus
+YNL035C nucleus
+YLR211C cytoplasm
+YDL061C cytoplasm
+YPL172C mitochondrion
+YKL022C nucleus
+YLR313C ambiguous,bud neck,bud
+YML069W nucleus
+YDR296W mitochondrion
+YDR175C mitochondrion
+YML085C cytoplasm,punctate composite,spindle pole,microtubule
+YOR262W cytoplasm
+YKR013W vacuole
+YDR118W cytoplasm,nucleus
+YML058W cytoplasm,nucleus
+YCL044C mitochondrion
+YBL068W cytoplasm
+YIL061C cytoplasm,nucleus
+YGR043C nucleus
+YJL121C cytoplasm,nucleus
+YPL247C cytoplasm,nucleus
+YLR363C cytoplasm
+YJR041C nucleolus
+YGR142W cytoplasm
+YLR399C nucleus
+YMR304W cytoplasm
+YJL030W cytoplasm,nucleus
+YHR215W vacuole
+YER037W cytoplasm,nucleus
+YLR410W cytoplasm
+YLR231C cytoplasm,nucleus
+YGR156W nucleus
+YKL120W mitochondrion
+YOR283W cytoplasm,nucleus
+YKR044W cytoplasm
+YPL157W nucleolus
+YDR530C cytoplasm,nucleus
+YOR073W nucleus,spindle pole
+YIL076W Golgi,early Golgi
+YMR176W nucleus
+YBR166C cytoplasm
+YDR023W cytoplasm
+YBR084C-A cytoplasm
+YPR180W nucleus
+YOR320C vacuole
+YEL061C spindle pole,microtubule
+YNL278W bud neck,cytoplasm,cell periphery,bud
+YHL020C nuclear periphery
+YBR230C mitochondrion
+YHR042W ER
+YOR347C cytoplasm
+YBR268W mitochondrion
+YPL252C mitochondrion
+YAL061W cytoplasm,nucleus
+YKL114C mitochondrion,nucleus
+YPL068C nucleus
+YJR113C mitochondrion
+YNL190W ER,cell periphery
+YLR136C cytoplasm,nucleus
+YPL249C-A cytoplasm
+YMR164C cytoplasm,nucleus
+YDR479C ambiguous,cytoplasm,punctate composite
+YDR434W ER
+YKL007W actin
+YCR077C cytoplasm
+YML107C nuclear periphery
+YHR170W cytoplasm
+YJR076C bud neck,cell periphery
+YPL262W cytoplasm,mitochondrion
+YBL102W early Golgi
+YGL039W cytoplasm
+YMR153W nuclear periphery
+YLR417W cytoplasm
+YIL047C vacuolar membrane
+YIL115C nuclear periphery
+YBR237W nucleus
+YPL199C cytoplasm
+YMR305C vacuole
+YLR199C cytoplasm
+YPR152C nucleus
+YOR321W ER
+YDL045W-A mitochondrion
+YGR103W nucleolus,nucleus
+YGR058W cytoplasm,nucleus
+YLR344W cytoplasm
+YMR309C cytoplasm
+YPR055W ambiguous,bud neck,cytoplasm,cell periphery,bud
+YJL204C cytoplasm
+YER114C bud neck,cytoplasm,cell periphery,punctate composite,bud
+YKR095W nuclear periphery
+YGR277C cytoplasm
+YKR039W vacuole
+YGR013W cytoplasm,nucleus
+YDL010W vacuole
+YEL006W mitochondrion
+YGR134W cytoplasm
+YNL003C mitochondrion
+YGL071W cytoplasm,nucleus
+YGL097W nucleus
+YDR090C cell periphery
+YLR216C cytoplasm
+YGL054C ER,vacuole
+YER086W mitochondrion
+YDL048C cytoplasm,mitochondrion,nucleus
+YBL015W mitochondrion
+YKR010C nucleolus
+YBR026C mitochondrion
+YBR086C cell periphery
+YKL015W cytoplasm,nucleus
+YBR216C cytoplasm
+YJL080C ER
+YNL254C cytoplasm,nucleus
+YAL058W ER
+YPL059W mitochondrion
+YPR062W cytoplasm,nucleus
+YDR465C cytoplasm,nucleus
+YNL257C ambiguous
+YPR073C cytoplasm,nucleus
+YIR007W cytoplasm
+YDR217C cytoplasm,nucleus
+YDR245W Golgi
+YGL219C mitochondrion,punctate composite
+YGR133W peroxisome
+YDR227W nuclear periphery
+YNR055C cell periphery
+YDL053C cytoplasm,nucleus
+YMR202W ambiguous
+YEL042W ambiguous,Golgi
+YIL154C cytoplasm
+YLR186W cytoplasm,nucleus
+YGR229C punctate composite,late Golgi
+YHR161C ambiguous,bud neck,cell periphery,bud
+YBL016W cytoplasm,nucleus
+YLR201C mitochondrion
+YOR154W ambiguous
+YML092C nucleus
+YHR010W cytoplasm,nucleolus
+YDL140C nucleus
+YGR284C ER
+YGL220W cytoplasm,nucleus
+YDR358W cytoplasm,late Golgi
+YDR176W nucleus
+YAR028W ambiguous
+YOR195W spindle pole
+YGL036W cytoplasm
+YKL006W cytoplasm
+YIL110W cytoplasm,nucleus
+YDR061W mitochondrion
+YHR098C ER to Golgi
+YER077C mitochondrion
+YHR068W cytoplasm
+YLR220W vacuole
+YDL130W cytoplasm
+YOR327C vacuole
+YGR195W nucleolus,nucleus
+YMR307W ER,mitochondrion,nuclear periphery
+YLR208W ER to Golgi
+YCR095C cytoplasm
+YDR146C cytoplasm,nucleus
+YMR092C actin
+YKR025W nucleus
+YDR131C vacuole
+YGR132C mitochondrion
+YNL119W cytoplasm
+YGL075C spindle pole
+YJL191W cytoplasm,nucleolus,nucleus
+YHR203C cytoplasm
+YDR193W cytoplasm,nucleus
+YFL024C nucleus
+YHR164C nucleus
+YPL263C cytoplasm
+YPR191W mitochondrion
+YML088W cytoplasm
+YER101C cytoplasm
+YNL224C cytoplasm,nucleus
+YHR073W ambiguous
+YFL028C cytoplasm,nucleus
+YBR218C cytoplasm
+YNL115C vacuole
+YKL193C cytoplasm,nucleus
+YLL018C-A cytoplasm,nucleus
+YBR278W cytoplasm,nucleus
+YLR297W vacuole
+YPR041W cytoplasm
+YDR419W cytoplasm,nucleus
+YKR086W cytoplasm,nucleus
+YML086C mitochondrion
+YLL062C cytoplasm
+YML006C cytoplasm
+YKL189W cytoplasm,nucleus
+YDR140W cytoplasm,nucleus
+YDR330W cytoplasm,nucleus
+YGR254W cytoplasm
+YGL140C ambiguous
+YPL093W nucleus
+YOR323C cytoplasm,nucleus
+YNL133C nucleus
+YOR025W nucleus
+YJR135C nucleus,spindle pole
+YJL061W nuclear periphery
+YLR373C nucleus
+YOR074C cytoplasm,nucleus
+YOR239W cytoplasm
+YCL052C ER
+YDR375C mitochondrion
+YJR058C bud neck,cell periphery
+YLR135W cytoplasm,nucleus
+YER024W cytoplasm
+YKL040C mitochondrion
+YNL308C cytoplasm,nucleolus
+YPR145W cytoplasm
+YIL066C cytoplasm
+YBL059W mitochondrion
+YPR016C nucleolus,nucleus
+YLR440C ER
+YKR078W cytoplasm
+YIL077C mitochondrion
+YOL009C mitochondrion
+YPR024W mitochondrion
+YDL211C vacuole
+YNL243W punctate composite
+YIL087C mitochondrion
+YNL116W cytoplasm
+YER102W cytoplasm
+YNL083W mitochondrion
+YDR533C cytoplasm,nucleus
+YAR044W punctate composite
+YOR228C mitochondrion
+YHR057C ambiguous
+YMR175W cytoplasm
+YOR350C mitochondrion
+YGL201C cytoplasm,nucleus
+YMR059W mitochondrion
+YOR116C nucleus
+YJL130C cytoplasm
+YOR312C cytoplasm
+YMR277W nucleus
+YBL038W mitochondrion
+YKL052C spindle pole
+YDR152W cytoplasm
+YMR004W endosome
+YER070W ambiguous
+YER161C nucleus
+YNL217W vacuole
+YEL002C ER
+YER011W ER
+YPR169W nucleolus,nucleus
+YDR070C mitochondrion
+YOR026W cytoplasm,nucleus
+YFL010C cytoplasm,nucleus
+YGR122W cytoplasm
+YOL010W nucleolus,nucleus
+YLR420W cytoplasm,nucleus
+YLR143W cytoplasm
+YPL245W cytoplasm,nucleus
+YML103C nuclear periphery
+YKR057W cytoplasm
+YEL015W punctate composite
+YNR049C ambiguous,bud neck,cytoplasm,bud
+YDR165W nucleus
+YCR021C ambiguous
+YDR073W nucleus
+YNL042W cytoplasm,nucleus
+YDL120W mitochondrion
+YMR001C bud neck,nucleus
+YLR175W nucleolus
+YIL161W cytoplasm
+YDR510W cytoplasm,nucleus
+YDR264C Golgi,early Golgi
+YLR409C nucleus
+YJR145C cytoplasm
+YMR064W mitochondrion
+YDL132W cytoplasm,nucleus
+YEL027W ER
+YPL075W cytoplasm,nucleus
+YOR214C ER
+YGR260W ER
+YER118C bud neck,cytoplasm,cell periphery
+YER028C cytoplasm,nucleus
+YLR106C cytoplasm,nucleus
+YML058W-A cytoplasm
+YJL065C nucleus
+YDR234W mitochondrion
+YNL053W cytoplasm
+YPR028W ER
+YMR311C cytoplasm,nucleus
+YLR372W ER
+YLR448W cytoplasm
+YAR071W vacuole
+YGR075C nucleus
+YDL098C nucleus
+YKL146W ER
+YKL105C ambiguous
+YBR119W nucleus
+YPR163C cytoplasm
+YDR181C ambiguous,cytoplasm,nucleus
+YBR247C cytoplasm,nucleolus,nucleus
+YOL090W nucleus
+YNL062C nucleus
+YLR180W cytoplasm
+YIR003W actin
+YNL307C cytoplasm,nucleus
+YLR436C cytoplasm
+YDR219C mitochondrion
+YNL223W cytoplasm,nucleus
+YHR116W cytoplasm
+YDR071C cytoplasm
+YLR450W nuclear periphery
+YJL155C cytoplasm
+YMR270C nucleolus
+YGL163C cytoplasm,nucleus
+YLR265C cytoplasm,nucleus
+YGL020C ER
+YGR100W cytoplasm
+YLR298C nucleus
+YLR109W cytoplasm,nucleus
+YMR318C cytoplasm,nucleus
+YFR025C cytoplasm
+YMR162C cytoplasm
+YHR200W cytoplasm,nucleus
+YDR443C cytoplasm,nucleus
+YNL044W Golgi,early Golgi
+YDL233W cytoplasm,nucleus
+YPR161C nucleus
+YBL111C ambiguous
+YIL103W cytoplasm
+YDR232W mitochondrion
+YDL021W cytoplasm,nucleus
+YPL175W ambiguous
+YOR267C cytoplasm
+YBL098W mitochondrion
+YOL049W cytoplasm
+YBR302C vacuole
+YLL022C nucleus
+YKL051W cell periphery
+YGR008C cytoplasm,nucleus
+YPL024W cytoplasm,nucleus
+YJR068W nucleus
+YHR131C cytoplasm
+YML095C cytoplasm,nucleus
+YGL155W cytoplasm,nucleus
+YKL162C mitochondrion
+YOR336W vacuole
+YIL153W cytoplasm,nucleus
+YDR244W peroxisome
+YPL274W ER
+YGL110C cytoplasm
+YKR074W ambiguous,cytoplasm,nucleus
+YOR070C cytoplasm,punctate composite
+YOR231W ambiguous
+YOL077C nucleolus,nucleus
+YGR237C cytoplasm
+YLR404W ambiguous
+YOR022C mitochondrion
+YIL051C mitochondrion
+YOR191W nucleus
+YMR129W nuclear periphery
+YAR019C ambiguous,spindle pole
+YNR052C cytoplasm,mitochondrion
+YBL105C ambiguous,bud neck,cytoplasm,bud
+YMR027W cytoplasm,nucleus
+YDR453C cytoplasm
+YDR302W ER
+YDR191W cytoplasm,nucleus
+YAL008W mitochondrion
+YDR059C cytoplasm,nucleus
+YHR083W mitochondrion
+YOR213C cytoplasm,nucleus
+YJR132W cytoplasm,nucleus
+YJL117W ER
+YNL172W cytoplasm,nucleus,spindle pole
+YNL290W nucleus
+YMR252C mitochondrion
+YJR154W cytoplasm
+YER064C nucleus
+YCL001W punctate composite
+YGR062C mitochondrion
+YLL026W cytoplasm
+YJL035C cytoplasm,nucleus
+YPR118W cytoplasm,nucleus
+YDR087C nucleolus,nucleus
+YIL045W cytoplasm,punctate composite
+YOR317W ER
+YOR370C cytoplasm,nucleus
+YOR270C vacuolar membrane
+YKL019W vacuole
+YOL043C mitochondrion
+YGR129W nucleus
+YJR092W bud neck
+YHL001W cytoplasm
+YNL258C ER
+YJR122W mitochondrion
+YMR062C mitochondrion
+YBR172C cytoplasm
+YCR038C bud neck,cell periphery
+YMR239C nucleolus,nucleus
+YJL056C cytoplasm,nucleus
+YNR044W ER,ambiguous
+YJL196C ER
+YNL255C cytoplasm
+YML048W ER
+YKR094C cytoplasm
+YPL060W mitochondrion
+YER016W microtubule
+YEL020C cytoplasm
+YOR006C cytoplasm,nucleus
+YDR320C ambiguous
+YDR012W cytoplasm
+YJR096W cytoplasm,nucleus
+YKL054C cytoplasm
+YGL062W cytoplasm
+YHR043C cytoplasm,nucleus
+YPL212C nucleus
+YBR275C nucleus
+YLR275W nucleus
+YKL204W cytoplasm
+YHR034C cytoplasm,nucleus
+YNL305C vacuole
+YML127W nucleus
+YEL014C cytoplasm
+YMR163C ambiguous,punctate composite,bud
+YCR071C mitochondrion
+YNR054C cytoplasm,nucleolus
+YJL128C cytoplasm
+YGR253C cytoplasm,nucleus
+YIL156W cytoplasm
+YMR215W ER,cytoplasm
+YPR125W mitochondrion
+YCR009C cytoplasm,actin
+YER140W ambiguous
+YCR024C mitochondrion
+YDR399W cytoplasm,nucleus
+YGL173C cytoplasm
+YHR189W mitochondrion
+YDL145C Golgi,early Golgi
+YDL052C ER
+YPL180W vacuolar membrane
+YOR363C cytoplasm,nucleus
+YNL125C ER
+YHR207C cytoplasm,nucleus
+YOL087C cytoplasm
+YGL189C cytoplasm
+YNL040W cytoplasm
+YGL064C mitochondrion
+YJL161W mitochondrion
+YGL090W cytoplasm,nucleus
+YBR194W nucleus
+YKR022C ER,cytoplasm,nucleus
+YOR206W nucleolus,nucleus
+YML049C cytoplasm
+YDR371W cytoplasm
+YGL057C mitochondrion
+YIL119C cytoplasm,nucleus
+YLR084C bud neck,cell periphery
+YGL148W cytoplasm
+YHR084W nucleus
+YBL023C cytoplasm,nucleus
+YDR225W vacuole
+YCL055W cytoplasm,nucleus
+YGR247W late Golgi
+YPR031W cytoplasm,nucleus
+YLR281C mitochondrion
+YFL029C cytoplasm
+YHR001W-A mitochondrion
+YDR036C mitochondrion
+YJL210W peroxisome
+YJR117W ER
+YLR350W ER
+YJL107C 
+YLR067C mitochondrion,punctate composite
+YLR225C cytoplasm
+YDR416W nucleus
+YCR020W-B nucleus
+YER054C cytoplasm,punctate composite
+YBR222C cytoplasm
+YCL009C mitochondrion
+YDL213C nucleolus
+YJR047C cytoplasm
+YKL071W cytoplasm
+YDL156W cytoplasm,nucleus
+YHR089C nucleolus
+YGL014W cytoplasm
+YML026C cytoplasm
+YOR043W cell periphery
+YJR121W mitochondrion
+YPL085W ER to Golgi
+YPL137C ER,cytoplasm
+YMR058W ER,cell periphery,bud
+YHR039C ER
+YNL037C mitochondrion
+YPR115W cytoplasm
+YPL081W cytoplasm
+YOR386W cytoplasm,nucleus
+YHL011C cytoplasm
+YKR060W nucleolus,nucleus
+YEL073C ambiguous
+YEL022W cytoplasm,early Golgi
+YGR001C cytoplasm
+YER029C nucleus
+YLR287C cytoplasm
+YBR193C ambiguous
+YOR274W cytoplasm,nucleus
+YDR252W cytoplasm
+YIL068C ambiguous,bud neck,cell periphery,bud
+YLL031C ER
+YDR514C mitochondrion,nucleus
+YER100W ER
+YJL048C nuclear periphery
+YPL209C microtubule
+YOR089C cytoplasm,nucleus
+YHR103W cytoplasm
+YBR197C cytoplasm,nucleus
+YNL273W nucleus
+YOR117W nucleus
+YFR028C nucleolus
+YMR170C cytoplasm,nucleus
+YDR055W ER
+YDL111C cytoplasm,nucleolus,nucleus
+YPL213W nucleus
+YCL032W cytoplasm
+YDR345C cell periphery,vacuole
+YMR047C cytoplasm,nucleus
+YLR228C cytoplasm,nucleus
+YLR429W actin
+YGR286C mitochondrion
+YFL017C cytoplasm,nucleus
+YGL232W cytoplasm,nucleus
+YDL022W peroxisome
+YDL108W nucleus
+YHL007C cytoplasm,bud
+YMR194W cytoplasm
+YPL227C ER
+YPL022W nucleus
+YKR002W nucleus
+YDR100W early Golgi
+YAL019W nucleus
+YDL074C nucleus
+YMR083W mitochondrion
+YOR075W ambiguous
+YGL018C mitochondrion
+YLR407W cell periphery
+YDL174C mitochondrion
+YHL048W ambiguous
+YIR001C cytoplasm
+YKL191W cytoplasm
+YER183C ambiguous
+YLR072W mitochondrion,punctate composite
+YOR216C punctate composite,Golgi
+YDR129C actin
+YPL004C punctate composite
+YPL105C cytoplasm
+YBR069C cell periphery,bud
+YKL026C ambiguous
+YKR054C cytoplasm
+YOL116W microtubule
+YGR261C punctate composite,Golgi,early Golgi
+YGR257C mitochondrion
+YOR340C nucleolus
+YML017W cytoplasm
+YPL067C cytoplasm
+YNL136W nucleus
+YPR131C cytoplasm
+YJL144W cytoplasm
+YDR381W nucleus
+YAR027W ambiguous
+YIL130W nucleus
+YDL047W cytoplasm,nucleus
+YNL302C cytoplasm
+YGR098C cytoplasm,nucleus
+YFL002C nucleolus,nucleus
+YJR007W cytoplasm
+YCR035C nucleolus,nucleus
+YNL330C cytoplasm,nucleus
+YMR259C cytoplasm
+YLR392C cytoplasm
+YDR253C cytoplasm,nucleus
+YDL085C-A cytoplasm,nucleus
+YDR024W cytoplasm,nucleus
+YDR204W ambiguous,mitochondrion
+YHL029C cytoplasm
+YDR276C ambiguous
+YHR122W cytoplasm
+YDR304C vacuole
+YLR115W nucleus
+YMR066W mitochondrion
+YOL103W ambiguous
+YKL170W mitochondrion
+YBR092C vacuole
+YDR421W nucleus
+YER122C Golgi,early Golgi
+YGL207W nucleus
+YNL074C cytoplasm
+YJR048W cytoplasm,nucleus
+YIL112W nucleus
+YOR288C vacuole
+YNL251C nucleus
+YDR017C cytoplasm
+YHR172W spindle pole
+YDL081C cytoplasm
+YAL043C nucleus
+YLL048C vacuolar membrane
+YER132C cytoplasm
+YKR037C spindle pole
+YBR100W cytoplasm,nucleus
+YNL058C vacuole
+YOR247W cytoplasm,vacuole
+YGL212W cytoplasm,vacuole
+YLR386W vacuole
+YDL063C cytoplasm,nucleus
+YDL067C mitochondrion
+YMR036C cytoplasm,nucleus
+YLR333C cytoplasm
+YML027W cytoplasm,nucleus
+YAL026C early Golgi,late Golgi
+YLL051C vacuole
+YMR122W-A ER,cytoplasm
+YDL017W cytoplasm,nucleus
+YFL062W vacuole
+YKL160W nucleus
+YKL213C cytoplasm,nucleus
+YPL134C mitochondrion
+YCR047C cytoplasm,nucleus
+YPR119W ambiguous,nucleus
+YDR222W punctate composite
+YOR198C ER
+YGL019W cytoplasm,nucleus
+YLR376C cytoplasm,nucleus
+YHR174W cytoplasm
+YJL208C mitochondrion
+YML101C ER
+YER147C cytoplasm,nucleus
+YGL087C cytoplasm,nucleus
+YPL107W mitochondrion
+YPR032W cytoplasm,cell periphery,bud
+YJL137C cytoplasm
+YGL101W cytoplasm,nucleus
+YBR176W mitochondrion
+YCL029C spindle pole,microtubule
+YPL010W punctate composite
+YDR452W vacuole
+YMR302C mitochondrion
+YDL045C cytoplasm
+YBR118W cytoplasm
+YOR303W cytoplasm
+YJR003C mitochondrion
+YFL027C mitochondrion
+YHR135C cytoplasm,nucleus
+YDR311W nucleus
+YBR289W nucleus
+YKL156W cytoplasm
+YOR344C cytoplasm,nucleus
+YDR079W mitochondrion
+YHR141C cytoplasm
+YPL074W cytoplasm
+YER043C cytoplasm
+YOR334W mitochondrion
+YNL231C lipid particle
+YDR390C nucleus
+YKR018C cytoplasm,nucleus
+YMR195W vacuolar membrane
+YNL010W cytoplasm,nucleus
+YER134C cytoplasm,nucleus
+YLL018C cytoplasm
+YDL092W ER
+YPR185W cytoplasm
+YGR233C cytoplasm,nucleus
+YDL101C nucleus
+YHR023W bud neck
+YDR035W cytoplasm,nucleus
+YJR010C-A ER
+YHR021C cytoplasm
+YGL073W nucleus
+YBL067C ambiguous
+YLR413W cell periphery
+YCR043C Golgi
+YNL102W nucleus
+YLR172C cytoplasm
+YML007W cytoplasm,nucleus
+YML052W punctate composite
+YLR023C ER
+YPR155C mitochondrion
+YOL021C cytoplasm,nucleolus,nucleus
+YHR107C bud neck,cell periphery
+YCL011C nucleus
+YMR161W ER
+YEL031W ER
+YBR191W cytoplasm
+YNL225C spindle pole
+YDL161W actin
+YLR183C cytoplasm,nucleus
+YPL131W cytoplasm
+YDR307W ER
+YJL097W ER,vacuole
+YMR177W mitochondrion
+YKL067W cytoplasm,nucleus
+YKL008C ER
+YDR436W ambiguous
+YOR307C ER
+YGL094C cytoplasm
+YGL107C mitochondrion
+YLR393W mitochondrion
+YMR213W cytoplasm,nucleus
+YOR315W cytoplasm,nucleus
+YHR152W nucleus
+YFR002W nuclear periphery
+YMR261C cytoplasm
+YLR244C cytoplasm,nucleus
+YGR036C ER
+YMR296C ER
+YMR284W cytoplasm,nucleus
+YPL128C nucleus
+YDR279W nucleus
+YMR086W cell periphery
+YIL017C cytoplasm,nucleus
+YCL040W cytoplasm,punctate composite
+YGL105W cytoplasm
+YIL150C cytoplasm,nucleus
+YBL008W cytoplasm,nucleus
+YEL017C-A cell periphery,vacuole
+YOR253W cytoplasm
+YOR233W cell periphery
+YKL150W mitochondrion
+YFR036W nucleus
+YJR008W cytoplasm,nucleus
+YPR184W cytoplasm
+YHR051W mitochondrion
+YHL033C cytoplasm
+YNL110C nucleolus,nucleus
+YLR325C cytoplasm
+YJL070C cytoplasm
+YOL052C cytoplasm,nucleus
+YPL144W cytoplasm
+YPR104C nucleus
+YDR520C cytoplasm,nucleus
+YNL288W cytoplasm
+YML024W cytoplasm
+YLR414C ambiguous,cytoplasm,cell periphery,bud
+YDR166C ambiguous,bud neck,cell periphery,bud
+YMR010W punctate composite,early Golgi
+YOL108C cytoplasm,nucleus
+YNL180C cytoplasm,nucleus
+YGL037C peroxisome
+YNL107W cytoplasm,nucleus
+YPR079W endosome
+YBR054W cell periphery,bud
+YOR124C cytoplasm
+YKR011C nucleus
+YML105C ER
+YLR063W cytoplasm
+YBR037C mitochondrion
+YGR188C nucleus,spindle pole,microtubule
+YOR123C nucleus
+YCL024W ambiguous,bud neck,cell periphery,bud
+YBL040C ER
+YJL145W cytoplasm
+YGR234W cytoplasm
+YDL225W bud neck,cell periphery
+YPR057W nucleus
+YDL130W-A mitochondrion
+YIL015W vacuole
+YOL068C cytoplasm,nucleus
+YLR271W cytoplasm,nucleus
+YOR292C vacuole
+YBR254C late Golgi
+YOR357C vacuolar membrane
+YPL043W nucleolus,nucleus
+YPL179W cytoplasm
+YPL002C ambiguous
+YJR136C cytoplasm
+YGL038C Golgi
+YML012W ER
+YKL205W nuclear periphery
+YNR041C mitochondrion
+YNL039W nucleus
+YIL022W mitochondrion
+YML071C punctate composite
+YFR044C cytoplasm,mitochondrion
+YFL006W cytoplasm,nucleus
+YPR156C cell periphery
+YGL184C cytoplasm,nucleus
+YDL105W nucleus
+YDL077C ambiguous
+YOR246C lipid particle
+YNL122C mitochondrion
+YDR224C nucleus
+YER157W Golgi,early Golgi
+YPR103W cytoplasm,nucleus
+YDR138W nucleus
+YKR043C cytoplasm,nucleus
+YER174C cytoplasm,nucleus
+YJL060W cytoplasm,mitochondrion
+YPL145C cytoplasm
+YJR052W cytoplasm,nucleus
+YKL222C ambiguous
+YLR066W ER
+YER047C cytoplasm
+YNL130C punctate composite
+YGR187C cytoplasm
+YOR353C cytoplasm
+YGR055W vacuole
+YKL056C cytoplasm
+YOR293W nucleolus,nucleus
+YOR140W nucleus
+YOR305W mitochondrion
+YHR192W cytoplasm
+YNL286W nucleus
+YKR062W nucleus
+YMR097C mitochondrion
+YOR156C cytoplasm,nucleus
+YDL029W punctate composite
+YNL215W nucleus
+YDR513W nucleus
+YGR090W nucleolus,nucleus
+YNL198C mitochondrion
+YNL297C punctate composite,early Golgi
+YDL142C mitochondrion
+YEL062W ambiguous
+YEL055C nucleolus,nucleus
+YDR123C nucleus
+YNL282W nucleus
+YMR111C nucleus
+YBR245C nucleus
+YOR189W nucleus
+YDR195W nucleus
+YMR144W nucleus
+YKL179C lipid particle
+YJR118C ER
+YGR218W nucleus
+YBR093C vacuole
+YBR235W ambiguous
+YPL029W mitochondrion
+YOR269W cytoplasm,nucleus
+YAL010C mitochondrion
+YNL207W cytoplasm
+YAR015W cytoplasm,nucleus
+YHR118C cytoplasm,nucleus
+YLR285W cytoplasm
+YLL027W mitochondrion
+YDL230W cytoplasm
+YER004W ER
+YOR197W cytoplasm,nucleus
+YKL081W cytoplasm
+YPR006C mitochondrion
+YMR016C nucleus
+YGR266W ER
+YKL009W nucleolus,nucleus
+YEL001C ER
+YCL017C mitochondrion
+YPL018W ambiguous,spindle pole
+YKL128C cytoplasm,nucleus
+YOR037W mitochondrion
+YML099C cytoplasm,nucleus
+YPL091W cytoplasm,mitochondrion,nucleus
+YNL088W nucleus
+YDL084W nucleus
+YIL026C nucleus
+YPR051W cytoplasm,nucleus
+YOR099W vacuole
+YLR418C nucleus
+YKR007W vacuolar membrane
+YIL159W bud neck
+YGR148C cytoplasm
+YNL328C mitochondrion
+YHR205W cytoplasm
+YIL097W cytoplasm,nucleus
+YLR364W cytoplasm
+YDR066C cytoplasm
+YKL014C nucleolus
+YGR060W ER,vacuole
+YDL051W nucleus
+YKR042W vacuole
+YIL079C cytoplasm,nucleus
+YNL137C mitochondrion
+YOR042W punctate composite
+YIL113W mitochondrion
+YBL046W nucleus
+YLR383W cytoplasm,nucleus
+YJR042W nuclear periphery
+YOR007C cytoplasm
+YNR039C ER
+YLR351C cytoplasm,mitochondrion
+YOL147C peroxisome
+YPL202C ambiguous
+YMR074C cytoplasm,nucleus
+YCL050C cytoplasm,nucleus
+YKL079W ambiguous,cytoplasm,bud
+YOL020W cell periphery,vacuole
+YER103W cytoplasm
+YMR275C cytoplasm
+YKR100C cell periphery,bud
+YBL032W cytoplasm
+YOL139C cytoplasm
+YGL143C mitochondrion
+YCR061W punctate composite
+YCR063W nucleus
+YPR045C nucleus
+YBR121C cytoplasm
+YMR303C cytoplasm
+YLR188W mitochondrion
+YDR362C nucleus
+YGR275W nucleus
+YLL039C cytoplasm,nucleus
+YBL076C cytoplasm
+YBL082C cytoplasm,vacuole
+YBR234C actin
+YJR033C ambiguous
+YFR040W cytoplasm
+YBR094W cytoplasm
+YMR221C vacuole
+YDL025C ambiguous
+YOR260W cytoplasm
+YLR074C ER,nucleus
+YOL096C mitochondrion
+YIL036W nucleus
+YBR249C cytoplasm,nucleus
+YPR008W cytoplasm
+YGR135W cytoplasm,nucleus
+YMR015C ER
+YOR265W cytoplasm
+YPL086C cytoplasm
+YDR325W nucleolus,nucleus
+YJR044C endosome
+YOR168W cytoplasm
+YNL123W nucleus
+YBR259W ambiguous
+YIL071C cytoplasm
+YNL098C cytoplasm,nucleus
+YKL080W ambiguous,vacuolar membrane
+YOR375C cytoplasm,nucleus
+YLR286C vacuole
+YNR018W mitochondrion
+YOR107W cytoplasm,nucleus
+YML111W cytoplasm
+YKL088W cytoplasm
+YAL038W cytoplasm
+YDR216W cytoplasm
+YBR233W cytoplasm
+YPL051W early Golgi
+YOR249C nucleus
+YLR315W spindle pole
+YKR081C nucleolus,nucleus
+YJL058C cytoplasm
+YMR099C cytoplasm,nucleus
+YAL034W-A spindle pole
+YDR167W nucleus
+YMR166C mitochondrion
+YDL104C mitochondrion
+YPR020W mitochondrion
+YPL141C cytoplasm
+YBR031W cytoplasm
+YFR009W cytoplasm
+YOR104W cell periphery
+YFR048W ambiguous
+YLR103C nucleus
+YJL026W cytoplasm,nucleus
+YDR169C cytoplasm
+YER182W mitochondrion
+YNL176C vacuole
+YFL045C cytoplasm,nucleus
+YBL033C cytoplasm,nucleus
+YDL056W nucleus
+YPL154C vacuole
+YIL067C vacuole
+YPL203W nucleus
+YBR175W cytoplasm,nucleus
+YNR034W-A cytoplasm
+YMR023C cytoplasm,mitochondrion
+YNR038W nucleolus,nucleus
+YOL016C cytoplasm
+YKL021C nucleolus,nucleus
+YCL030C cytoplasm
+YER131W cytoplasm
+YNL284C mitochondrion
+YDR505C cytoplasm
+YBR060C cytoplasm,nucleus
+YNL132W nucleolus
+YKR020W punctate composite
+YDR214W cytoplasm
+YNR013C ER
+YIL149C nuclear periphery
+YOL066C cytoplasm
+YLL023C ER
+YNL239W cytoplasm,mitochondrion
+YBL003C nucleus
+YJL109C nucleolus
+YGR033C mitochondrion
+YER105C nuclear periphery
+YOR355W cytoplasm,nucleus
+YOL004W mitochondrion
+YIL034C actin
+YDL240W bud neck,cytoplasm,cell periphery
+YHR123W punctate composite,Golgi
+YDR377W mitochondrion
+YGR089W ER
+YFR033C cytoplasm
+YGL256W mitochondrion
+YLR045C spindle pole
+YDR412W nucleolus,nucleus
+YLR412W cytoplasm
+YIR026C cytoplasm
+YNL135C cytoplasm,nucleus
+YJL088W cytoplasm,nucleus
+YDR499W cytoplasm,nucleus
+YKL095W nucleus
+YBL027W cytoplasm
+YHR079C ER
+YER078C mitochondrion
+YDR486C vacuolar membrane
+YMR183C punctate composite,endosome
+YGR076C mitochondrion
+YFL026W vacuole
+YHR132C vacuole
+YMR293C mitochondrion
+YKR084C cytoplasm
+YOL045W cytoplasm
+YDL212W ER
+YML131W cytoplasm
+YDL155W cytoplasm,nucleus
+YKR080W cytoplasm,nucleus
+YKL053C-A cytoplasm,nucleus
+YBR142W nucleolus,nucleus
+YMR233W cytoplasm,nucleolus,nucleus
+YDL165W cytoplasm
+YLL036C nucleus
+YOL071W mitochondrion
+YLR378C ER
+YJL190C nucleolus,nucleus
+YGR152C cytoplasm,nucleus
+YGR130C punctate composite
+YKL208W mitochondrion
+YNL247W cytoplasm
+YDR346C cytoplasm,nucleus
+YLR395C mitochondrion
+YMR140W cytoplasm
+YJR088C ER
+YLR154C cytoplasm,nucleus
+YDR083W nucleolus,nucleus
+YOL057W cytoplasm,nucleus
+YNR043W cytoplasm
+YMR257C mitochondrion
+YML078W mitochondrion
+YML004C cytoplasm,nucleus
+YKL130C cytoplasm,nucleus
+YOR063W cytoplasm
+YER153C mitochondrion
+YER068W cytoplasm
+YHR132W-A cytoplasm,nucleus
+YMR198W microtubule
+YNL099C cytoplasm
+YGL055W ER
+YLR258W cytoplasm,nucleus,punctate composite
+YKR038C cytoplasm,nucleus
+YER155C bud neck,cytoplasm
+YFL041W vacuolar membrane
+YMR250W cytoplasm
+YGR241C ambiguous,bud neck,cell periphery,bud
+YOL098C cytoplasm
+YPL204W ambiguous,bud neck,cytoplasm,nucleus,bud
+YKL063C Golgi
+YMR069W cytoplasm,nucleus
+YKL135C late Golgi
+YBR102C ambiguous,bud neck,cell periphery,bud
+YHR025W ambiguous
+YJL071W mitochondrion
+YCR081W cytoplasm
+YMR019W nucleus
+YDR171W cytoplasm
+YDL133C-A cytoplasm
+YMR160W vacuolar membrane
+YGR202C nuclear periphery
+YBR296C ER
+YLR223C nucleus
+YDR111C cytoplasm,nucleus
+YML005W cytoplasm
+YER170W mitochondrion
+YLR239C mitochondrion
+YCL014W bud neck
+YOL123W nucleus
+YPL115C bud neck,cytoplasm
+YMR174C cytoplasm,nucleus
+YLR447C vacuolar membrane
+YER056C vacuole
+YBR288C punctate composite,early Golgi
+YNL299W nucleolus
+YKR041W cytoplasm,nucleus
+YHL002W endosome
+YKL025C cytoplasm
+YNL259C cytoplasm
+YLR059C mitochondrion,nucleus
+YPL032C ambiguous,bud neck,cytoplasm,cell periphery,bud
+YDR502C ambiguous
+YBR014C vacuole
+YMR264W ER,cytoplasm
+YOR358W cytoplasm,nucleus
+YOR157C cytoplasm,nucleus
+YPL124W spindle pole
+YBR007C ambiguous
+YDR457W nucleolus,nucleus
+YKL069W cytoplasm,nucleus
+YOR337W cytoplasm,nucleus
+YBL072C cytoplasm
+YLR215C cytoplasm
+YIL010W nucleus
+YDR267C cytoplasm
+YGR185C cytoplasm
+YOL124C cytoplasm
+YLR068W nucleolus,nucleus
+YKL064W ambiguous
+YHR182W cytoplasm,cell periphery
+YMR148W lipid particle
+YDR376W mitochondrion
+YJL018W spindle pole
+YMR109W actin
+YOR324C ambiguous
+YLR266C cytoplasm,nucleus
+YDL195W ER to Golgi
+YPL228W nucleus
+YGL180W punctate composite
+YKL186C nuclear periphery
+YMR067C cytoplasm,nucleus
+YKL011C mitochondrion
+YCR036W cytoplasm,nucleus
+YHR142W ambiguous,bud neck,cytoplasm,vacuole,bud
+YNL112W cytoplasm,nucleus
+YMR193W nucleolus
+YMR056C mitochondrion
+YKL047W cytoplasm
+YER002W nucleolus,nucleus
+YJR032W cytoplasm
+YDR409W cytoplasm,nucleus
+YBR006W cytoplasm
+YLR020C ambiguous
+YDL124W cytoplasm,nucleus
+YDR496C nucleolus,nucleus
+YDR121W cytoplasm,nucleus
+YCR004C cytoplasm,punctate composite
+YOR207C nucleus
+YNR035C actin
+YJL057C 
+YNL277W cytoplasm,nucleus
+YJR133W cytoplasm
+YMR079W cytoplasm,nucleus
+YOR056C cytoplasm
+YNL201C nucleus
+YIL098C mitochondrion
+YCR018C cytoplasm,nucleus
+YLR362W cytoplasm
+YLR291C cytoplasm,punctate composite
+YDR338C ambiguous
+YDR046C vacuole
+YBR084W mitochondrion
+YOR356W mitochondrion
+YBR161W vacuole
+YML074C nucleolus,nucleus
+YJR017C cytoplasm,nucleus
+YNL146W ER
+YGL178W cytoplasm
+YLR005W nucleus
+YKL055C mitochondrion
+YDL190C cytoplasm,nucleus
+YDR463W nucleus
+YMR117C spindle pole
+YLR367W nucleolus
+YOR176W mitochondrion
+YKL059C nucleus
+YDL065C cytoplasm
+YLR370C actin
+YOR059C ambiguous
+YER145C cell periphery
+YBR169C cytoplasm
+YBR114W cytoplasm,nucleus
+YBR212W cytoplasm
+YMR260C cytoplasm
+YIL004C ambiguous
+YLR061W cytoplasm
+YMR234W cytoplasm,nucleus
+YGR191W ER,cell periphery,vacuole,bud
+YKL001C cytoplasm
+YMR137C cytoplasm,nucleus
+YJR101W mitochondrion
+YOR264W bud neck
+YLR190W ambiguous
+YKR083C spindle pole
+YBR123C nucleus
+YHR097C cytoplasm,nucleus
+YBR258C nucleus
+YIL096C nucleolus,nucleus
+YMR055C spindle pole
+YNR061C vacuole
+YHR158C ambiguous,bud neck,cell periphery,bud
+YNR009W cytoplasm,nucleus
+YGR150C mitochondrion
+YBR017C cytoplasm,nucleus
+YGL108C cell periphery
+YIL151C ambiguous
+YPR188C bud neck
+YBR290W ER,vacuole
+YOR174W nucleus
+YDR529C mitochondrion
+YKL018C-A cytoplasm
+YHR202W vacuole
+YML060W nucleus
+YMR188C mitochondrion
+YOR130C mitochondrion
+YMR184W cytoplasm
+YOR342C cytoplasm,nucleus
+YGL092W nuclear periphery
+YBL017C punctate composite,endosome
+YDR178W mitochondrion
+YLR250W punctate composite,Golgi,early Golgi
+YDR229W vacuolar membrane
+YOR236W cytoplasm,mitochondrion
+YGR151C cytoplasm,nucleus
+YMR075W nucleus
+YOR360C cytoplasm,nucleus
+YBR104W mitochondrion
+YML108W cytoplasm,nucleus
+YLR363W-A nucleus
+YAL029C ambiguous,bud neck,cytoplasm,cell periphery,bud
+YOR046C nuclear periphery
+YDR034W-B cell periphery
+YAL016W cytoplasm,nucleus
+YGR178C cytoplasm,nucleus
+YOR173W cytoplasm
+YDL248W ambiguous
+YCR016W nucleolus,nucleus
+YGL076C cytoplasm
+YMR102C ambiguous
+YDR088C nucleus
+YMR114C cytoplasm,nucleus
+YPL020C nuclear periphery
+YAL002W endosome
+YDR170W-A punctate composite
+YLR043C cytoplasm,nucleus
+YMR267W mitochondrion
+YDR424C ER
+YGL238W cytoplasm,nucleus
+YHL039W cytoplasm
+YBR122C mitochondrion
+YDL223C cytoplasm
+YBR150C cytoplasm,nucleus
+YDL003W cytoplasm,nucleus
+YHR178W cytoplasm,nucleus
+YHR018C cytoplasm
+YOR251C cytoplasm
+YLR270W cytoplasm,nucleus
+YNL325C ambiguous
+YNR056C cell periphery
+YPL076W ER
+YOR045W mitochondrion
+YPL138C nucleus
+YDR298C mitochondrion
+YOL107W Golgi,early Golgi
+YOL138C vacuole
+YOR188W bud neck,cytoplasm
+YBR151W cytoplasm,nucleus
+YEL025C cytoplasm,nucleus
+YGL254W cytoplasm,nucleus
+YPR019W cytoplasm,nucleus
+YDR350C ambiguous
+YGR104C nucleus
+YJL122W nucleus
+YLL029W cytoplasm
+YBR242W cytoplasm,nucleus
+YOL006C nucleolus,nucleus
+YDR404C nucleus
+YBL002W nucleus
+YOR199W cytoplasm
+YJL081C nucleus
+YHR059W mitochondrion
+YJL176C nucleus
+YCL027W vacuole
+YIL053W ambiguous,cytoplasm,nucleus
+YJL140W nucleus
+YLR424W cytoplasm,nucleus
+YJR010W cytoplasm
+YKL212W ER,vacuole
+YGR244C mitochondrion
+YBR162C vacuole
+YBL060W bud neck,cytoplasm
+YPL210C ER
+YJL091C ER
+YOL070C bud neck,cytoplasm,cell periphery
+YFR013W nucleus
+YMR200W ER
+YGL252C cytoplasm
+YER019C-A ER
+YER172C cytoplasm,nucleus
+YNL310C mitochondrion
+YGR123C cytoplasm
+YBR168W ambiguous
+YMR026C peroxisome
+YGL065C ER
+YHR162W mitochondrion
+YPL162C vacuolar membrane
+YML112W cytoplasm,nucleus
+YPL211W nucleolus,nucleus
+YNL097C nucleus
+YCL005W lipid particle
+YOL031C ambiguous
+YFR051C Golgi,early Golgi
+YOR085W ambiguous
+YIL128W cytoplasm
+YGR126W cytoplasm,nucleus
+YIR024C mitochondrion
+YKL139W cytoplasm,nucleus
+YHR040W cytoplasm,nucleus
+YDL144C cytoplasm,nucleus
+YJL104W mitochondrion
+YHR074W cytoplasm,nucleus
+YPL207W ER
+YCR037C ambiguous
+YDR372C cytoplasm,nucleus
+YER156C cytoplasm,nucleus
+YAL015C cytoplasm,nucleus
+YGR085C cytoplasm
+YGL112C nucleus
+YEL059C-A cytoplasm
+YIR036C cytoplasm
+YDR337W mitochondrion
+YMR178W cytoplasm,nucleus
+YOR044W ER
+YBR221C mitochondrion
+YGR263C ER
+YGL091C cytoplasm,nucleus
+YLR330W late Golgi
+YBL057C mitochondrion
+YMR199W cytoplasm,nucleus
+YKR087C mitochondrion
+YPL208W cytoplasm,nucleus
+YLR036C ambiguous
+YOL081W cytoplasm
+YGR222W mitochondrion
+YNL186W cytoplasm,nucleus
+YPL072W mitochondrion
+YGR041W ambiguous,bud neck,bud
+YML051W cytoplasm,nucleus
+YIR002C cytoplasm,nucleus
+YOR017W mitochondrion
+YGL200C punctate composite
+YNL267W cytoplasm
+YDR161W cytoplasm,nucleus
+YFR049W mitochondrion
+YDL170W nucleus
+YOL067C cytoplasm,nucleus
+YOR184W cytoplasm
+YER014W mitochondrion
+YIL020C cytoplasm,nucleus
+YOR151C cytoplasm,nucleus
+YMR168C microtubule
+YIL137C cytoplasm
+YER123W vacuole
+YDR170C late Golgi
+YNL191W cytoplasm
+YBL079W nuclear periphery
+YLR337C punctate composite,actin
+YIL033C cytoplasm,nucleus
+YLL032C cytoplasm
+YBR252W cytoplasm,nucleus
+YDR257C nucleus
+YOR295W nucleolus
+YER001W vacuole
+YGR019W cytoplasm
+YPL055C nucleus
+YGR065C cell periphery,bud
+YMR313C punctate composite,lipid particle
+YHL003C ER
+YGL253W cytoplasm
+YJR082C nucleus
+YNL304W cytoplasm
+YKL190W cytoplasm
+YHR194W nucleus
+YJL001W nucleus
+YIL021W nucleus
+YLR056W ER
+YKL110C cytoplasm
+YJR127C nucleus
+YHL014C mitochondrion
+YLR346C mitochondrion
+YDR461W cytoplasm,nucleus
+YGL053W ambiguous
+YIL125W mitochondrion
+YDL002C nucleus
+YFL033C cytoplasm
+YGL095C early Golgi,late Golgi
+YOR284W punctate composite
+YDR027C punctate composite,early Golgi
+YOR371C cytoplasm
+YGL058W cytoplasm,nucleus
+YHR004C punctate composite
+YFL013C nucleus
+YJL168C nucleus
+YPL063W mitochondrion
+YOR065W mitochondrion
+YHR108W late Golgi
+YLL013C cytoplasm
+YIL040W ER
+YOL030W ER,nucleus
+YER163C cytoplasm,nucleus
+YHR102W cytoplasm
+YHR120W mitochondrion
+YNL155W cytoplasm,nucleus
+YHR047C cytoplasm,nucleus
+YKL112W nucleus
+YBL019W cytoplasm,nucleus
+YDR097C nucleus
+YGL166W cytoplasm,nucleus
+YOR162C cytoplasm,nucleus
+YOR086C cell periphery
+YML037C late Golgi
+YGR210C cytoplasm
+YDR305C cytoplasm,mitochondrion,nucleus
+YPR111W cytoplasm
+YJL158C vacuole
+YPL109C mitochondrion
+YHR053C cytoplasm
+YOR319W nucleus
+YBR260C ambiguous,bud neck,cytoplasm,bud
+YKR008W nucleus
+YPR114W ER
+YLR042C ER
+YEL063C cell periphery,vacuole
+YGL234W cytoplasm
+YDR427W nucleus
+YHL019C ambiguous,late Golgi
+YNL157W cytoplasm,nucleus
+YFR027W cytoplasm,nucleus
+YCR086W nucleolus
+YNL194C cell periphery
+YLR326W ambiguous
+YDR517W punctate composite
+YDL164C mitochondrion,nucleus
+YKL142W cytoplasm
+YER090W cytoplasm
+YBR241C vacuolar membrane
+YER021W cytoplasm,nucleus
+YOR205C mitochondrion
+YLR060W cytoplasm
+YKR067W ER
+YLL010C cell periphery
+YFR001W nucleolus,nucleus
+YOR230W nucleus
+YOR160W cytoplasm,nucleus
+YOL019W cell periphery,vacuole
+YPR171W actin
+YBR156C nucleus,microtubule
+YOR133W cytoplasm
+YER113C Golgi,early Golgi
+YLR259C mitochondrion
+YNL230C nucleus
+YHL038C mitochondrion
+YPR189W cytoplasm
+YFL025C ER
+YDR040C cell periphery
+YGR147C mitochondrion
+YNL256W cytoplasm,mitochondrion
+YMR003W mitochondrion
+YOR330C mitochondrion
+YBR187W vacuole
+YOR092W ER
+YER164W nucleus
+YGL111W nucleolus,nucleus
+YER072W ER
+YBL075C cytoplasm
+YIR038C ambiguous
+YIL070C mitochondrion
+YNL158W nuclear periphery
+YIL030C ER
+YDL126C cytoplasm,nucleus
+YMR173W cytoplasm
+YKL068W nuclear periphery
+YOL011W vacuole
+YPR046W nucleus
+YJR109C cytoplasm
+YOR150W mitochondrion
+YDL027C mitochondrion
+YMR222C cytoplasm
+YNL197C cytoplasm
+YPL066W bud neck,cytoplasm
+YDL192W punctate composite,early Golgi,late Golgi
+YBR264C cytoplasm
+YOL154W vacuole
+YHR137W cytoplasm,nucleus
+YHR133C nuclear periphery
+YGL017W cytoplasm
+YDR384C cell periphery,vacuole
+YOL022C cytoplasm
+YHR012W ambiguous
+YEL011W cytoplasm,nucleus,punctate composite
+YIL008W cytoplasm,nucleus
+YDR312W nucleolus,nucleus
+YHR031C cytoplasm,nucleus
+YNL138W actin
+YML126C nucleus
+YLR075W cytoplasm
+YLR017W cytoplasm,nucleus
+YNL071W mitochondrion
+YMR131C nucleolus,nucleus
+YDR153C late Golgi
+YBL086C cell periphery
+YPL190C nucleus
+YGL209W nucleus
+YLR082C cytoplasm,nucleus
+YMR157C mitochondrion
+YJR043C cytoplasm,nucleus
+YKL106W mitochondrion
+YGR209C cytoplasm,nucleus
+YBR281C cytoplasm,nucleus
+YNR007C cytoplasm
+YLR055C nucleus
+YPL019C vacuole
+YKR024C nucleolus,nucleus
+YEL054C cytoplasm
+YGL006W vacuolar membrane
+YDR391C cytoplasm,nucleus
+YMR182C nucleus
+YDR437W ER
+YNR046W cytoplasm,nucleus
+YDR498C ER
+YDR483W vacuole
+YNL316C cytoplasm
+YDR449C nucleolus
+YDR444W cytoplasm
+YLR408C endosome
+YJL076W nucleolus
+YOR349W ambiguous
+YLR310C cytoplasm
+YDR062W ER
+YPL271W mitochondrion
+YOR034C ambiguous
+YIL044C late Golgi
+YBR081C nucleus
+YDR092W cytoplasm
+YIL109C ER to Golgi
+YCR092C cytoplasm,nucleus
+YKL149C cytoplasm,nucleus
+YNR012W cytoplasm,nucleus
+YJL085W bud neck,cell periphery,bud
+YNL015W cytoplasm,nucleus
+YJL068C cytoplasm
+YPL058C cell periphery
+YHR115C ambiguous
+YDR243C cytoplasm,nucleus
+YML072C cell periphery
+YNL216W nucleus
+YLL052C ER
+YDR139C cytoplasm
+YDL128W ER
+YLR193C mitochondrion
+YHR110W ER
+YOL055C ambiguous
+YFR017C cytoplasm
+YHR069C cytoplasm,nucleolus,nucleus
+YMR134W ER
+YJR054W vacuole
+YIL041W cytoplasm
+YFR015C cytoplasm,punctate composite
+YDR021W nucleolus,nucleus
+YPL011C nucleus
+YDL171C ambiguous
+YEL046C cytoplasm,nucleus
+YDR183W cytoplasm
+YGL047W ER
+YDR072C ambiguous
+YNL301C cytoplasm
+YIR018W cytoplasm,nucleus
+YBL045C mitochondrion
+YER083C ER
+YGR243W mitochondrion
+YLL011W nucleolus
+YGR204W cytoplasm,nucleus
+YBL004W cytoplasm,nucleolus
+YDR077W ER
+YDR239C cytoplasm
+YKL043W nucleus
+YDR487C cytoplasm,nucleus
+YDL201W nucleus
+YDL122W cytoplasm
+YBL024W nucleus
+YGR095C cytoplasm,nucleolus,nucleus
+YOR143C cytoplasm
+YEL051W vacuolar membrane
+YLR080W vacuole
+YNR006W endosome
+YIL002C cytoplasm
+YGL226W mitochondrion
+YJL005W ambiguous
+YIL158W vacuole
+YKL214C cytoplasm,nucleus
+YGR015C mitochondrion
+YGR108W nucleus
+YGR274C nucleus
+YPL064C cytoplasm,nucleus
+YPL017C cytoplasm
+YNL292W cytoplasm,nucleus
+YKR085C mitochondrion
+YKL004W early Golgi
+YOL013C ER
+YDR430C mitochondrion
+YGL206C late Golgi
+YML030W mitochondrion
+YJL055W cytoplasm,nucleus
+YJR140C nucleus
+YOR144C cytoplasm,nucleus
+YMR299C cytoplasm,punctate composite
+YGL129C mitochondrion
+YJR143C ER
+YOR232W cytoplasm
+YLR438W cytoplasm,nucleus
+YLR222C nucleolus
+YDR335W cytoplasm,nuclear periphery,nucleus
+YJL004C early Golgi
+YJR139C cytoplasm,nucleus
+YJL212C ER
+YPR154W cytoplasm,nucleus
+YBR010W nucleus
+YHR055C cytoplasm,nucleus
+YDR331W ER
+YBR109C bud neck,cell periphery,bud
+YML016C cytoplasm,cell periphery
+YGR211W cytoplasm,nucleus
+YIL062C actin
+YLR113W cytoplasm
+YGL060W cytoplasm
+YDR074W cytoplasm
+YAR002W nuclear periphery
+YPL108W cytoplasm
+YIL127C nucleolus
+YDR308C nucleus
+YMR120C cytoplasm
+YLR069C mitochondrion
+YPL038W cytoplasm,nucleus
+YCL061C nucleus
+YOR004W mitochondrion
+YOR040W mitochondrion
+YGL172W nuclear periphery
+YHR062C nucleus
+YKL061W endosome
+YML007C-A mitochondrion
+YML117W cytoplasm
+YBR070C ambiguous
+YLR381W spindle pole
+YDL222C punctate composite
+YER171W cytoplasm,nucleus
+YJL101C cytoplasm
+YGR270W nucleus
+YFR014C cytoplasm
+YOL064C cytoplasm,nucleus
+YPL118W mitochondrion
+YIR017C cytoplasm,nucleus
+YOL136C cytoplasm,nucleus
+YMR054W early Golgi,late Golgi
+YOL151W cytoplasm,nucleus
+YEL007W cytoplasm,nucleus
+YMR152W ER
+YER059W cytoplasm,nucleus
+YOL060C vacuolar membrane
+YDR418W cytoplasm
+YDR380W cytoplasm
+YHR063C cytoplasm
+YDR022C punctate composite
+YLR234W cytoplasm,nucleus
+YOL125W cytoplasm,nucleus
+YJR103W cytoplasm
+YGR091W cytoplasm,nucleus
+YFR005C cytoplasm,nucleus
+YGR021W mitochondrion
+YOR101W cytoplasm,nucleus
+YER003C cytoplasm,nucleus
+YNL298W ambiguous,cytoplasm,cell periphery,bud
+YNL059C cytoplasm,nucleus
+YKR076W cytoplasm
+YLR449W nucleolus,nucleus
+YAL049C cytoplasm
+YCR082W cytoplasm,nucleus
+YLR126C cytoplasm
+YDL204W ER
+YOR259C nucleus
+YHL027W cytoplasm
+YOR297C mitochondrion
+YMR231W endosome
+YDR052C cytoplasm,nucleus
+YPL198W cytoplasm,nucleolus
+YMR167W cytoplasm,nucleus
+YJL011C nucleus
+YMR139W cytoplasm
+YER148W nucleus
+YEL009C cytoplasm,nucleus
+YNL082W cytoplasm,nucleus
+YJR011C ambiguous
+YOL048C lipid particle
+YGR171C mitochondrion
+YLR178C cytoplasm,nucleus
+YNL236W nucleus
+YGR074W nucleus
+YKL085W mitochondrion
+YOR008C ambiguous,bud neck,cytoplasm,vacuole,bud
+YOR163W cytoplasm,nucleus
+YGR093W nucleus
+YBR287W ER
+YDR108W cytoplasm
+YJL082W cytoplasm,nucleus
+YKL169C cytoplasm,nucleus
+YDR190C nucleus
+YLR283W mitochondrion
+YHR190W ER
+YGR239C peroxisome
+YIL114C mitochondrion
+YAR007C nucleus
+YGR149W ambiguous
+YOL121C cytoplasm
+YDR474C mitochondrion
+YGL156W punctate composite
+YCR059C cytoplasm,nucleus
+YNL103W nucleus
+YDL018C ER
+YBL007C cytoplasm,actin
+YHL028W vacuole
+YKL183W cytoplasm,nucleus
+YOL080C nucleolus,nucleus
+YOR165W punctate composite
+YKL002W endosome
+YDR422C cytoplasm
+YBR073W nucleus
+YER142C cytoplasm,nucleus
+YER104W cytoplasm,nucleus
+YGR138C cell periphery
+YJR084W cytoplasm,nucleus
+YMR186W cytoplasm
+YER159C nucleus
+YMR216C cytoplasm
+YER018C spindle pole
+YIL043C ER
+YPL110C cytoplasm
+YBL101C cytoplasm
+YJL069C nucleolus
+YGL174W cytoplasm,nucleus
+YDR379C-A mitochondrion
+YIL155C mitochondrion
+YLR191W peroxisome
+YMR106C nucleus
+YPR187W cytoplasm,nucleus
+YKL151C cytoplasm
+YMR207C ambiguous,mitochondrion
+YCR046C mitochondrion
+YHR087W cytoplasm,nucleus
+YBR095C nucleus
+YOR279C cytoplasm,nucleus
+YGL093W spindle pole
+YJR110W cytoplasm
+YHR009C cytoplasm,nucleus
+YGL084C ER
+YER069W mitochondrion
+YCR094W late Golgi
+YLR182W nucleus
+YHR003C mitochondrion
+YDR361C cytoplasm,nucleus
+YOR310C nucleolus
+YNL281W cytoplasm,nucleus
+YBR211C spindle pole
+YEL013W vacuolar membrane
+YIL001W cytoplasm
+YOL033W mitochondrion
+YDR462W mitochondrion
+YGR040W cytoplasm,nucleus
+YDR020C cytoplasm,nucleus
+YMR061W nucleus
+YGR078C cytoplasm
+YLR419W cytoplasm
+YDL146W ambiguous,bud neck,cytoplasm,cell periphery,bud
+YGL013C nucleus
+YHR045W ER
+YEL060C cytoplasm,punctate composite
+YJR148W cytoplasm,nucleus
+YIL038C cytoplasm
+YBL099W mitochondrion
+YOR081C lipid particle
+YJL166W mitochondrion
+YKL180W cytoplasm
+YMR115W mitochondrion
+YDR405W mitochondrion
+YHL009C cytoplasm,nucleus
+YGL080W mitochondrion
+YNL274C cytoplasm,nucleus
+YOR153W cell periphery
+YCL037C cytoplasm
+YGR285C cytoplasm
+YKR055W cytoplasm,nucleus
+YPL049C nucleus
+YKL165C vacuole
+YKL140W punctate composite
+YGL175C cytoplasm,nucleus
+YIL111W mitochondrion
+YDL176W ambiguous
+YGL120C nucleolus
+YDR538W mitochondrion
+YGR024C cytoplasm,nucleus
+YDR038C cell periphery
+YER175C cytoplasm
+YMR110C endosome,lipid particle
+YNL056W cytoplasm
+YHR026W ER,vacuole
+YGL246C nucleus
+YGR280C nucleolus
+YLR263W cytoplasm
+YGL181W cytoplasm,actin
+YKL096W ER
+YCR090C cytoplasm,nucleus
+YBR096W ER
+YOL137W early Golgi,late Golgi
+YPL191C cytoplasm
+YKL181W cytoplasm
+YNL070W mitochondrion
+YOL100W cytoplasm
+YNL323W ER
+YKL117W cytoplasm,nucleus
+YGR125W vacuole
+YFL016C mitochondrion
+YLR289W mitochondrion
+YBR041W lipid particle
+YPL188W mitochondrion
+YBR251W mitochondrion
+YPL030W cytoplasm
+YLR153C nucleus
+YPL236C vacuolar membrane
+YNL131W ambiguous
+YBR028C cytoplasm
+YMR039C nucleus
+YLL003W spindle pole
+YNL051W Golgi,early Golgi
+YDR047W cytoplasm,nucleus
+YLR451W nucleus
+YDR440W cytoplasm,nucleus
+YOR110W cytoplasm,nucleus
+YGL245W cytoplasm
+YEL018W nucleus
+YOR108W mitochondrion
+YDR297W ER
+YBR083W cytoplasm,nucleus
+YPL221W bud neck,cell periphery,vacuole
+YDL110C cytoplasm,nucleus
+YGR037C cytoplasm,nucleus
+YMR219W nuclear periphery
+YGR166W punctate composite
+YGR158C cytoplasm,nucleus
+YMR278W cytoplasm,nucleus
+YHR140W vacuole
+YPL007C nucleus
+YBR065C nucleus
+YKL065C ER
+YFL047W bud neck,cytoplasm,cell periphery
+YHR036W ER
+YBL021C cytoplasm,nucleus
+YGL128C cytoplasm,nucleus
+YOR122C cytoplasm,nucleus
+YOR120W cytoplasm,nucleus
+YPL106C cytoplasm
+YJL147C mitochondrion
+YDL102W nucleus
+YIL116W cytoplasm
+YML102W nucleus
+YBL058W cytoplasm,nucleus
+YER053C mitochondrion
+YGR198W punctate composite
+YER042W cytoplasm,nucleus
+YJL044C late Golgi
+YDL123W vacuolar membrane
+YAL059W nucleus
+YPR004C mitochondrion
+YNL173C punctate composite
+YER017C mitochondrion
+YPR083W ambiguous
+YFL044C cytoplasm,nucleus
+YGR217W cytoplasm
+YDR150W punctate composite
+YMR076C nucleus
+YJL151C vacuole
+YGR232W cytoplasm,nucleus
+YOR158W mitochondrion
+YPL265W cell periphery,vacuole
+YMR281W cytoplasm
+YNL168C mitochondrion
+YCR012W cytoplasm,nucleus
+YPL223C cytoplasm
+YPR022C cytoplasm,nucleus
+YIL031W mitochondrion
+YOR172W cytoplasm,nucleus
+YNL275W ambiguous
+YNR050C cytoplasm
+YBR025C cytoplasm
+YPL126W nucleolus
+YLR028C cytoplasm
+YDL113C endosome
+YAL031C cytoplasm
+YCL034W cytoplasm,nucleus
+YDL054C vacuolar membrane
+YOR289W cytoplasm,nucleus
+YLR247C nucleus
+YML081C-A mitochondrion
+YBR214W cytoplasm
+YDR408C cytoplasm,nucleus
+YCL028W cytoplasm,nucleus
+YOR001W nucleolus,nucleus
+YMR044W nucleus
+YDL115C cytoplasm,nucleus
+YJR016C mitochondrion
+YER098W cytoplasm
+YJL047C cytoplasm,nucleus
+YER149C ambiguous,cell periphery,bud
+YJL133W mitochondrion
+YGL185C cytoplasm
+YFL004W ER
+YNR028W vacuole
+YOL113W ambiguous
+YOR201C mitochondrion
+YDR201W spindle pole
+YER074W cytoplasm
+YNL189W cytoplasm,nuclear periphery
+YJL052W cytoplasm,nucleus
+YOR028C cytoplasm,nucleus
+YDR349C ER,cytoplasm
+YDR425W cytoplasm,endosome,lipid particle
+YJL010C nucleolus,nucleus
+YPL125W cytoplasm,nucleus
+YDR004W cytoplasm,nucleus
+YJR085C ambiguous
+YJR022W cytoplasm,nucleus
+YDR103W cytoplasm,nucleus
+YMR009W cytoplasm,nucleus
+YGL231C ER
+YDR333C cytoplasm
+YBR173C cytoplasm,nucleus
+YDL044C mitochondrion
+YHR072W lipid particle
+YNL313C cytoplasm,nucleus
+YGR262C cytoplasm,nucleus
+YPR002W cytoplasm,mitochondrion
+YFR004W cytoplasm,nucleus
+YHR085W nucleus
+YIL138C cytoplasm
+YKR006C mitochondrion
+YPL119C cytoplasm
+YNL252C mitochondrion
+YDR009W cytoplasm
+YDR205W ER
+YDR050C cytoplasm,nucleus
+YIL095W actin
+YHR037W mitochondrion
+YJL053W endosome
+YPL047W nucleus
+YDR148C mitochondrion
+YFL048C vacuolar membrane
+YCL025C ER
+YHR005C cell periphery
+YKL035W cytoplasm
+YDL207W nuclear periphery
+YDR246W late Golgi
+YGL197W cytoplasm
+YGR155W cytoplasm
+YKL024C cytoplasm,nucleus
+YOR138C cytoplasm,nucleus
+YGR012W mitochondrion
+YCL059C cytoplasm,nucleolus
+YNL004W nucleus
+YER056C-A cytoplasm
+YPL273W cytoplasm,nucleus
+YNL087W cell periphery
+YDR174W nucleolus
+YHL032C mitochondrion,punctate composite
+YDR367W punctate composite,Golgi,early Golgi
+YGR072W cytoplasm
+YDL224C cytoplasm
+YHR052W nucleolus,nucleus
+YMR143W cytoplasm
+YMR012W cytoplasm
+YMR080C cytoplasm,punctate composite
+YDR182W ambiguous
+YDR324C nucleolus
+YDR268W mitochondrion
+YFR050C cytoplasm,nucleus
+YGR020C ambiguous,vacuolar membrane
+YGR173W cytoplasm
+YHR196W nucleolus
+YGL023C vacuolar membrane
+YJL217W cytoplasm
+YLR088W ER
+YGL078C nucleolus,nucleus
+YDR039C cell periphery
+YDR357C punctate composite
+YMR078C cytoplasm,nucleus
+YPR160W cytoplasm
+YPR071W ER
+YKL017C cytoplasm
+YPL255W spindle pole
+YBR101C cytoplasm
+YBL069W cytoplasm,nucleus
+YBR135W cytoplasm,nucleus
+YDL131W nucleus
+YER143W cytoplasm
+YGL139W cell periphery
+YBR131W endosome
+YPL168W mitochondrion
+YDR075W cytoplasm,nucleus
+YLR353W ambiguous,bud neck,cell periphery,bud
+YBR261C cytoplasm
+YNR067C vacuole
+YKR064W cytoplasm,nucleus
+YJL194W cytoplasm,nucleus
+YML046W nucleus
+YJL095W cytoplasm
+YCR093W cytoplasm
+YKR001C cytoplasm,punctate composite,endosome
+YNL027W cytoplasm
+YMR237W late Golgi
+YML062C nucleus
+YBR177C ER
+YDR344C ambiguous,punctate composite
+YHR154W nucleus
+YDR125C mitochondrion
+YOR372C cytoplasm,nucleus
+YAL055W punctate composite
+YNL154C cytoplasm,nucleus
+YGR042W cytoplasm,nucleus
+YBL107C cytoplasm
+YGR161C cytoplasm,nucleus
+YBR057C cytoplasm
+YNL264C cytoplasm
+YOR311C ER
+YGL134W cytoplasm
+YGL048C nucleus
+YCR028C vacuole
+YOL039W cytoplasm
+YFR008W ambiguous
+YPL240C cytoplasm
+YER067W cytoplasm,nucleus
+YGR027C cytoplasm
+YLR278C nucleus
+YGL153W peroxisome
+YDR207C nucleus
+YLR181C endosome
+YJL087C cytoplasm
+YGR165W mitochondrion
+YBR238C cytoplasm,mitochondrion
+YOL149W punctate composite
+YPL222W mitochondrion
+YGL021W ambiguous
+YGL162W cytoplasm,nucleus
+YHR060W ER
+YHR070W cytoplasm,nucleus
+YKL184W cytoplasm
+YDR525W-A punctate composite,vacuolar membrane,lipid particle
+YNL232W cytoplasm,nucleolus,nucleus
+YDL226C cytoplasm
+YGL115W cytoplasm
+YFR030W cytoplasm
+YBR188C nucleus
+YMR263W nucleus
+YMR236W nucleus
+YML100W cytoplasm
+YOL117W cytoplasm
+YOR196C mitochondrion
+YPR075C vacuole
+YDR093W ambiguous,cell periphery,bud
+YOR275C cytoplasm,nucleus
+YBL054W cytoplasm,nucleus
+YPR101W nucleus
+YDR202C ambiguous
+YKR049C mitochondrion
+YPR081C cytoplasm
+YPL170W ER,cytoplasm
+YMR268C cytoplasm,nucleus
+YER099C cytoplasm
+YDR539W cytoplasm
+YMR132C cytoplasm
+YFL021W cytoplasm,nucleus
+YJL110C cytoplasm,nucleus
+YOL051W nucleus
+YHR195W nucleus,spindle pole
+YMR072W mitochondrion
+YMR189W mitochondrion
+YJR057W cytoplasm
+YOR118W cytoplasm
+YOL028C nucleus
+YDR303C nucleus
+YNL175C nucleolus,nucleus
+YNR010W nucleus
+YGR175C ER
+YNL077W cytoplasm,nucleus
+YLR316C cytoplasm,nucleus
+YLR079W cytoplasm,nucleus
+YDL117W bud neck,cytoplasm
+YJR050W cytoplasm,nucleus
+YGL032C vacuole
+YHL036W vacuole
+YMR256C mitochondrion
+YBL031W microtubule
+YHR183W ambiguous,cytoplasm
+YER091C cytoplasm
+YJL123C cytoplasm,Golgi,early Golgi
+YGR189C cytoplasm
+YAL053W ambiguous,bud neck,cell periphery,punctate composite,late Golgi,bud
+YOR112W cytoplasm
+YPL166W cytoplasm,nucleus,punctate composite
+YKL113C nucleus
+YLR133W cytoplasm
+YDR439W nucleolus
+YDR254W microtubule
+YDL125C cytoplasm,nucleus
+YER141W mitochondrion
+YDL099W punctate composite,early Golgi
+YPR067W mitochondrion
+YOR241W cytoplasm
+YKL185W nucleus
+YDR051C cytoplasm,nucleus
+YDR283C cytoplasm
+YER062C cytoplasm,nucleus
+YDL072C ER
+YGL203C punctate composite
+YMR021C cytoplasm,nucleus
+YDR164C ambiguous,bud neck,cytoplasm,bud
+YDR410C ER
+YGR219W cytoplasm,nucleus
+YBL047C punctate composite
+YLR071C nucleus
+YOR285W ER
+YDR385W cytoplasm
+YDL078C cytoplasm,nucleus
+YNL322C ER
+YJR009C cytoplasm,nucleus
+YHR011W mitochondrion,punctate composite
+YLL009C cytoplasm,nucleus
+YGL151W nucleus
+YHR206W nucleus
+YKL195W mitochondrion
+YDR028C cytoplasm
+YBR087W nucleus
+YER107C cytoplasm,nuclear periphery
+YKR068C late Golgi
+YLL007C cytoplasm
+YMR091C nucleus
+YGR096W mitochondrion
+YDL235C cytoplasm,nucleus
+YER023W cytoplasm
+YCR065W cytoplasm,nucleus
+YIL123W vacuole
+YPL013C mitochondrion
+YML031W nuclear periphery
+YDR397C nucleus
+YNL315C mitochondrion
+YLR455W nucleus
+YPL234C ER
+YBR052C punctate composite
+YER075C cytoplasm
+YGL099W cytoplasm
+YER084W cytoplasm,nucleus
+YGL005C Golgi
+YCL045C ER
+YDR373W punctate composite
+YML022W cytoplasm,nucleus
+YJR051W ambiguous,mitochondrion
+YOR286W mitochondrion
+YHR181W ER
+YJR098C cytoplasm
+YNR026C ER
+YCR005C cytoplasm
+YER154W mitochondrion
+YBR072W ambiguous
+YNL091W cytoplasm
+YJR105W cytoplasm,nucleus
+YCR018C-A cytoplasm,nucleus
+YNR033W cytoplasm
+YJL136C cytoplasm
+YER008C bud neck,cell periphery,bud
+YMR123W ER
+YBR227C mitochondrion
+YCL035C cytoplasm,nucleus
+YGR246C nucleus
+YOR051C nucleus
+YDL008W vacuolar membrane
+YEL047C cytoplasm,nucleus
+YNL106C actin
+YML132W vacuole
+YOL092W vacuolar membrane
+YHR186C vacuolar membrane
+YML023C ambiguous
+YAL041W cytoplasm,nucleus
+YBR088C nucleus
+YMR205C cytoplasm
+YML035C cytoplasm
+YJL062W ER
+YJR072C cytoplasm
+YGL028C ambiguous
+YNL032W cytoplasm
+YDR503C Golgi
+YML113W nucleus
+YLR035C-A punctate composite
+YHR166C nucleus
+YLR387C cytoplasm
+YKL046C ER,ambiguous,bud
+YGL195W cytoplasm
+YOR132W endosome
+YNL329C peroxisome
+YNL045W cytoplasm,nucleus
+YAL012W cytoplasm
+YNL245C nucleus
+YOR164C cytoplasm
+YPL046C cytoplasm,nucleus
+YDR314C nucleus
+YPL053C vacuole
+YGL221C cytoplasm,mitochondrion
+YML080W nucleus
+YDL191W cytoplasm
+YOL144W nucleolus
+YOR161C cell periphery
+YAL032C nucleus
+YER162C cytoplasm,nucleus
+YDR447C cytoplasm
+YOL052C-A cytoplasm,vacuole
+YIR037W cytoplasm
+YMR280C cytoplasm,nucleus
+YKL010C cytoplasm,nucleus
+YDR482C cytoplasm,nucleus
+YJR014W cytoplasm
+YHR167W cytoplasm,nucleus
+YMR204C peroxisome
+YMR223W nucleus
+YOR187W mitochondrion
+YEL050C cytoplasm,nucleus

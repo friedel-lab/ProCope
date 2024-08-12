@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  <title>File formats</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>
+File formats</h2>
+ProCope awaits certain file formats when loading different data objects
+from the file system. Below you find short specifications of all file
+formats. Note that &lt;TAB&gt; represents the tab character.<br>
+<h3>Overview</h3>
+<ul>
+  <li><a href="#gzip">GZIP</a></li>
+  <li><a href="#networks">Protein networks</a></li>
+  <li><a href="#complexes">Complex sets</a></li>
+  <li><a href="#puri">Purification data</a></li>
+  <li><a href="#go">Gene Ontology</a></li>
+  <li><a href="#loc">Localization data</a></li>
+</ul>
+<h3><a name="gzip"></a>GZIP<br>
+</h3>
+The graphical user interface and all command line tools automatically
+detect and decompress files which are compressed using the <code>gzip</code> program. When using the Java API use the <code>GZIPInputStream</code> class for easily decompressing files on the fly (see for instance: Java API <a target="_top" href="../javaapi/index_usecase2.html">Sample Use Case 2</a>).
+<h3><a name="networks"></a>Protein networks<br>
+</h3>
+Protein networks in ProCope are <span style="font-style: italic;">edge-induced</span>. That is, a protein network file contains only edges, one edge per line. Each line has the following format:<br>
+<br>
+<code><span style="font-style: italic;">protein1&lt;</span>TAB<span style="font-style: italic;">&gt;protein2&lt;</span>TAB&gt;<span style="font-style: italic;">edgeweight</span>[&lt;TAB&gt;<span style="font-style: italic;">annotations</span>]<br>
+<br>
+</code>Where <code style="font-style: italic;">protein1</code> and <code style="font-style: italic;">protein2</code> are identifiers of the two involved proteins, <code style="font-style: italic;">edgeweight</code> is the decimal weight or score for that edge and <code style="font-style: italic;">annotations</code> are optional edge annotations containing arbitrary key/value pairs. For directed networks,&nbsp;<code style="font-style: italic;">protein1</code><code></code> is the source of the directed edge whereas <code style="font-style: italic;">protein2</code> is its target node.<br>
+<br>
+Note that ProCope automatically treats numeric values in annotations as numbers
+within the program (which can for instance be used for numeric
+filtering).<br>
+<br>
+Here is an example of two lines in a network file:<br>
+<code>proteinAB&nbsp;&nbsp;&nbsp; proteinDE&nbsp;&nbsp;&nbsp; 0.2<br>
+proteinAB&nbsp;&nbsp;&nbsp; proteinFG&nbsp;&nbsp;&nbsp; 1.0&nbsp;&nbsp;&nbsp; <span style="font-family: monospace;">otherscore</span></code><code>=0.3212;source=database2;verified=no</code><br>
+<br>
+Leaving out the edge weight is also valid, be sure to use
+two&nbsp;consecutive &lt;TAB&gt; characters. The will not have an
+associated weight but only consists of its annotations:<br>
+<code>proteinAB&nbsp;&nbsp;&nbsp; proteinFG&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span style="font-family: monospace;">otherscore</span></code><code>=0.3212;source=database2;verified=no<br>
+</code>
+<h3><span style="font-weight: bold;"><a name="complexes"></a>Complex sets</span></h3>
+Complex set file consist of one complex per line. Each line is a
+&lt;TAB&gt; separated list of protein identifiers which make up the
+respective complex. Example complex line from the MIPS reference
+complex set:<br>
+<br>
+<code>ydr004w&nbsp;&nbsp;&nbsp; ydr076w&nbsp;&nbsp;&nbsp; yer095w&nbsp;&nbsp;&nbsp; ygl163c&nbsp;&nbsp;&nbsp; yml032c<br>
+</code>
+<h3><a name="puri"></a>Purification data<br>
+</h3>
+ProCope employs the purification dataset file format used in the data files of the <a href="http://interactome-cmp.ucsf.edu/" target="_blank">Krogan Lab Interactome Database</a>. Each line contains one bait-prey interaction and contains the following &lt;TAB&gt; seperated values:<br>
+<ol>
+  <li>purification name</li>
+  <li>identification</li>
+  <li>day</li>
+  <li>number</li>
+  <li>bait</li>
+  <li>prey</li>
+  <li>score</li>
+</ol>
+ProCope only uses the purification name, bait and prey information. All
+bait-prey interactions with the same purification name (which of course
+should also all have the same bait) will be combined into one
+purification experiment.<code></code><br>
+<h3><a name="go"></a>Gene Ontology<br>
+</h3>
+ProCope supports the ontology and gene annotation file formats provided on the <a href="http://www.geneontology.org/GO.downloads.shtml" target="_blank">Gene Ontology website</a>. Please use the <code>.obo</code> ontology file format.<br>
+<h3><a name="loc"></a>Localization data<br>
+</h3>
+Localization data files contain the localization information of one
+protein per line. Each line consists of the protein identifier and a
+&lt;TAB&gt; character, followed by a comma-seperated list of cellular
+localizations. An example:<br>
+<br>
+<code>YLR132C&nbsp;&nbsp;&nbsp; cytoplasm,mitochondrion,nucleus</code>
+<h3><code></code></h3>
+<code><br>
+</code><code></code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

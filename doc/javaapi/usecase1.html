@@ -1,0 +1,608 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Sample Use Case 1: Generating score networks, clustering, cluster evaluation</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  
+  
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h3>Sample
+Use Case 1: Generating score networks, clustering, cluster
+evaluation<br>
+</h3>
+This sample use case guides you through the calculation of score
+networks from purification data sets, clustering and complex evaluation
+using ProCope. Below you find snippets of source code along with
+detailed explanations. The full
+source code of this example is available in the <code>procope.examples</code>
+package of the <code>src/</code>
+folder. Note that the execution of the program might take a some
+seconds to finish as a lot of tasks are performed.<br>
+<br>
+For more detailed documentations of all methods and classes
+please check out the <a href="../javadoc/index.html" target="_blank">JavaDocs</a>.<br>
+<br>
+<span style="font-weight: bold;">Important note:</span>
+All parameters like cutoffs and linkage methods used in this example
+are <span style="text-decoration: underline;">arbitrary</span>
+and for explanation purposes only. For the&nbsp;practical
+prediction of protein complexes these parameters need to be tuned
+carefully.<br>
+<br>
+<span style="font-weight: bold;">Table of contents:</span><br>
+<ul>
+  <li><a href="#loadpuri">Loading purification data</a></li>
+  <li><a href="#mergepuri">Merging purification data</a></li>
+  <li><a href="#socios">Calculating Socio
+Affinity scores</a></li>
+  <li><a href="#pes">Calculating Purification
+Enrichment scores</a></li>
+  <li><a href="#clustering">Clustering</a></li>
+  <li><a href="#reference">Loading a reference
+complex set</a></li>
+  <li><a href="#brohee">Complex set comparison
+(using the Brohee measure)</a></li>
+  <li><a href="#coloc">Calculating the
+colocalization score</a></li>
+  <li><a href="#namemap">Name mappings</a></li>
+  <li><a href="#go">GO semantic similarity</a></li>
+  <li><a href="#complexscores">Calculation of
+complex scores</a></li>
+  <li><a href="#output">Output</a></li>
+</ul>
+<br>
+<span style="font-weight: bold;"><a name="loadpuri"></a><span style="text-decoration: underline;">Loading purification data</span></span><span style="text-decoration: underline;"></span><br>
+<span style="text-decoration: underline;"></span><span style="text-decoration: underline; font-weight: bold;"></span><br>
+<span style="text-decoration: underline; font-weight: bold;"></span>First
+of all we need to load purification data from which the scores networks
+will be derived. This example is based on datasets for the yeast<span style="font-weight: bold;"></span> <span style="font-style: italic;">Saccharomyces cerevisiae</span>.
+We use the datasets of <a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al., 2006</a> and <a href="http://www.ncbi.nlm.nih.gov/pubmed/16554755" target="_blank">Krogan et al., 2006</a> which are also
+delivered in the <code>data/</code> folder of this
+package. For evaluation, the MIPS gold standard set for Yeast is
+used. The <code>PurificationDataReader</code> class
+provides methods to load purification data from files or streams. It
+will throw an exception of an IO error occurs or if the file format is
+invalid. In this example we catch all kinds of exception in one catch
+block:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>PurificationData dataKrogan=null,
+dataGavin=null;<br>
+try {<br>
+&nbsp;&nbsp;&nbsp; dataKrogan =
+PurificationDataReader.readPurifications("data/purifications/krogan_raw.txt");<br>
+&nbsp;&nbsp;&nbsp; dataGavin =
+PurificationDataReader.readPurifications("data/purifications/gavin_raw.txt");<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp;&nbsp; // something went wrong, output error
+message<br>
+&nbsp;&nbsp;&nbsp; System.err.println("Could not load
+purification data:");<br>
+&nbsp;&nbsp;&nbsp; System.err.println(e.getMessage());<br>
+&nbsp;&nbsp;&nbsp; System.exit(1);<br>
+} </code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="mergepuri"></a><span style="text-decoration: underline;">Merging purification data</span></span><br>
+<br>
+Next we merge both purification data sets into one. The experiment sets
+are simply concatenated, which is equivalent to concatenating the data
+files and reading the merged file.:<br>
+HiT<br>
+<br>
+<span style="font-weight: bold;"><a name="socios"></a><span style="text-decoration: underline;">Calculating Socio
+Affinity scores</span></span><br>
+<br>
+We calculate<span style="font-style: italic;"> Socio
+Affinity</span> scores according to <a href="http://www.ncbi.nlm.nih.gov/pubmed/16429126" target="_blank">Gavin et al., 2006</a>. All classes
+which implement the interface <code>ScoresCalculator</code>
+can be used for automatic score network generation using the <code>NetworkGenerator</code>
+class. Note that <span style="font-style: italic;">Socio
+Affinity</span> scores do not require any further parameters. We
+use a score threshold of 0.0 here which means that no negative scores
+will be inserted into the scores network.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td> <code>ScoresCalculator calcSocios = new
+SocioAffinityCalculator(dataMerged);<br>
+ProteinNetwork scoresSocios =
+NetworkGenerator.generateNetwork(calcSocios, 0f);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="pes"></a><span style="text-decoration: underline;">Calculating Purification
+Enrichment scores</span></span><br>
+<br>
+We also calculate <span style="font-style: italic;">Purification
+Enrichment</span> (PE) scores according to <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/17200106">Collins
+et al., 2007</a>. As proposed in the paper, the combined PE
+network is calculated using a weighted combination of the PE network
+using the Gavin and Krogan network respectively. The Krogan network
+gets a weight of 0.5 whereas the Gavin network gets a weight of 1.0. We
+accomplish this task by performing a scalar multiplication with 0.5 on
+the Krogan network and the combining both networks by adding up the
+edge weights. The <code>CombinationRules</code> class
+contains different settings which control the merging of two given
+networks.<br>
+<br>
+Note that we create the scores calculator and feed it into the scores
+network generator in one step this time:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinNetwork scoresPEGavin =
+NetworkGenerator<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+.generateNetwork(new PECalculator(dataGavin, 0.62f, 10f), 0f);<br>
+ProteinNetwork scoresPEKrogan = NetworkGenerator<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+.generateNetwork(new PECalculator(dataKrogan, 0.51f, 20f), 0f);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+And the combination:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>scoresPEKrogan.scalarMultiplication(0.5f);<br>
+CombinationRules combiRules = new
+CombinationRules(CombinationRules.CombinationType.MERGE);<br>
+combiRules.setWeightMergePolicy(CombinationRules.WeightMergePolicy.ADD);<br>
+ProteinNetwork scoresPE = scoresPEGavin.combineWith(scoresPEKrogan,
+combiRules);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="clustering"></a><span style="text-decoration: underline;">Clustering</span></span><br>
+<br>
+Next we cluster the scores networks we calculate using hierarchical
+agglomerative clustering with Saaverage-linkage. Two arbitrary cutoffs
+are choosen here which
+yield a reasonable number of clusters. All classes which perform
+clustering should implement the <code>Clusterer</code>
+interface.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>Clusterer clustererSocios = new
+HierarchicalClusterer(HierarchicalLinkage.UPGMA, 2.7f);<br>
+ComplexSet clusteringSocios = clustererSocios.cluster(scoresSocios);<br>
+      <br>
+Clusterer clustererPE = new
+HierarchicalClusterer(HierarchicalLinkage.UPGMA, 0.5f);<br>
+ComplexSet clusteringPE = clustererPE.cluster(scoresPE);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Note that&nbsp;<code>new HierarchicalClusterer...</code>
+could be replaced by any other clusterer, e.g. the Markov Clusterer
+delivered with this library (<code>MarkovClusterer</code>
+class).<br>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="reference"></a><span style="text-decoration: underline;">Loading a reference
+complex set</span></span><br>
+<br>
+We now want to compare our resulting clusters against the complex set
+reference set from MIPS. First we need to load this complex set which
+is also contained in the <code>data/</code> folder of this
+package. The <code>ComplexSetReader</code> class contains
+methods to load complex sets from files or streams.<br>
+<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ComplexSet setMIPS = null;<br>
+try {<br>
+&nbsp;&nbsp; &nbsp;setMIPS =
+ComplexSetReader.readComplexes("data/complexes/mips_complexes.txt");<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp; &nbsp;// something went wrong, output error
+message<br>
+&nbsp;&nbsp; &nbsp;System.err.println("Could not load
+complex set:");<br>
+&nbsp;&nbsp; &nbsp;System.err.println(e.getMessage());<br>
+&nbsp;&nbsp; &nbsp;System.exit(1);<br>
+}&nbsp;</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Again the load method throws different kinds of exceptions (see
+JavaDoc) which we catch in a single block here.<br>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="brohee"></a><span style="text-decoration: underline;">Complex set comparison
+(using the Brohee measure)</span></span><br>
+<br>
+The <code>ComplexComparison</code>
+class contains different comparison methods, here we use the measure
+proposed in <a href="http://www.ncbi.nlm.nih.gov/pubmed/17087821" target="_blank">Brohee et al., 2006</a>. Check out the
+JavaDocs of <code>ComplexComparison</code> for more
+information on complex set comparison.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>System.out.println("Socio clusters against
+MIPS: "<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; +
+ComplexSetComparison.broheeComparison(clusteringSocios, setMIPS));<br>
+System.out.println("PE clusters against
+MIPS:&nbsp;&nbsp;&nbsp; "<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; +
+ComplexSetComparison.broheeComparison(clusteringPE, setMIPS));<br>
+      </code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Note that <code>ComplexSetComparison.broheeComparison</code>
+produces a <code>BroheeStats</code> object. This object
+overwrites <code>toString()</code> to produce a reasonable
+string representation of the comparison result. This is why we can
+directly append the result of the function in this print-call.<br>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="coloc"></a><span style="text-decoration: underline;">Calculating the
+colocalization score</span><br style="text-decoration: underline;">
+<br>
+</span>The colocalization score of a clustering is a measure of
+how much the members of all complexes are colocalized according to a
+set of localization data. We use the localization data published by <a href="http://view.ncbi.nlm.nih.gov/pubmed/14562095" target="_blank">Huh
+et al., 2003</a> which are contained in the <code>data/ </code>folder
+of the package:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>LocalizationData locData = null;<br>
+try {<br>
+&nbsp;&nbsp;&nbsp; locData =
+LocalizationDataReader.readLocalizationData("data/localizations/huh_loc_070804.txt");<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp;&nbsp; // something went wrong, output error
+message<br>
+&nbsp;&nbsp;&nbsp; System.err.println("Could not load
+localization data:");<br>
+&nbsp;&nbsp;&nbsp; System.err.println(e.getMessage());<br>
+&nbsp;&nbsp;&nbsp; System.exit(1);<br>
+}<br>
+      </code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Now we calculate the colocalization score which is the average
+colocalization score of all complex sets. In this case we calculate a
+complex-size-weighted average:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>Colocalization coloc = new
+Colocalization(locData);<br>
+System.out.println("Average colocalization score of socio clusters: "<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;+
+coloc.getAverageColocalizationScore(clusteringSocios, true, true));<br>
+System.out.println("Average colocalization score of PE
+clusters:&nbsp;&nbsp;&nbsp; "<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;+
+coloc.getAverageColocalizationScore(clusteringPE, true,&nbsp;</code><code>true</code><code>));</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+We create a Colocalization object using the localization data we read
+and then calculate the colocalization score. The second argument of the
+method indicates if we calculate a weighted mean. The third argument
+defines if complexes for which no localization data are present will be
+scored with zero or ignored (<code>true</code> means they
+are ignored).<br>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="namemap"></a>Name mappings</span><br>
+<br>
+As the GO annotation files (see below) contain <span style="font-style: italic;">Primary SGDIDs </span>(e.g.
+S000000099) whereas the purification files and complexes contain
+systematic names (e.g. YBL003C) we need a name mapping. Name mappings
+are represented as directed networks where each directed edge
+represents one name mapping from the source to the target node of the
+edge. The mapping needed in our case is contained in <code>data/yeastmappings.txt</code>.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>try {<br>
+&nbsp;&nbsp;
+&nbsp;ProteinManager.addNameMappings(NetworkReader.readNetwork("yeastmappings_080415.txt</code><code><span style="font-family: sans;">"</span>,
+true), true);<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp; &nbsp;// something went wrong, output error
+message<br>
+&nbsp;&nbsp; &nbsp;System.err.println("Could not load name
+mapping network:");<br>
+&nbsp;&nbsp; &nbsp;System.err.println(e.getMessage());<br>
+&nbsp;&nbsp; &nbsp;System.exit(1);<br>
+}</code><code></code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+The <code>ProteinManager</code> handles the name mappings
+and the mapping of protein identifiers to internal IDs. Please check
+out the JavaDocs of that class for more information.<br>
+<br>
+Note that the second argument of <code>readNetwork</code>
+indicates whether we are reading a directed network (in this case: yes). <br>
+<br>
+The second argument of&nbsp;the <code>addNameMappings</code> methods tells the <code>ProteinManager</code> that the file contains the targets in the first column and the synoyms in the second columns (<code>targetFirst == true</code>). That is a mapping <code>S000000061 =&gt;&nbsp;YAL066W</code> in the file looks like this:<br>
+<br>
+<code>YAL066W&nbsp;&nbsp;&nbsp; </code><code>S000000061<br>
+<br>
+</code>The alternative would be (<code>targetFirst == false</code>, which is not the case for <code>data/yeastmappings.txt</code>):<br>
+<br>
+<code>S000000061&nbsp;&nbsp;&nbsp; </code><code>YAL066W</code><br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="go"></a>GO semantic similarity</span><br>
+<br>
+Another measure for the quality of complexes can be calculated using
+gene annotations to the Gene Ontology for the specific organism. We
+implemented a measure proposed by <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pubmed/16776819">Schlicker
+et al., 2006</a>. It defines a <span style="font-style: italic;">term similarity</span>
+which calculates a similarity measure between two given GO terms based
+on the given gene annotations. In addition it defines a <span style="font-style: italic;">functional similarity</span>
+measure which integrates the term similarites of all pairwise terms two
+genes are annotated with to get a GO semantic similarity score of two
+given proteins.<br>
+<br>
+First we need to load the GO annotations for Yeast and the GO Network:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>GOAnnotations goAnno=null;<br>
+GONetwork goNet=null;<br>
+try {<br>
+&nbsp;&nbsp; &nbsp;goAnno =
+GOAnnotationReader.readAnnotations("data/go/gene_association_080504.sgd");<br>
+&nbsp;&nbsp; &nbsp;goNet = new
+GONetwork("data/go/gene_ontology_edit_080504.obo",<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; GONetwork.Namespace.BIOLOGICAL_PROCESS,<br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; GONetwork.Relationships.BOTH);<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp; &nbsp;// something went wrong, output error
+message<br>
+&nbsp;&nbsp; &nbsp;System.err.println("Could not load GO
+data:");<br>
+&nbsp;&nbsp; &nbsp;System.err.println(e.getMessage());<br>
+&nbsp;&nbsp; &nbsp;System.exit(1);<br>
+}</code><code></code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+We use the <span style="font-style: italic;">biological
+process</span> ontology. To generate the GO network we follow
+both <span style="font-style: italic;">is_a</span>
+and <span style="font-style: italic;">part_of</span>
+relationships.<br>
+<br>
+Next we create the term and functional similarity calculators. For more
+information about the similarity measures please consider the original
+literature referenced above.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code></code><code>TermSimilarities
+termSim = new TermSimilaritiesSchlicker(goNet, goAnno,<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+TermSimilaritiesSchlicker.TermSimilarityMeasure.RELEVANCE, true);<br>
+      <br>
+FunctionalSimilarities funSim = new FunctionalSimilaritiesSchlicker(<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; goNet,
+goAnno, termSim,<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+FunctionalSimilaritiesSchlicker.FunctionalSimilarityMeasure.TOTALMAX);</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Note that a <code>FunctionalSimilarities </code>object is
+a <code>ScoresCalculator</code> and can be used to
+calculate score networks or complex scores as described in the
+following section.<br>
+<br>
+<br>
+<span style="font-weight: bold;"><a name="complexscores"></a><span style="text-decoration: underline;">Calculation of complex
+scores</span></span><br>
+<br>
+We have to use the GO scores calculator we just defined to assign a
+quality measure for the complex sets which resulted from the
+clusterings above. The class <code>ComplexScoreCalculator</code>
+contains methods to calculate complex scores and average complex scores
+over whole complex sets. The score of a complex is defined as the
+average score of all inner-complex protein interactions where undefined
+scores (e.g. missing edges in the network) are treated with a value of
+0. That is each complex score is the average of <span style="font-style: italic;">n*(n-1)/2</span> different
+inner-complex interaction scores. Again we calculate a
+complex-size-weighted average:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code></code><code>System.out.println("Functional
+similarity of socio clusters: " + <br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+ComplexScoreCalculator.averageComplexSetScore(funSim, clusteringSocios,
+true, true));<br>
+System.out.println("Functional similarity of PE
+clusters:&nbsp;&nbsp;&nbsp; " + <br>
+&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+ComplexScoreCalculator.averageComplexSetScore(funSim, clusteringPE,
+true, true));</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<br>
+<a name="output"></a><span style="font-weight: bold;"><span style="text-decoration: underline;">Output</span><br>
+<br>
+</span>The output of the program should look like this:<span style="font-weight: bold;"><br>
+</span><br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code></code><code>Loading
+purifications...<br>
+Merging datasets...<br>
+Calculating socio affinity scores...<br>
+Calculating PE networks...<br>
+Merging PE networks...<br>
+Clustering...<br>
+Socio clusters against MIPS: Sensitivity: 0.54275095, PPV: 0.71098727,
+Accuracy: 0.62119967<br>
+PE clusters against MIPS:&nbsp;&nbsp;&nbsp; Sensitivity:
+0.63791823, PPV: 0.71283257, Accuracy: 0.6743359<br>
+Calculating colocalization scores...<br>
+Average colocalization score of socio clusters: 0.6771759<br>
+Average colocalization score of PE
+clusters:&nbsp;&nbsp;&nbsp; 0.7355031<br>
+Loading name mappings...<br>
+Loading GO network...<br>
+Functional similarity of socio clusters: 0.57627916<br>
+Functional similarity of PE clusters:&nbsp;&nbsp;&nbsp; 0.6019231</code></td>
+    </tr>
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

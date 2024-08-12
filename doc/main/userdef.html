@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  <title>User defined classes</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>
+User defined classes</h2>
+You can integrate your own implementations of&nbsp;clustering
+algorithms and score calculation methods into the graphical user
+interface and command line tools of ProCope.<br>
+<h3>
+Basic principles<br>
+</h3>
+In order to integrate your own methods into the user interfaces of
+ProCope, you have to write Java classes which implement the interfaces <code>procope.methods.clustering.Clusterer</code>
+or <code>procope.methods.scores.ScoresCalculator</code>
+respectively. Then you create&nbsp;XML files which tell ProCope where to
+find these classes and what parameters they take.<br>
+<br>
+All ProCope user interface tools will automatically detect the
+corresponding XML files (see below) and let the user select the
+respective methods.<br>
+<h3>Writing your own clusterers<br>
+</h3>
+The clustering classes you want to integrate into the user interfaces must implement <code>procope.methods.clustering.Clusterer</code>. ProCope calls your class' constructor with the arguments you define in <code>$USERHOME/.procope/clusterers.xml</code>. <br>
+<br>
+A very simple clustering class can be found in the source codes: <code>procope.examples.DummyClusterer</code>.
+This clusterer does not actually do a real clustering process, it
+ignores the network and only returns a single complex containing the
+two proteins it was given in the constructor. Here is the <code>clusterers.xml</code> containing this&nbsp;clusterer (only one <code>&lt;clusterer&gt;</code> entry here):<br>
+<code><br>
+&lt;clusterers&gt;<br>
+&nbsp; &lt;clusterer name="DummyClust" class="procope.tools.userclasses.DummyClusterer"&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;parameter name="param1" type="int" defval="10"/&gt;<br>
+&nbsp;&nbsp;&nbsp; &lt;parameter name="param2" type="int" defval="20"/&gt;<br>
+&nbsp; &lt;/clusterer&gt;<br>
+&lt;/clusterers&gt;<br>
+<br>
+</code>Each clusterer must have a <code>name</code> and a full classname (<code>class</code>) identifier which tells ProCope where to the class. See also: <a href="#parameters">Parameters</a><br>
+<h3>Writing your own scores calculators</h3>
+Scores calculators have to implement the interface <code>procope.methods.scores.ScoresCalculator</code>.
+Analogically to the clusteres (see above), ProCope will automatically
+call the constructor of your class with arguments you define in <code>$USERHOME/.procope/scorecalc.xml</code>.<br>
+<br>
+A scores calculator for testing purposes can be found in the source
+codes: <code>procope.examples.DummyScores</code>. It takes no parameters and scores
+equal proteins with the score 1 and unequal proteins with 0. Here is
+the&nbsp;<code>scorecalc.xml</code> containing this&nbsp;clusterer (only one <code>&lt;scorescalculator&gt;</code> entry here):<br>
+<br>
+<code>&lt;scorescalculators&gt;<br>
+&nbsp; &lt;scorescalculator name="DummyCalc" class="procope.examples.DummyScores"&gt;<br>
+&nbsp; &lt;/scorescalculator&gt;<br>
+&lt;/scorescalculators&gt;<br>
+</code><br>
+Each scores calculator must have a <code>name</code> and a full classname (<code>class</code>) identifier which tells ProCope where to the class. See also: <a href="userdef.html#parameters">Parameters</a><br>
+<br>
+<span style="font-weight: bold;">Constructor</span><br>
+<br>
+The constructor of each scores calculator must have the <code>PurificationData</code> object as its first argument, followed by the arguments defined in the XML file.<br>
+<br>
+Some scores calculator (e.g. the <a href="scorenet.html#hart">Hart scores</a>) accept multiple purification datasets as their input. You can indicate this by adding the attribute <code>multipuri="1"</code> to your <code>&lt;scorescalculator&gt;</code> XML entry. The first argument of the constructor must then be of type <code>PurificationData[]</code>.<code><br>
+</code>
+<h3>Exceptions / Invalid arguments<br>
+</h3>
+When the user enteres invalid parameters or anything else goes wrong, throw a <code>ProCopeException</code> in your class constructor. The error message will directly be passed to ther user.<code><br>
+</code>
+<h3><a name="parameters"></a>Parameters<br>
+</h3>
+Each method can get an arbitrary number of parameters (or none). A parameter must have a <code>name</code>, a <code>type</code> (one of: <code>int</code>, <code>float</code>, <code>string</code>) and optionally a default value (<code>defval</code>).<br>
+<br>
+ProCope will take care of asking the user for values of these parameters.<br>
+<br>
+<span style="text-decoration: underline;">Note</span>: Make sure not to define invalid default values for numeric arguments or the program will crash<br>
+<code><br>
+</code><code><br>
+</code>
+<br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

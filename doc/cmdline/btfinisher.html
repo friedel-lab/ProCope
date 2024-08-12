@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>btfinisher</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">btfinisher</code><br>
+<br>
+Merges the results produced by <a href="btclusterer.html">clustering</a>
+in the bootstrap scores
+calculation process. Determines the best overall Markov clustering
+inflation coefficient, extracts the optimal clusterings which were
+produced by this coefficient and finally calculates the bootstrap
+network. This program also calculates and adds shared proteins to the
+final clustering.<br>
+<br>
+See also: <a target="_top" href="../main/index_scorenet.html">Score network
+generation</a><br>
+<h3>Example call<br>
+</h3>
+This example uses the result produced by clustering all bootstrap samples from the examples before (see: <code><a href="btsampler.html">btsampler</a></code>, <code><a href="btclusterer.html">btclusterer</a></code>).<br>
+<ul>
+  <li>use clusterings from the previous examples (<code>-prefix btresults/bt_</code>)</li>
+  <li>output the final bootstrap complexes to a file (<code>-clust</code>)</li>
+  <li>output the bootstrap network to a file (<code>-net</code>)<br>
+  </li>
+</ul>
+<code>cmdline.sh btfinisher -prefix btresults/bt_ -clust bootstrap_complexes.txt -net bootstrap_network.txt</code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

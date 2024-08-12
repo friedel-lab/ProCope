@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  <title>Protein manager</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>Protein manager</h2>
+<br>
+The Protein manager maps protein string identifiers like <span style="font-style: italic;">YAL016W</span> or <span style="font-style: italic;">YBR148W</span>
+to internal integer IDs for performance reasons. Equal strings will
+always get the same internal ID. All methods and data objects
+exclusively use these internal identifiers. <a target="_top" href="../main/index_namemap.html">Name mappings</a> and the automatic extraction of substrings using regular expressions are also implemented within the Protein manager.<br>
+<br>
+All mentioned features are implemented as static methods in the&nbsp;<code>ProteinManager</code> class.<br>
+<br>
+<h3>Example code<br>
+</h3>
+Below you find some example codes which demonstrate how to work with the <code>ProteinManager</code> class. The full source code can be found in the <code>procope.examples.ProtManager</code> class. Note that name mappings are not handled here, but can for example be found in the <a href="usecase1.html">Use case 1</a> codes.<br>
+<ul>
+  <li><a href="#map">Mapping string identifiers to internal IDs</a></li>
+  <li><a href="#regexp">Regular expressions</a></li>
+  <li><a href="#annos">Adding annotations</a></li>
+  <li><a href="#saveannos">Saving and loading annotations</a></li>
+  <li><a href="#filter">Filtering annotations</a></li>
+  <li><a href="#output">Output<br>
+    </a><br>
+  </li>
+</ul>
+<h3><a name="map"></a>Mapping string identifiers to internal IDs<br>
+</h3>
+The <code>ProteinManager.getInternalID</code> function maps String
+identifiers to internal integer IDs. Same strings always return the
+same internal IDs. By default the protein manager does not work
+case-sensitive, i.e. "ABC", "abc" and "Abc" will map to the same
+integer. In this example we explicitly activate case sensitivity using
+the <code>ProteinManager.setCaseSensitivity</code> method.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinManager.setCaseSensitivity(true);<br>
+int id1 = ProteinManager.getInternalID("PROTID_A");<br>
+int id2 = ProteinManager.getInternalID("PROTID_B");<br>
+int id3 = ProteinManager.getInternalID("PROTID_A");<br>
+int id4 = ProteinManager.getInternalID("protid_b");<br>
+      <br>
+System.out.println(id1+", " + id2 + ", " + id3 + ", " + id4);&nbsp;</code></td>
+    </tr>
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Note that <code>id1==id3</code> but <code>id2!=id4</code> (due to case sensitivity).<br>
+<br>
+<h3><a name="regexp"></a>Regular expressions<br>
+</h3>
+Sometimes you might want to extract certain parts of string identifiers
+read from the file system. In the ProCope API you can use regular
+expressions for this:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinManager.setRegularExpression("\\s*(.*)\\s+");<br>
+int id5 = ProteinManager.getInternalID("&nbsp;&nbsp;&nbsp;&nbsp; PROTID_C&nbsp;&nbsp;&nbsp;&nbsp; ");</code></td>
+    </tr>
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+ProCope will apply the regular expression to the string and use the
+first capturing group as the result. In the next section we will see
+that this extraction step worked.<br>
+<br>
+First we want to deactivate regular expressions again.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinManager.unsetRegularExpression();</code></td>
+    </tr>
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+Now display the actual result of what we have done:<br>
+<br>
+  
+    
+      
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>System.out.println("String for " + id5 + ": " + ProteinManager.getLabel(id5));</code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+This produces the output "<code>PROTID_C</code>" (and not <code>"&nbsp;&nbsp;&nbsp;&nbsp; PROTID_C&nbsp;&nbsp;&nbsp;&nbsp; "</code>). This line also shows how to map back internal IDs to string identifiers using the <code>getLabel</code> method.<br>
+<br>
+<h3><a name="annos"></a>Adding annotations<br>
+</h3>
+We add some arbitrary numeric annotations to some proteins in our set:<br>
+<br>
+  
+    
+      
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinManager.addAnnotation(id1, "value", 0.2f);<br>
+ProteinManager.addAnnotation(id2, "value", 0.4f);<br>
+ProteinManager.addAnnotation(id5, "value", 0.6f);</code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3><a name="saveannos"></a>Saving and loading annotations<br>
+</h3>
+For demonstration purposes, we save the annotations to a file, delete
+all annotations from the protein manager and reload them from the file
+we just wrote.<br>
+<br>
+  
+    
+      
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ProteinManager.saveProteinAnnotations("annotations");<br>
+ProteinManager.clearAnnotations();<br>
+ProteinManager.loadProteinAnnotations("annotations");</code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3><a name="filter"></a>Filtering annotations<br>
+</h3>
+Finally we determine all proteins where "value" is greater or equal
+than 0.3. Note that proteins which do not have this annotation never
+match the boolean expression and are thus not contained in the result.<br>
+<br>
+  
+    
+      
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>Set&lt;Integer&gt; filtered = <br>
+&nbsp;&nbsp; &nbsp;ProteinManager.getFilteredProteins(new BooleanExpression("value &gt;= 0.3"));</code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+Output the result to the console:<br>
+<br>
+  
+    
+      
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>for (int protein : filtered) {<br>
+&nbsp;&nbsp; &nbsp;System.out.println(ProteinManager.getLabel(protein));<br>
+}</code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<h3><a name="output"></a>Output<br>
+</h3>
+The output of the program should look like this:<br>
+<br>
+  
+    
+      
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>1, 2, 1, 3<br>
+String for 4: PROTID_C&nbsp;&nbsp;&nbsp; <br>
+PROTID_B<br>
+PROTID_C<br>
+      </code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

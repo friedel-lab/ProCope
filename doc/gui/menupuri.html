@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>Purification data menu</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+  <script language="JavaScript" src="../frames.js"></script>
+</head>
+<body onload="ensureframes()">
+<h2>
+Purification data menu</h2>
+<br>
+Contains methods to load, save and manipulate purification data sets.<br>
+<h3>Overview</h3>
+<ul>
+  <li><a href="#load">Load purification data from file</a></li>
+  <li><a href="#save">Save purification data to file</a></li>
+  <li><a href="#cyto">Export to Cytoscape<br>
+    </a><br>
+  </li>
+  <li><a href="#rename">Rename dataset</a></li>
+  <li><a href="#dispose">Dispose dataset<br>
+    <br>
+    </a></li>
+  <li><a href="#scores">Calculate scores</a></li>
+  <li><a href="#merge">Merge</a></li>
+  <li><a href="#baitprey">Get bait-prey interactions</a><br>
+  </li>
+</ul>
+<h3><a name="load"></a>Load purification data from file</h3>
+Loads a set of purifications from a user-specified file.<br>
+<br>
+See also: <a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+<h3><a name="save"></a>Save purification data to file</h3>
+Saves the selected purification data set to a user-specified file.<br>
+<br>
+See also: <a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+<h3><a name="cyto"></a>Export to Cytoscape<br>
+</h3>
+Exports a Cytoscape-compatible XGMML file or directly creates a new graph within Cytoscape when running in plugin mode.<br>
+<br>
+See also: <a href="cytoscape.html">Cytoscape integration</a><br>
+<h3><a name="rename"></a>Rename dataset</h3>
+Assigns a new internal name for the selected dataset.
+<h3><a name="dispose"></a>Dispose dataset</h3>
+Deletes the purification dataset from the list. Note: This will <span style="text-decoration: underline;">not</span> affect
+an eventual file the dataset was loaded from.
+<h3><a name="scores"></a>Calculate scores</h3>
+Calculates a PPI scores network from the selected purification data set.<br>
+<br>
+See also: <a target="_top" href="../main/index_scorenet.html">Score network generation</a><br>
+<h3><a name="merge"></a>Merge</h3>
+Merges the selected purification datasets. The experiment lists of all involved datasets are simply concatenated.<br>
+<h3><a name="baitprey"></a>Get bait-prey interactions</h3>
+Creates a directed network which contains one edge for each bait-prey interaction in the selected purification data sets.<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

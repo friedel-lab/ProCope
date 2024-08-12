@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  
+  
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <title>Networks menu</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+</head>
+<body onload="ensureframes()">
+<h2>
+Networks menu</h2>
+<a href="../frames.js"> </a>This menu contains methods to analyze, manipulate and query protein
+interaction networks.<br>
+<h3>Overview<br>
+</h3>
+<ul>
+  <li><a href="#load">Load network from file</a></li>
+  <li><a href="#save">Save network to file</a></li>
+  <li><a href="#cyto">Export to Cytoscape</a><br>
+    <br>
+  </li>
+  <li><a href="#rename">Rename network</a></li>
+  <li><a href="#dispose">Dispose network</a><br>
+    <br>
+  </li>
+  <li><a href="#quality">Quality</a></li>
+  
+  
+  
+  
+  
+  
+  <ul>
+    <li><a href="#enrichment">Complex enrichment</a></li>
+    <li><a href="#roc">ROC</a></li>
+  
+  
+  
+  
+  
+  
+  </ul>
+  <li><a href="#manipulate">Manipulate</a></li>
+  
+  
+  
+  
+  
+  
+  <ul>
+    <li><a href="#cutoff">Cut-off network</a></li>
+    <li><a href="#filter">Filter network</a></li>
+    <li><a href="#restrict">Restrict to proteins</a></li>
+    <li><a href="#multiply" rel="tag">Scalar
+multiplication</a></li>
+  
+  
+  
+  
+  
+  
+  </ul>
+  <li><a href="#randomize">Randomize</a></li>
+  <li><a href="#derivepuri">Derive purification data</a></li>
+  <li><a href="#merge">Merge</a><br>
+    <br>
+  </li>
+  <li><a href="#cluster">Cluster</a><br>
+    <br>
+  </li>
+  <li><a href="#query">Query tool</a></li>
+  <li><a href="#histo">Histogram</a></li>
+  <li><a href="#compare">Compare<br>
+    </a><br>
+  </li>
+</ul>
+<h3><a name="load"></a>Load network from file</h3>
+Loads a protein interaction network from a given file. The user will be
+asked whether this network shall be loaded as a directed network. When
+loading a directed network, the first protein of each edge is used as
+the edge's source, whereas the second protein is the target of the
+directed edge.<br>
+<br>
+Both edge weights and eventual edge annotations will be loaded from the
+file. GZIPed files are automatically detected and decompressed.<br>
+<br>
+See also: <a target="_top" href="../main/index_fileformats.html">File formats</a>
+<h3><a name="save"></a>Save network to file</h3>
+Saves a network to a user-selected file. Both edge weights (scores) and
+annotations will be saved. Use the "<a href="menuoptions.html#gzip">Save
+data objects GZIPed</a>" option to store the network in a
+compressed file.<br>
+<br>
+See also:&nbsp;<a target="_top" href="../main/index_fileformats.html">File formats</a><br>
+<h3><a name="cyto"></a>Export to Cytoscape<br>
+</h3>
+Exports a Cytoscape-compatible XGMML file or directly creates a new graph within Cytoscape when running in plugin mode.<br>
+<br>
+See also: <a href="cytoscape.html">Cytoscape integration</a>
+<h3><a name="rename"></a>Rename network</h3>
+Assigns a new internal name for the selected network.
+<h3><a name="dispose"></a>Dispose network</h3>
+Deletes the network from the networks list. Note: This will <span style="text-decoration: underline;">not</span> affect
+an eventual file the network was loaded from.
+<h3><a name="quality"></a>Quality</h3>
+This sub-menu contains methods to evaluate the quality of a scrores
+network with respect to a reference protein complex set.
+<h3><a name="enrichment"></a>Complex enrichment</h3>
+Calculates the complex enrichment value of the selected networks. By
+default, the program will perform 100 randomizations of the reference
+complex set to minimize variations.<br>
+<br>
+See also: <a href="../main/index_netevaluation.html" target="_top">Network
+evaluation</a>
+<h3><a name="roc"></a>ROC</h3>
+Calculates ROC curves for the selected networks.<br>
+<br>
+See also:&nbsp;<a href="../main/index_netevaluation.html" target="_top">Network
+evaluation</a>
+<h3><a name="manipulate"></a>Manipulate</h3>
+This sub-menu contains methods to manipulate the selected score
+network.&nbsp;
+<h3><a name="cutoff"></a>Cut-off network</h3>
+This function will delete all edges from a network whose weight is
+below a given threshold value.
+<h3><a name="filter"></a>Filter network</h3>
+Filters the network by only retaining edges in the network which match
+a given boolean expression. The edge weight is also treaded as an
+annotation with the name <code>@weight</code>.<br>
+<br>
+See also:&nbsp;<a target="_top" href="../main/index_annosfilter.html">Annotations
+and filtering</a>
+<h3><a name="restrict"></a>Restrict to proteins</h3>
+Retains only those edges in the network where one or both associated
+nodes are in a given set of proteins. This restriction set may come
+from another data object (network, complex set, purification dataset),
+from the user directly or from a filtererd subset of annotated proteins
+(see also: <a href="menutools.html#anno">Protein annotations</a>).
+<h3><a name="multiply"></a>Scalar
+multiplication</h3>
+Multiplies all edge weights of the network with a scalar factor. Edges which have an annotation but no weight are ignored.
+<h3><a name="randomize"></a>Randomize</h3>
+Randomizes a network by rewiring. The rewiring process works as follows:<br>
+<ol>
+  <li>select 2 random edges <code>(a,b)</code> and <code>(c,d)</code> so that <code>a != b != c != d</code></li>
+  <li>delete the original edges and insert two new edges <code>(a,d)</code> and <code>(c,b)</code></li>
+  <li>repeat a given number of iterations</li>
+</ol>
+Both edge weights and annotations (i.e. the full edge) is a affected by
+rewiring. The default and recommended number of iterations to get a
+good randomized result is 10 times the number of edges in the network.
+<h3><a name="derivepuri"></a>Derive
+purification data</h3>
+Converts a <span style="text-decoration: underline;">directed</span> network into a purification data set. For each directed edge <code>a =&gt; b</code>, <code>a</code> is used as the bait of a purification and <code>b</code>
+as its prey. There are two different approaches of creating a
+purification data set from the resulting set of bait-prey interactions:<br>
+<ol>
+  <li>pool baits (default): one purification experiment for each bait with all of its baits is created</li>
+  <li>do not pool baits: a single experiment for each bait-prey
+interaction is created (warning: might result in large purification
+data sets)
+  </li>
+</ol>
+<h3><a name="merge"></a>Merge</h3>
+Merges two networks into one. Different settings which control the merging process can be specified. See also: <a target="_top" href="../main/index_networks.html">Networks</a>
+<h3><a name="cluster"></a>Cluster</h3>
+Clusters a network using one of the built-in clustering algorithms or a
+user-defined algorithm. Produces a complex set (= clustering) as its
+output.<br>
+<br>
+See also:<br>
+<ul>
+  <li><a target="_top" href="../main/index_prediction.html">Complex set prediction</a></li>
+  <li><a target="_top" href="../main/index_userdef.html">User defined classes</a>
+  </li>
+</ul>
+<h3><a name="query"></a>Query tool</h3>
+Opens a new window containing a small tool to show edges from the selected network.<br>
+<ul>
+  <li>Enter comma-seperated lists of protein IDs into the text fields
+"Proteins 1" and "Proteins 2", or leave them empty to show all proteins</li>
+  <li>For <span style="font-style: italic;">directed networks</span>, "Proteins 1" will filter the edge sources where as "Proteins 2" filters the targets of each the directed edges</li>
+  <li>In the "Filter" text field you can enter boolean expressions,
+only edges whose annotations match this expression will be shown in the
+result. The edge weight is also treated as an annotation with the name <code>@weight</code>. See also:&nbsp;<a target="_top" href="../main/index_annosfilter.html">Annotations
+and filtering</a></li>
+  <li>Press [Enter] anywhere in the text fields to start your query.
+  </li>
+</ul>
+<h3><a name="histo"></a>Histogram</h3>
+Shows a histogram of any numeric annotation present in the network. Choose <code>@weight</code> from the annotation list to use the edge weights.
+<h3><a name="compare"></a>Compare</h3>
+Compares&nbsp;edge weights of the two selected networks. The function generates a list of number pairs <code>(x,y)</code>
+containing the weights of a given edge from both networks. If an edge
+is only present in one network, a weight of 0 will be assumed for the
+other network. Three types of output can be produced:<br>
+<ul>
+  <li>A diagram containing the number pairs described above.</li>
+  <li>The correlation coefficent between these two rows of data (Pearson or Spearman).</li>
+  <li>A file containing the comparison data</li>
+</ul>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  <title>Annotations and filtering</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>Annotations and filtering</h2>
+In ProCope both proteins and protein network edges can be annotated
+with arbitary key/value pairs. For the values, strings (text), integer
+and decimal values are allowed. <br>
+<br>
+You could, for instance, annotate different scores to a single edge in the network (decimal values):<br>
+<br>
+score1 = 0.5<br>
+score2 = 0.8<br>
+score3 = 0.3<br>
+<br>
+For protein annotations, you could store functional information for each protein (string values):<br>
+<br>
+func = transcription<br>
+or<br>
+func = cell cycle, apoptosis<br>
+<br>
+<br>
+ProCope&nbsp;implements a filtering
+algorithm which matches a boolean expression against the annotations of
+a protein or edge.<br>
+<br>
+The filtering feature is used in the graphical user interface (for
+filtering annotated edges in networks or protein annotations) and can
+be accessed from the Java API.<br>
+<br>
+<h3>Boolean expressions</h3>
+The boolean expressions in ProCope support the following comparison
+operators:<br>
+<ul>
+  <li><code>==</code> - equality</li>
+  <li><code>!=</code> - inequality</li>
+  <li><code>&gt;&nbsp;</code> - greater than</li>
+  <li><code>&gt;=</code> - greater than or equal</li>
+  <li><code>&lt;</code><code> </code>&nbsp;-
+less than</li>
+  <li><code>&lt;=</code> - less than or equal</li>
+</ul>
+The following logical operators are supported:<br>
+<ul>
+  <li><code>&amp; </code>- and</li>
+  <li><code>| </code>- or</li>
+  <li><code>! </code>- not</li>
+</ul>
+<span style="text-decoration: underline;">Note</span>: If an annotation
+does not exist for an edge or protein or if different datatypes are
+mixed (e.g. strings compared to numeric values), the expression will
+always evaluate to <code>false</code>.
+<h3>Examples<br>
+</h3>
+Some examples of boolean expressions and their effect (networking filtering examples).<br>
+<br>
+<code>score1 &gt; 0.5 | score2 &gt; 0.7</code><br>
+Matches all edges of a network where the numeric value of the <code>score1</code>
+annotation is larger than 0.5 or the numeric value of <code>score2</code>
+is larger then 0.7.<br>
+<br>
+<code>(source == "database1" | source == "database2") &amp; @weight &gt;= 0.5</code><br>
+Matches all edges which come from "database1" or "database2" and the
+edge weight is at least 0.5. Note that the edge weight is accessed
+using the variable name <code>@weight</code>.<br>
+<br>
+!source == "database1" &amp; confidence &lt;= 0.2<br>
+Matches alle dges which are not from "database1" and the "confidence" annotation has a numeric value smaller than 0.2.<br>
+<br>
+<br>
+For an example of how to use filtering with the Java API, check out <a target="_top" href="../javaapi/index_usecase2.html">Sample Use Case 2: Working with score networks</a> or the <a target="_top" href="../javaapi/index_protmanage.html">protein manager documentation</a>.<br>
+<br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

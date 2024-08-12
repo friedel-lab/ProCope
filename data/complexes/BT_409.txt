@@ -1,0 +1,409 @@
+ygr063c	ynl248c	yor340c	yjr063w	yjl140w	yor210w	yjl148w	ypr187w	ygr186w	yml010w	ynl113w	yil021w	ypr110c	yol005c	yor151c	ypl129w	yor224c	ypr093c	ydl150w	ygl070c	ydr156w	ygr005c	ydr404c	ydl115c	ydl140c	ybr154c	yhr143w-a	ypr010c	yor341w	ykl144c	yfr028c	ypr190c	yjl011c	ynl151c	yor116c	ykr025w	yor207c	ydr045c	ynr003c	ydr005c	yml114c	ycr042c	ygr072w	ygl043w	yel072w	ydl128w	
+ypr108w	ylr421c	yor117w	yor261c	yor259c	yfr052w	ykl145w	yfr004w	ydr427w	yhl030w	yhr200w	yil075c	yer021w	ygr232w	ydr363w-a	ygl048c	ydl147w	ydl007w	ydl097c	yhr027c	
+ynl284c	yhr147c	ynl177c	yml025c	ynl252c	yor150w	ypl183w-a	ypl173w	yjl063c	ymr024w	ykr085c	yml009c	ylr439w	ymr193w	ykl167c	ylr312w-a	ynl005c	ykr006c	ycr071c	ydr322w	ygr076c	ydr405w	ygr220c	ydr462w	ydr116c	ydr237w	ydr296w	ycr046c	ybl038w	ybr122c	ybr282w	ymr098c	ynl185c	ypr100w	ymr286w	ymr064w	
+ymr188c	yor158w	ypl118w	ynr037c	ynl306w	ynl137c	ypl013c	ymr158w	ynl081c	ykl003c	ygl129c	yjr101w	ykl155c	ygr215w	yil093c	ydr041w	ygr165w	ydr175c	ybr251w	ydr347w	ygr084c	ydr036c	ybr146w	yhl004w	yjr113c	ydr337w	ydr494w	yer050c	ydl045w-a	ybl090w	yil070c	yhr059w	
+ypl254w	ydr176w	ygr274c	ypl011c	ymr236w	yml098w	yml015c	ymr227c	ypl047w	ymr223w	ymr005w	ylr055c	yol148c	ydr448w	yer148w	ydr392w	ygl066w	ydr145w	ydr167w	ygl112c	ygr252w	ybr198c	ycr082w	ycl010c	ybr081c	
+ypr070w	yml007w	ybr193c	ydl005c	yhr202w	ycr081w	ygl127c	yhr041c	ypr168w	yol135c	ydr308c	ylr071c	ynl236w	ydr443c	yor174w	ybr253w	ygr104c	ygl025c	yol051w	ynr010w	ymr112c	ypl042c	ynl025c	yer022w	ygl151w	yhr058c	ybl093c	
+yjr005w	yol062c	yjr058c	ybl037w	
+ygl128c	ygl120c	ylr424w	ymr213w	ygr129w	ygr278w	yll036c	ypl151c	yjr050w	ypr101w	ylr117c	ydl209c	ybr065c	ybr188c	ydr364c	ydr416w	yal032c	yer172c	yhr165c	ygr280c	ycr063w	ymr288w	yml049c	ypl213w	
+ylr102c	ybl084c	ydr118w	yhr166c	yir025w	ykl022c	yor249c	ylr127c	ynl172w	ygl240w	yfr036w	
+ylr200w	yfl023w	yjl179w	ydl013w	yml094w	ygr078c	yel003w	ynl153c	ydr320c	
+ydr195w	ydr301w	yjr093c	ykr002w	ykl059c	ykl018w	ynl222w	yor179c	ylr277c	ynl317w	ylr115w	ypr107c	yer133w	ygr156w	yal043c	ymr311c	
+ygr095c	ynr024w	ynl232w	yor076c	yor001w	yol021c	yol142w	ygr195w	ygr158c	yhr069c	yhr081w	ycr035c	yer143w	ydl111c	ydr280w	
+ydr211w	ycl026c-b	ypl237w	ylr215c	yjr007w	ygr083c	yor260w	ylr291c	yer025w	ykr026c	ygl170c	
+yjl065c	yor304w	ygl133w	
+yor332w	ypr036w	ykl080w	ygr020c	yhr039c-a	yel051w	ybr127c	ydl185w	ykl082c	ylr447c	yor270c	ykl119c	yal026c	
+ypl126w	ygr128c	ymr093w	yjl109c	yhr196w	yel055c	ydr324c	ydr398w	ynl075w	yer082c	ydr449c	ylr222c	ycr057c	yjr002w	yhr148w	
+yjr135c	ylr381w	ylr315w	ypl018w	ypr046w	ybr107c	ydr254w	ybr211c	ydr383c	ygr179c	ydr318w	
+yol145c	yml069w	yor123c	ybr279w	ygl244w	ylr418c	
+yor272w	ygr103w	ymr049c	yll008w	ypl043w	yhr052w	yfl002c	ynl002c	yol077c	yhr088w	ynl110c	ydr496c	ypl211w	ynl061w	yhr197w	ylr074c	ypr016c	yer126c	ypl093w	ykl009w	yer006w	ygr245c	ygl111w	ybr142w	yfr001w	ynl182c	
+ymr118c	yol109w	ynl154c	ymr173w	ylr295c	ydr534c	ykl046c	ykl113c	ydl004w	ydl081c	
+yol117w	yol088c	yil071c	ydr328c	yer105c	ymr025w	ydl216c	ydr179c	ybr208c	ydl147w	ydl132w	
+ypl204w	ypl266w	yor145c	ynl207w	ykl143w	ybr247c	ypl012w	ydl060w	yor056c	yml026c	ylr367w	
+ynl287w	ypl010w	ydl145c	yer122c	ygl137w	yil076w	yfr051c	ydr238c	q0060	
+ypl210c	ypr088c	ypl243w	ykl122c	yml105c	ydl092w	ydl051w	
+ypl256c	ykr091w	ymr199w	ylr079w	ydl155w	ybr135w	ybr160w	ypr119w	ylr210w	ypr120c	
+yil035c	yor061w	ymr172w	yor039w	yer164w	ygl019w	ylr407w	ygl084c	
+ydr108w	ygr166w	ymr218c	ydr472w	yor115c	yml077w	ydr246w	ydr407c	ykr068c	ybr254c	
+ydr507c	ylr314c	yhr176w	ydl225w	yjr076c	yhr107c	ycr002c	yjr092w	
+yjl061w	ymr047c	yjl041w	yfr002w	ygr119c	ygl172w	yil115c	yer107c	
+yol115w	ypl190c	yjl050w	yil079c	ydl175c	ynl251c	ylr430w	
+ylr360w	ypl120w	ylr240w	ybr097w	ybr128c	
+ydr330w	ygr048w	ydl126c	ybr170c	ymr067c	ydr049w	
+yol063c	yjl047c	ypr164w	
+ypl138c	ylr015w	yhr119w	ydr469w	ybr258c	ybr175w	yar003w	ykl018w	
+ygl115w	ydr028c	yer027c	ygl208w	ydr477w	ydr422c	yer129w	
+ygr120c	ynl051w	yml071c	ynl041c	ypr105c	ygl005c	ygl223c	yer157w	
+ybr019c	ylr170c	ykl135c	yfl034w	yhl019c	ypr029c	ypl259c	
+yor036w	ymr197c	ykl196c	ylr440c	yor075w	ynl258c	ygl098w	ygl145w	ylr268w	ydr498c	
+ykr022c	yml106w	yil007c	ycl047c	ygl128c	ylr424w	ymr271c	
+yml056c	ylr432w	yar073w	yar075w	
+ynl290w	yol094c	yor144c	yor217w	yjr068w	ybr087w	
+ypl101w	ykl110c	yhr187w	yil096c	ypl086c	ylr384c	ymr312w	ygr200c	
+ymr144w	ygr142w	
+ylr258w	ylr152c	yol156w	ykr058w	yfr015c	yjl137c	
+ydr099w	ydr001c	yer177w	ynr047w	ydr028c	
+ykr028w	yfr040w	ydl047w	yjl098w	yor267c	ygr161c	
+yml109w	ymr273c	yor014w	ydl134c	ygl190c	ydl188c	yal016w	
+ydl176w	ybr105c	ydr255c	yil097w	ymr135c	ygl227w	yil017c	
+ygl233w	yjl085w	yil068c	ypr055w	ylr166c	ybr102c	ydr166c	yer008c	
+ydl156w	ynl312w	yjl173c	yer104w	yar007c	yhr164c	yml032c	
+ylr455w	yor064c	ypr031w	ybl052c	
+ydr502c	ylr180w	
+yml016c	ykl088w	yor054c	ykr072c	
+ydr288w	yol034w	yel019c	ydr418w	ydl105w	
+ydr148c	yfl018c	yil125w	yfr049w	ygr193c	
+yel036c	ygr231c	ygr132c	ypl050c	yjr075w	yjl183w	ydr245w	
+yel041w	yjr049c	
+ygr251w	ykl078w	
+ydr331w	yhr188c	ylr088w	
+ymr258c	ykr014c	ybr155w	ydr328c	yor370c	
+yil034c	ykl007w	yir003w	yer071c	
+ynl201c	ydr075w	ybl046w	
+ypr049c	ypl166w	ylr423c	ydr022c	
+ymr038c	yjr104c	
+ypr181c	ynl049c	yil109c	ypl085w	ydr517w	ylr208w	yor205c	
+yhr034c	yor195w	ypl235w	ycr060w	ydr190c	
+ylr371w	ydl203c	ybr011c	ypl066w	ylr425w	
+ypl195w	yjl024c	yil014w	ybr288c	ygr261c	
+yil144w	ymr117c	yor081c	yol069w	yer018c	
+ynl086w	ylr408c	ykl061w	yel005c	ygl079w	ydr357c	
+ykr021w	yer125w	
+ydl003w	yjl074c	yfl008w	
+ygl200c	ydl018c	yhr110w	yml012w	yar002c-a	yal007c	
+ylr148w	ymr231w	ylr396c	ypl045w	ydl077c	ydr080w	yal002w	
+ypl122c	ydr079c-a	
+yjr035w	ykr018c	yor237w	yar027w	
+yhr216w	ydr228c	ymr061w	yor250c	ygl044c	
+ybl021c	yor077w	yor358w	ygl237c	
+yol070c	ylr227c	ynl078w	
+yfr031c	ylr272c	ylr086w	ybl097w	ydr018c	
+ynl032w	ynl056w	ynl099c	yhl029c	ycr095c	
+yil033c	ypl203w	yjl164c	
+ynl118c	yel015w	ybr094w	yol149w	
+ynl037c	yor136w	
+ypl096w	yel037c	yer162c	
+ynl212w	yil142w	yor281c	yjl111w	ydl143w	ydr188w	
+yir010w	ypl233w	yjr112w	yal034w-a	
+ypr091c	ynl247w	ybl036c	
+ydr027c	yjl029c	ydr484w	
+yhr084w	ypl049c	
+ynl262w	ypr175w	ybr278w	ydr121w	
+ybr280c	ynl141w	
+ykr042w	yjl052w	
+yjr094w-a	yor193w	
+ygl050w	yjr031c	
+yml036w	ykr038c	yjl184w	
+ynr054c	yhr065c	ydr365c	
+yor038c	ybr215w	yjr140c	ybl008w	
+yjl076w	yhr006w	
+ydl151c	ykl172w	
+ymr284w	ynr034w	ymr106c	
+ylr174w	ynl102w	ybl035c	yir008c	ykl045w	
+ylr028c	ymr120c	ycr073w-a	ymr110c	
+ypl031c	yol001w	ypl219w	ygr233c	yer059w	
+yor043w	yll010c	ylr019w	yil135c	
+yjr033c	ydr202c	ydr328c	
+ylr442c	ylr278c	ydr227w	
+ylr375w	yer064c	
+ylr262c	yer136w	yer031c	
+ygr167w	ygl206c	ygr149w	
+ynl020c	ykl129c	
+ydl054c	yor315w	
+yjr077c	yel022w	ygr218w	
+ydr267c	yil128w	yer171w	
+ygr206w	ylr119w	ypl065w	ycl008c	
+ygl012w	ylr016c	yir005w	
+ynr006w	yhl002w	ydr420w	
+ykl075c	ynl091w	
+ylr196w	yol041c	yol077c	
+yol018c	ygl095c	
+ypr171w	yfl039c	ycr088w	ynl208w	
+yor253w	yhr013c	ydl040c	
+ylr022c	ynl163c	yhr159w	
+yml099c	yor191w	yll045c	
+ynl227c	ybr267w	yhr170w	
+yjl122w	ydr101c	
+ykl014c	yjr041c	yol144w	yjr083c	
+yhr156c	yor238w	
+yal047c	yhr172w	ylr212c	ynl126w	
+ymr031c	ygr130c	
+yor164c	yor007c	yol111c	ybr137w	
+ydr252w	yjr011c	yhr193c	ygr134w	ypl037c	
+ypl094c	ylr292c	yor254c	ybr171w	
+ydr312w	ypr143w	yhr066w	
+ybr195c	yml102w	ypr018w	
+ykr048c	ylr133w	
+ykl010c	ybr082c	
+yel053c	ycr020c-a	ypr051w	
+ykl048c	ykl142w	ydr262w	
+ylr226w	ypr161c	
+ydl038c	yir002c	
+ymr297w	ylr178c	
+ygl125w	ypl023c	
+ydr289c	yor048c	ygl246c	
+ylr039c	ydr137w	
+ylr182w	ydl056w	yer111c	
+yir001c	ygr250c	
+ygr171c	ybr169c	
+ypl239w	ynl178w	
+yjl180c	yil098c	
+ypl220w	ygl135w	
+ypl228w	ygl130w	
+ygl122c	ybr017c	
+ykl154w	ydr292c	ymr282c	
+ypl225w	ylr355c	ypr104c	
+yjr148w	yhr208w	
+ymr089c	yer017c	ygr231c	ygr132c	
+ymr224c	ydr369c	
+ylr328w	ygr010w	
+yjr043c	yjr006w	ydl102w	
+ykl028w	ykr062w	
+yml057w	ykl190w	
+ypr180w	ydr390c	
+ymr140w	ygl087c	ydr092w	
+ygr046w	ypl137c	yml059c	
+yfl028c	yer043c	
+ynr012w	yjr097w	
+ylr304c	ynr030w	yer091c	
+ygr277c	ypr125w	
+yol087c	ybl067c	
+ynl023c	ynl135c	yil161w	
+ynl076w	ygl252c	
+ymr125w	ypl178w	ykl214c	
+ymr255w	yhr203c	
+ypr035w	ydr171w	ykl127w	
+ykr080w	ydr158w	
+ykr023w	ygl110c	
+ypl030w	ypr095c	
+yer081w	yil074c	
+ygl108c	ygl158w	yol061w	
+ybr185c	ycl032w	ylr362w	
+ybr202w	ygl001c	
+ykl074c	ylr116w	
+yjr134c	ylr244c	ybr030w	
+yml091c	yjl023c	
+ylr072w	yhr117w	
+yor375c	yal062w	
+ynl246w	yll002w	
+ygr138c	ylr187w	
+ydl074c	ypl055c	
+yhr024c	ylr163c	
+ymr099c	yjl208c	ykr079c	
+yjl006c	ykl139w	yml112w	
+yhr191c	ycl016c	
+ynl273w	ymr048w	
+ymr029c	yhl001w	
+ydr236c	ylr287c	ylr340w	
+yjl155c	ylr345w	
+yjl026w	ygr180c	
+ybr052c	ydr032c	ybr053c	
+ymr119w	ygl250w	
+ydl090c	ykl019w	
+ydr425w	yjl036w	ydl113c	
+ypr111w	yil106w	
+ydl153c	yil091c	
+ynl192w	ydr231c	
+ypl081w	ybr189w	
+ynl325c	ylr386w	
+ykl213c	ypl040c	
+ypl171c	yhr179w	
+yol054w	ybr009c	
+ypr006c	ymr180c	
+yor279c	ydr310c	
+ynl218w	yel058w	
+yor026w	ygr188c	
+yor091w	yal036c	
+yol144w	ylr221c	
+ybl080c	ymr293c	
+yil036w	yal025c	
+ynl264c	ygr170w	
+ykl198c	ylr082c	
+ylr142w	yhr018c	
+ymr291w	ybr012w-b	
+yml014w	ykl103c	
+yil143c	yor352w	
+yil051c	ykr069w	
+ynl084c	yir006c	
+ymr203w	ypr024w	
+ymr289w	ylr057w	
+yjl141c	ypl247c	
+ymr315w	ybr114w	
+yhr168w	ypl263c	
+ymr177w	ydr244w	
+ymr127c	ydr181c	
+ygr006w	ydr088c	
+ypr030w	yhr174w	
+yal053w	yor153w	
+ynr051c	yer151c	
+yjl181w	ylr382c	
+ycr079w	yor323c	
+ylr146c	ypr069c	
+ynl297c	ydr141c	
+ylr450w	yml075c	
+yhr195w	ylr183c	
+yml103c	ygl148w	
+yel023c	ydr454c	
+ynl183c	ycl048w	
+ykl025c	ygl094c	
+yil159w	yhl023c	
+yfl022c	ylr060w	
+ymr296c	ydr062w	
+ylr048w	ygr214w	
+ypr066w	ypl003w	
+yfr021w	ynl242w	
+ycr030c	ybl047c	
+ydr386w	ybr098w	
+ylr113w	ylr248w	
+yjl030w	ygl086w	
+ypr131c	yol076w	
+yor303w	yjr109c	
+yor173w	ylr270w	
+yml119w	yll032c	
+yor157c	yjl001w	yor362c	ymr314w	ypr103w	ykl206c	yml092c	yol038w	yer012w	yfl017c	yfl007w	ybl041w	ycr076c	ygr135w	ygr253c	ygl011c	yer094c	yfr050c	ygl096w	ydr400w	ydr179w-a	ylr199c	ykl168c	
+ymr033w	yjl176c	ydr073w	ypl016w	ylr321c	ylr357w	yml127w	ylr033w	ykr008w	yor290c	ypr034w	ymr091c	ypr004c	yor156c	yil126w	ygr275w	yhr056c	yhl025w	ynr023w	ycr052w	ygr056w	yfr037c	yfl049w	ydr303c	ybl006c	ycr020w-b	ybr289w	yol002c	ymr159c	
+ypr133c	ygr116w	
+yir009w	yjl203w	ypl213w	ymr240c	yer029c	ydl030w	yor319w	ymr288w	yml049c	ydl043c	ypr182w	yhr165c	yer172c	ylr275w	ylr147c	yor159c	ykl173w	ynl147w	ygr074w	yor308c	yjl035c	ykl012w	ygr013w	ybr055c	ybr119w	yal032c	ypr101w	yfl017w-a	ypr082c	ypr178w	ygr075c	yjr022w	ygr091w	yhr086w	ylr298c	yil061c	yml046w	ybl026w	ybl074c	ydr378c	ydr473c	ydl087c	ydr235w	ybr152w	ydr240c	ydl098c	ymr125w	ybr065c	ydl209c	ymr213w	ypl151c	ydr416w	ygr278w	yll036c	ylr117c	ygl174w	ypr057w	yer112w	ygl128c	ymr268c	yjl124c	yer146w	ycr077c	ygl173c	ylr438c-a	ydl160c	ynr011c	ybr040w	ydl181w	ylr424w	ynl289w	
+ynl059c	yer092w	yfl013c	ynl215w	yjl081c	ylr052w	yor141c	ygl150c	ydl002c	ydr190c	yor189w	ylr085c	ylr385c	ylr399c	ynl107w	yml041c	yfl024c	ygr002c	yor244w	yhr090c	ydr359c	yjr082c	ynl136w	ydr485c	ydr334w	yel018w	ybr231c	yal011w	ypr023c	ypl235w	ydl070w	
+ypl211w	yol077c	ynl061w	yfl002c	ypl043w	yhr052w	ynl110c	ynl002c	yor272w	yfr001w	ylr009w	yhr088w	yll008w	ydr496c	ypl093w	ypr016c	yhr197w	ynr053c	ylr074c	ykl009w	ygr245c	ygl111w	ylr325c	yer006w	ycr072c	yer126c	ygr103w	ydr101c	ymr049c	ybr142w	ypr102c	ynl182c	yhr085w	
+ydr052c	ydl017w	
+yor019w	ynr063w	yor209c	
+ybr128c	ypl120w	
+yor304c-a	ylr319c	
+ynl021w	ypr179c	ydr295c	
+yhr106w	ydr353w	
+ygl057c	ybr045c	
+yjl070c	yml035c	
+ypr072w	ydl165w	
+yjr121w	ybl099w	ygr281w	
+yor194c	ykl058w	
+yol124c	ynr046w	
+ymr079w	yhr076w	
+ydl201w	ydr165w	
+ydr264c	yor212w	
+ylr139c	ydl044c	
+ydr017c	ynl267w	
+ybl079w	ymr153w	
+yml067c	yal042w	
+yjr014w	yer007c-a	
+ykl211c	yer090w	
+ydr221w	ybr229c	
+ypl231w	ykl182w	
+ylr249w	ylr043c	
+ygr196c	ybr260c	
+ynl286w	yor148c	
+ypr129w	ybr034c	
+ygr271c-a	ymr014w	
+ygr173w	ydr152w	
+yjr067c	ynl260c	
+yhl020c	yer120w	
+yol097c	ycl024w	
+yll021w	yer149c	
+ypl208w	ydr361c	ybl087c	yer117w	
+ylr310c	ygl197w	ybr225w	
+yhr114w	ylr337c	yor181w	ybl007c	
+ykl016c	ydr298c	
+ylr095c	ymr044w	ybr245c	yfr013w	
+yor061w	yor039w	
+ylr259c	ykr036c	
+yor265w	yjl107c	
+ypl128c	ygr071c	ylr373c	
+ymr149w	ygl022w	yel002c	
+yjr102c	ypl002c	ylr417w	
+ykl081w	ypl048w	yal003w	
+ydr172w	ydl139c	
+ybr218c	ygl062w	
+ypl070w	yor132w	yjl053w	yhr012w	yjl154c	yor069w	
+ynl106c	yel060c	
+yor108w	ynl104c	
+ypr074c	ydr135c	ybr117c	
+yfr024c-a	yhr016c	
+ydr071c	yer089c	ybl056w	
+ydr186c	ybr125c	
+ydl182w	ydl131w	
+yhr124w	ydr093w	
+ygr043c	ylr354c	
+yer110c	ypr174c	
+ylr194c	ykl152c	
+ynl185c	yml025c	
+ykl193c	yfr003c	yer133w	ymr311c	
+yor096w	yml022w	
+ydl053c	yhr121w	
+ypl083c	ylr105c	
+ygr090w	ylr223c	ycl031c	
+ynl052w	ygl187c	ydl067c	
+yor350c	yhr039c	
+ylr100w	yhr072w	
+ygr285c	yhr064c	
+ymr261c	yml100w	ydr074w	ybr126c	
+ygr124w	ypr145w	
+yll041c	ykl148c	
+yll050c	ynl138w	yjl005w	
+ygr134w	ynl288w	ynr052c	yal021c	ycr093w	yer068w	
+yor227w	yer101c	
+ykl130c	yal029c	ybr130c	
+yer083c	ydl100c	
+ycr009c	ymr192w	ypl249c	ydr388w	
+ydr362c	ypl007c	yjl045w	ybr123c	ygr047c	yor110w	yal001c	
+ylr002c	yor206w	ydr060w	
+yll008w	ypl043w	yfl002c	yor272w	yhr052w	ynl002c	yol077c	yhr088w	ynl110c	
+yjl125c	ynl062c	
+ylr083c	ydr313c	
+ynl004w	yml062c	yhr167w	ynl139c	ynl253w	ydr138w	ycl011c	ydl084w	
+yil103w	ykl191w	ydr385w	ybl071w-a	yer001w	yhr132w-a	
+ygr280c	ygl120c	
+ynl072w	ylr154c	ydr279w	
+ypl105c	ymr146c	ymr309c	yor361c	ylr192c	ydr429c	ypr041w	ynl244c	ybr079c	
+ykl204w	ydr049w	
+yor276w	yol139c	ygl049c	ygr162w	yjl138c	ykr059w	
+yor016c	ydr043c	
+ypr056w	ylr005w	ypr025c	ydr460w	ydr311w	ydl108w	
+ynl221c	ynl282w	yhr062c	ylr145w	ybr257w	ydr528w	ydr478w	ygr030c	yal033w	ybr167c	ybl018c	
+ykr026c	ylr291c	ydr211w	yor260w	ycl026c-b	
+ynl075w	ypr137w	ylr129w	ylr222c	yjl069c	ylr409c	ycr057c	yer082c	ydr449c	yjl109c	ypl126w	ydr324c	ygr128c	ymr093w	ypr144c	yhr148w	yor078w	ylr186w	yll011w	ygl171w	ykr060w	yjr002w	ybl004w	ypl217c	ycl059c	yhr196w	ydl148c	yol010w	ydl213c	
+ydr157w	ykr049c	
+ypl139c	ypr023c	ymr263w	ynl330c	yol004w	ynl097c	ypl181w	ymr075w	ydr207c	yil084c	ygr263c	ydl076c	ybr095c	yal013w	
+ygr145w	ydr299w	yjl033w	yer127w	
+ypr189w	ykl023w	ylr398c	ygl213c	
+ygl105w	ygr264c	ygl245w	
+yor310c	ylr197w	ydl014w	ydr117c	
+ypr137w	yor078w	
+ykr027w	ymr237w	ylr330w	yjl099w	yor299w	
+ykr078w	ybl016w	
+yor326w	ygl106w	
+yfl039c	ypr171w	
+yal029c	ybr130c	
+ylr335w	ynl189w	ylr347c	yar002w	yor098c	ygr202c	
+yll022c	yel056w	
+ykr083c	ymr075c-a	ygl061c	ykl138c-a	ykr037c	ybr233w-a	ydr201w	ydr016c	ygr113w	ykl052c	ycr082w	
+ylr175w	ydl208w	ygr283c	ymr310c	yhr089c	yhr072w-a	
+ydl213c	ycl059c	
+ypr135w	yjl072c	yol146w	ydr013w	ydr489w	
+yal061w	yal060w	
+ypr188c	yhr023w	
+yal024c	yhr158c	
+ypr191w	ybl045c	
+yol067c	ybl103c	
+ygr193c	yer178w	ynl071w	ybr221c	yfl018c	
+ynl082w	ymr167w	
+ybr109c	ygl242c	ymr109w	
+yml095c	ypl022w	yal027w	
+yll004w	ypr162c	ynl261w	yml065w	yhr118c	ybr060c	
+ygl058w	ycr066w	
+ybr103w	yil112w	ykr029c	ydr155c	ygl194c	ycr033w	
+ygr240c	ymr205c	yfr029w	
+yor142w	ygr244c	
+ylr370c	ynr035c	ykl013c	yjr065c	ybr234c	yil062c	ydl029w	
+ygl100w	ykl057c	ylr208w	ypl169c	ygl092w	yjr042w	ydl116w	ydl195w	
+yfr009w	ygl195w	
+ymr317w	ydl058w	
+ynl229c	yer040w	
+ynl014w	ydr458c	
+ypl020c	ymr308c	ygr081c	
+yol012c	ygl241w	ybl002w	
+ypl004c	ygr086c	ydr490c	ykl142w	
+ylr436c	ymr304w	ygr188c	
+ygr032w	ycl028w	
+ydr510w	ygl055w	
+ygl099w	ykl079w	
+ybr267w	yhr170w	

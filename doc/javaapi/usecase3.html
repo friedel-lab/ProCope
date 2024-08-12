@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>Sample Use Case 3: Working with complex sets</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h3>
+Sample Use Case 3: Working wih complex sets</h3>
+<br>
+In this sample use case you learn how to manipulate, filter and iterate
+over a complex set.&nbsp;The full
+source code of this example is available in the <code>procope.examples</code>
+package of the <code>src/</code>
+folder.<br>
+<br>
+<span style="font-weight: bold;">Table of contents</span><br>
+<ul>
+  <li><a href="#load">Loading the data</a></li>
+  <li><a href="#decompose">Decomposition</a></li>
+  <li><a href="#filter">Filtering complexes by score</a></li>
+  <li><a href="#iterate">Iterating over the complex
+set</a></li>
+  <li><a href="#write">Writing the complexes to a
+file</a></li>
+  <li><a href="#output">Output</a></li>
+</ul>
+<span style="font-weight: bold; text-decoration: underline;"></span><br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="load"></a>Loading the data</span><br>
+<br>
+First of all we load one of the bootstrap clusterings and the bootstrap
+network.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ComplexSet BT893=null;<br>
+ProteinNetwork bootstrap=null;<br>
+try {<br>
+&nbsp;&nbsp;&nbsp; BT893 =
+ComplexSetReader.readComplexes("data/complexes/BT_893.txt");<br>
+&nbsp;&nbsp;&nbsp; bootstrap =
+NetworkReader.readNetwork(new GZIPInputStream(<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; new
+FileInputStream("data/scores/bootstrap_combined.txt.gz")));<br>
+} catch (Exception e) {<br>
+&nbsp;&nbsp;&nbsp; // we do not do any further error
+handling here<br>
+&nbsp;&nbsp;&nbsp; System.err.println("Could not read
+file.");<br>
+&nbsp;&nbsp;&nbsp; System.err.println(e.getMessage());<br>
+&nbsp;&nbsp;&nbsp; System.exit(1);<br>
+}<br>
+      </code></td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><br>
+<a name="decompose"></a>Decomposition</span><br>
+<br>
+We now want to decompose the complex set. The method treats each
+complex as a graph where the edge weights are taken from a
+given scores network. All edges below a given threshold are deleted and
+thus the graph may decompose into two or more subgraphs. These
+subgraphs create the resulting complex set of decomposition. (Note: the
+0.5 threshold is again arbitrarily chosen).<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>ComplexSet decomposed =
+BT893.decompose(bootstrap, 0.5f);<br>
+      </code></td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+This method often produces a lot of singletons (clusters with only one
+protein). We remove this singletons and print out how many complexes
+there are before decomposition, after decomposition and after removing
+the singletons.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>System.out.println("Original
+complexes:&nbsp; " + BT893.getComplexCount());<br>
+System.out.println("After decomposition: " +
+decomposed.getComplexCount());<br>
+System.out.println("Without singletons:&nbsp; " +
+decomposed.getComplexCount());<br>
+      </code></td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="filter"></a>Filtering complexes by score</span><br>
+<br>
+We will calculate highly confident complexes now. This is achieved by
+removing all complexes whose average edge scores is below a given
+threshold value.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>BT893.removeComplexesByScore(bootstrap,
+0.8f, false);<br>
+      </code></td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="iterate"></a>Iterating over the complex set</span><br>
+<br>
+Next we iterate over the filtered complex set and output each complex
+to the console. Note how the <code>ProteinManager</code>
+is used to map back internal protein IDs to their String labels. Each <code>ComplexSet</code>
+object is iterable by the <code>Complex</code> class.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>System.out.println("High-confidence
+complexes:");<br>
+for (Complex complex : BT893) {<br>
+&nbsp;&nbsp;&nbsp; // iterate over all proteins<br>
+&nbsp;&nbsp;&nbsp; for (int protein : complex) {<br>
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+System.out.print(ProteinManager.getLabel(protein)+" ");<br>
+&nbsp;&nbsp;&nbsp; }<br>
+&nbsp;&nbsp;&nbsp; System.out.println();<br>
+}<br>
+      </code></td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold; text-decoration: underline;"><a name="write"></a>Writing the complexes to a file</span><br>
+<br>
+Finally we write the filtered complex set to a file using the <code>ComplexSetWriter</code>
+class.<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>try {<br>
+&nbsp;&nbsp;&nbsp; ComplexSetWriter.writeComplexes(BT893,
+"bt_highconfidence.txt");<br>
+} catch (IOException e) {<br>
+&nbsp;&nbsp;&nbsp; System.err.println("Could not write
+file.");<br>
+&nbsp;&nbsp;&nbsp; System.err.println(e.getMessage());<br>
+&nbsp;&nbsp;&nbsp; System.exit(1);<br>
+}<br>
+      </code></td>
+    </tr>
+  
+  </tbody>
+</table>
+<br>
+<br>
+<a name="output"></a><span style="font-weight: bold;"><span style="text-decoration: underline;">Output<br>
+<br>
+</span></span>The output of the program should look like this:<br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="width: 10px;"></td>
+      <td><code>Loading datasets...<br>
+Decomposing...<br>
+Original complexes:&nbsp; 893<br>
+After decomposition: 302<br>
+Without singletons:&nbsp; 302<br>
+High-confidence complexes:<br>
+ymr125w ypl178w ykl214c <br>
+yjl006c ykl139w yml112w <br>
+ypl171c yhr179w <br>
+ynr051c yer151c <br>
+yfl022c ylr060w <br>
+      </code><code><span style="font-family: sans-serif;"></span></code></td>
+    </tr>
+  
+  
+  
+  
+  </tbody>
+</table>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

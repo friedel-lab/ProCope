@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>clusterer</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">clusterer</code><br>
+<br>
+This tool clusters a given scores network and writes the resulting
+clustering to the standard output or into a file.<br>
+<br>
+Call the tool without any command line arguments to get detailed
+information about the parameters for this program.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_prediction.html">Complex set
+prediction</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File
+formats<br>
+    <br>
+    </a></li>
+</ul>
+<h3>Example calls</h3>
+<ul>
+  <li>cluster the bootstrap scores network (<code>-net</code>)</li>
+  <li>use the MCL algorithm (<code>-method mcl</code>)</li>
+  <li>clustering coefficient: 2.5 (<code>-I</code>)</li>
+  <li>write to file instead of standard output (<code>-o</code>)</li>
+  <li>do not include singletons (clusters consisting of just one protein) in the results (<code>-nosingle</code>)</li>
+</ul>
+<code>cmdline.sh clusterer -net data/scores/bootstrap_combined.txt.gz -method mcl -I 2.0 -o mcl.out -nosingle</code><br>
+<br>
+<ul>
+  <li>same setup but this time use hierarchical clustering (<code>-method hcl</code>)</li>
+  <li>linkage method: UPGMA (<code>-linkage</code>)</li>
+  <li>cut-off value: 0.2 (<code>-cutoff</code>)</li>
+</ul>
+<code>cmdline.sh clusterer -net data/scores/bootstrap_combined.txt.gz -method hcl -linkage upgma -cutoff 0.2 -o hcl.out -nosingle</code>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

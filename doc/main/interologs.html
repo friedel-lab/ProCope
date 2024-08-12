@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>Interologs</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<h2>Interologs<br>
+</h2>
+ProCope contains a set of methods to calculate and score <span style="font-style: italic;">interologs</span>.
+&nbsp;The basic assumption for this type of interaction is that
+homologs of interacting proteins have a high probability of being
+interaction partners as well. These homology-derived potential
+interactors are then called interologs. The methods implemented in
+ProCope are taken from a publication by <a href="http://view.ncbi.nlm.nih.gov/pubmed/15173116" target="_blank">Yu et al., 2004</a>.<br>
+<br>
+To calculate interologs, a given protein interaction network and a
+protein mapping (usually homology information) is used as input. The
+protein mapping is represented as a directed network where each
+directed edge represents one protein/protein mapping. Protein
+interactions are mapped and the resulting transferred interactions
+scored using the original BLAST evalues or pairwise alignment scores of
+the homologs.<br>
+<br>
+The GUI and command line of ProCope do <span style="text-decoration: underline;">not</span> include
+interolog calculation. Check out the JavaDocs of the <code>procope.methods.interologs</code>
+package to find out how to access the methods programatically.
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

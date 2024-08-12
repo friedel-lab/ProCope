@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  
+  
+  <title>complexmanipulate</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">complexmanipulate</code><br>
+<br>
+This tool contains three methods to manipulate complex sets:<br>
+<ol>
+  <li><span style="font-weight: bold;">score cutoff</span> - delete complexes whose average inner-complex
+edge score is below a given threshold (requires a scores network)</li>
+  <li><span style="font-weight: bold;">decompose</span> - delete edges below a given
+threshold,&nbsp;complexes may decompose into subcomplexes (requires
+a scores network)</li>
+  <li><span style="font-weight: bold;">size cutoff</span> - delete all complexes which consist of more or
+less than a given number of proteins</li>
+</ol>
+<br>
+Call the tool without any command line arguments to get detailed
+information about the parameters for this program.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_fileformats.html">File formats<br>
+    </a><br>
+  </li>
+</ul>
+<h3>
+Example calls</h3>
+<ul>
+  <li>delete all complexes from the MIPS reference complex set whose average complex score is below 0.5 (<code>-i</code>, <code>-scorecut</code>)</li>
+  <li>use the bootstrap scores network for this (<code>-scorenet</code>)</li>
+  <li>output the result to a given file (<code>-o</code>)</li>
+</ul>
+<code>cmdline.sh complexmanipulate -i data/complexes/mips_complexes.txt
+-o testout -scorecut 0.5 -scorenet data/scores/bootstrap_combined.txt.gz<br>
+<br>
+</code>
+<ul>
+  <li>decompose the MIPS reference set with a threshold of 0.5 (see above, <code>-decompose</code>)</li>
+  <li>afterwards delete all complexes with less then 2 members (<code>-sizecut</code>)</li>
+</ul>
+<code>cmdline.sh complexmanipulate -i data/complexes/mips_complexes.txt
+-o testout -decompose 0.5 -scorenet
+data/scores/bootstrap_combined.txt.gz -size 2-</code>
+<h3></h3>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>

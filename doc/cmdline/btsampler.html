@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  
+  
+  <title>btsampler</title>
+  <link rel="StyleSheet" href="../styles.css" type="text/css">
+<SCRIPT LANGUAGE="JavaScript" SRC="../frames.js"></SCRIPT></head>
+<body onload="ensureframes()">
+<code class="big">btsampler</code><br>
+<br>
+Creates a given number of bootstrap samples from a specified
+purification data set. First step in the process of calculating
+Bootstrap scores.<br>
+<br>
+Call the tool without any command line arguments to get detailed
+information about the parameters for this program.<br>
+<br>
+See also: <br>
+<ul>
+  <li><a target="_top" href="../main/index_scorenet.html">Score network
+generation</a></li>
+  <li><a target="_top" href="../main/index_fileformats.html">File
+formats<br>
+    </a><br>
+  </li>
+</ul>
+<h3>Example call</h3>
+<ul>
+  <li>use the Gavin purification data set (-p)</li>
+  <li>generate 1000 samples (-n)</li>
+  <li>write samples to output file (-o)<br>
+  </li>
+</ul>
+<code>cmdline.sh btsampler -p data/purifications/gavin_raw.txt -o gavin_1000_samples -n 1000</code><br>
+<br>
+<br>
+<!-- footer start -->
+<br/><br/>
+<hr size="1"/>
+<div style="font-size:small"><a target="_blank" href="http://www.bio.ifi.lmu.de/Complexes/ProCope/">ProCope</a> documentation</div>
+<!-- footer end -->
+
+</body>
+</html>
